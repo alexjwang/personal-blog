@@ -1,0 +1,34 @@
+---
+layout: post
+title: "mediocre life"
+date: 2020-04-05
+categories:
+---
+## A note on wasting time
+Being conscious of the time that I waste and understanding that it's not the end of the world helps prevent a lot of anxiety for me. I think before what was happening was that I was succumbing to resistance/wasting time without any consciou choice, and its negative effects on things that I care about cause me a lot of anxiety (makes me feel like I'm wasting my potential).
+
+I obviously still have a lot of resistance in my daily life and am not working 24/7, but I think I'm in a better spot now. Breaks here and there are good, and being consciou of it means that I can choose to fight this resistance when I really do need to work.
+
+## No walk today
+Unfortunately, it is raining outside, so I did not go for a walk today. It's actually pretty weird how much harder it is to come up with ideas without this walk. Staying with only your thoughts for 30 minutes is pretty difficult when you have all the distractions of your computer. 
+
+## Reflecting on Life
+I had a really long post yesterday about motivation/productivity, and specifically about being a quant. I think from that exercise, reflecting after, and a newsletter from Matt D'Avella today, I'm beginning to realize that becoming a quant would probably not fulfill me. And this realization is why it's difficult for me to commit fully towards this goal. Being a quant is obviously among the top of "mediocre life," however privileged that sounds, but at the end of the day, I still feel like it's taking the safe way out and I might spend a lot of my life regretting my decision.
+
+I've been thinking a lot more about what would instead fulfill me. It's weird that I'm coming back to research over and over again––but thinking about grad school applications gives me so much more anxiety than job applications. It's just way harder unfortunately, and I've also been primarily focusing on building myself for jobs rather than grad school. Hopefully, if I focus on small steps at a time, then I'll continue to build both of these directions. I do have the time to do both––just a question of which one I'm motivated towards. I definitely think academia has more of a potential of personal fulfillment than quant trading, but there's no way I can know until I try.
+
+### Why Research/Academia?
+Similar to yesterday's exercise, I'm going to list out 10 reasons for motivation about doing academia, specifically quantum computing.
+
+1. Combines all my intellectual interests in math, physics, computer science, and electrical engineering. From a purely interest perspective, I'm pretty passionate about quantum computing and all of its associated fields. 
+2. Fulfillment. I think becoming a leading expert in quantum computing and helping usher in a new age of technology would be extremely fulfilling. There are two major concerns. One is that quantum computing won't actually be the next big thing, or at least within our lifetimes. Two is that I'm not actually smart enough to accomplish this, but hopefully I am. If I am motivated enough, I think I could commit myself fully to this.
+3. Stay a student. I like learning, and being able to keep that as my primary responsibility in life would be really nice. However, I would also be learning in industry, but this ties back to point 1 where I know I'd be learning things that I'm really passionate about in grad school.
+4. Worst case scenario is that I don't make a ton of money. I think this might suck at times, but the more I think about it, being fulfilled is more important than making a lot of money. I think money could get old, and, although making a lot of money would signal to me that I've made it, personal fulfillment is also up there. I think this is why a lot of my friends who are really deadset on going into academia come from rather rich families––they don't see financial security as a powerful motivator. If I got into a really good PhD program and did well in it, I'm pretty sure I'd be able to find work somewhere, even if I wasn't a professor.
+5. The people are interesting. Most of my friends are pretty academic at the moment, which is weird because I'm normally the industry one in the group (who would've guessed). I think I vibe well with these kinds of people (people who love STEM for the sake of it being STEM), and I've definitely disliked many industry-oriented people (I just feel like they care about arbitrary things). Maybe I'm just weird, but who knows. This is just another reason.
+6. Would be called doctor. Prestige. Elitism. No further elaboration required. Haha jk, but like I said previously, I'm human, and even if I pretend otherwise, these things have some sway in my decision, even if it's just a way to counteract the prestige of other possible directions. 
+7. One of the worst parts would be that I'd be working a lot for pretty shit pay during the prime of my life. But, I guess things could be worse. It would feel bad if I compared myself to people in industry, but I think if I was really convinced/motivated and I had made a conscious decision, I wouldn't regret it. Or at least I hope I wouldn't. I think this is where experience/talking to people is important because that way I'd be really convinced I wouldn't regret it. In any case, I'm more sure I'd regret becoming a quant than regret getting a PhD.
+8. I would get to experience attending a different school other than Columbia. My dream college during senior year was MIT––perhaps this would finally give me a chance to realize it in a productive fashion (lowkey, if I had the option to become a quant, getting an MBA is useless because where would it promote me to?) Unless it was to help me pivot out of a certain direction in life, which means I chose incorrectly in the first place anyways.
+9. Give me more time to think about what I want to do. This is still a reason, but I think that would mean becoming a quant is a better option. They open different doors, but at least being a quant is designed to be a transition phase, and it offers a lot of the same benefits of getting a PhD (signals intelligence) but with a lot more pros (money, connections, industry skillset).
+10. Opens a lot of directions available to only PhD's. Pretty much any respectable research position will require a PhD. If those positions are ultimately more interesting long term to me than being a quant would be, then I think this would be the right decision.
+
+I think all these reflections have shown me is that I've thought really hard about both directions, and neither are particularly bad. I should just work on both, and see where it goes. Worst case scenario is both is not a bad scenario––I shouldn't stress because no matter what, I won't make a wrong decision. I think there's just possibly a more right decision.

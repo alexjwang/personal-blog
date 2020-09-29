@@ -1,0 +1,37 @@
+---
+layout: post
+title: "colorful ducks"
+date: 2019-08-09
+categories:
+---
+## Accountability
+I missed the past two days in posting. The first missed day was unavoidable, but yesterday I simply got tired and watched football instead of posting. I also lapsed a bit at work in terms of focus, but I improved today. Hopefully I can get back on track this coming week.
+
+I spent more time than I'd like on my earlier blog posts, and I'm beginning to realize that that's not sustainable. I'm going to start trying to focus on just posting and less about quality/editing as much in an effort to make daily blogging more maintainble.
+
+## Productive Thinking
+The general jist of a commonly thrown around thought experiment is: do we see the same colors? As in, when you and I look at a red strawberry, both of us can definitively agree that it is red. However, how do we know that the color "red" that we're perceiving is the same? What if what I perceive as red is actually what you see blue as, and vice versa? A continuation of this thought experiment and the reason why it's so interesting: try to describe the color red to someone who's blind. The impossibility of comparing perceptions is captured in this latter idea and is the primary driver behind former's intrigue.
+
+From a technical perspective, there certainly is a basis for the argument of seeing different versions of the same color. Perhaps the most obvious example is red-green colorblindness: due to differences in eye physiology, certain individuals are unable to perceive differences between certain colors. It is not much of a stretch to extend the argument to general brain physiology--everyone has uniquely different brains and therefore we could theoretically process colors differently.
+
+After briefly thinking of the aforementioned argument, I thought to myself: wait, why does this even matter? At the end of the day, each color that humans can perceive is defined by a certain wavelength. No matter what we actually see, the color red is defined by light of wavelength 625-740 nm, the color blue is defined by having a wavelength of 450-485 nm, and so on.
+
+And as the common saying goes: "If it looks like a duck, quacks like a duck, then it's probably a duck." If something looks red to both of us, it **is** red by falling in the correct wavelength range, then why waste time debating the intricacies behind its redness?
+
+Every time this thought experiment comes up, this is normally the final stage I end at. I consider the possibility of different perceptions, conclude that it doesn't matter since ultimately it's still just that color, and then return to whatever important task I was procrastinating on. 
+
+
+There is a concept called a "slow hunch." It was coined by science-fiction writer Steven Johnson, and it means the feeling when you have a vague intuition that there could be something interesting going on. The issue with a "slow hunch" however, is that you have no idea if it's actually nothing or if it'll actually lead somewhere. It's a concept that constantly presents dilemmas to writers and researchers. I've always had a slow hunch regarding this thought experiment--the "probably" in the duck test statement is uncertainty, which can always contain something interesting. I'll talk more about slow hunches in a future blog post.
+
+
+To start, perception is king in modern society. In fact, I'd argue that in many cases, it doesn't matter whether or not you're actually capable of doing something, it only matters what people *think* you're capable of. Of course, it's much easier to convince someone you're capable if you actually are, but the reverse is true too--even if you're insanely skilled at a certain task, if nobody knows that you're skilled, your value/contribution is almost certainly limited. For example, Van Gogh was inarguably an artistic genius, yet society didn't reap value from his work until he was perceived as such (and he never ultimately never personally benefited from it). This goes into a whole debate about whether things can be intrinsically valuable or whether it is invaluable until it affects something else (to better realize the discussion behind this debate, think along the lines of "if a tree falls in a forest and nobody is around to hear it, does it make a sound?"). 
+
+Despite whichever side of the debate you fall on, it is inarguable that perception is important in society, and therefore, even minute differences in perception could lead to significant consequences. Moving away from simply color, we can quickly see much larger differences. For example, when different individuals look at the same piece of modern art, they will almost certainly derive wildly varying messages from it. The same pixels of color could lead to interpretations of happy emotions, angry memories, or "wait, how is this a million-dollar art piece?" 
+
+Furthermore, few things are as straightforward as colors. How we perceive color can be chalked chiefly up to two factors: our eyes and our brain. Both are physical objects, and the notion of color is rooted in scientific definitions. Yet, when we move onto something as complex as how we perceive a human individual, it becomes impossible to quantify exactly what a "right" perception is. What we think of someone is defined by our own past experiences, our personal interactions with that specific person, our own mental/relative physical characteristics, and many more possible factors.
+
+Despite the complexity of these perceptions, multi-faceted interactions such as these dominate our lives. Evolutionarily, humans have become quite adept at forming "initial impressions" of otherwise impossibly complicated things--company branding/advertising revolve around optimizing exploitation of this behavior. On a personal note, most of us spend significant time crafting an image of ourselves (whether genuine or carefully photoshopped) in response to this.
+
+My transition over the past year from the realm of high school to the more adult realities of college has changed my views on perception as I became increasingly aware of the very real effects of image. In college, with the introduction of professional interactions with adults, how others view you directly affect the opportunities you are given--job/internship interviews are a good example of this. In contrast, in high school, I felt an internal rebellion to traditional focus on being conventionally fashionable and socially popular--I believed being genuine to be far more important. I still believe in personally being genuine, but what I didn't realize at the time was that my dedication to academics was still subscribing to the same driving force of crafting a positive image within society--albeit a different image, and one that is also positive or negative in the eyes of different groups.
+
+Whether or not we like it, the mechanics behind societal perception greatly shape our lives. The question is, what is the balance between staying cognizant of one's image and not letting an obssessive pursuit of the perfect image take over your life? But just like analyzing a piece of modern art, there's no one correct answer--at least, not one that fits for everybody. After all, if it looks like random splotches of paint to me, it's *probably* just random splotches of paint, right? 

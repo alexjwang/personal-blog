@@ -1,0 +1,32 @@
+---
+layout: post
+title: "stressed relativity"
+date: 2019-08-11
+categories:
+---
+## Accountability
+While I didn't complete my habit checklist today, today was a fun day (adventures in NYC!), and I would not consider a day like today wasted/unproductive. That is more like days where I end up doing nothing all day, fun nor productive. I think being reasonable with having "off" days is important for having a maintainble life--forcing every day to be work is no fun.
+## Productive Thinking
+I took one of the longest subway rides I've ever taken in NYC today. While rotating between subway stations, I felt quite satisfied whenever I managed to get onto an express line--for those who have not been on a NYC subway, these are lines that skip certain local stops, making longer trips significantly quicker. As I watched said local stops whiz by and with nothing better to do (no signal on the subway), I began to wonder: what makes saving time so satsifying? Even with unscheduled free time, people will go out of their way to shave a few minutes off here and there, often to great personal happiness. The only real logical time where saving time would be so gratifying is when one is running late on a schedule--however, saving time in these cases are more of a stressful experience than a satifying one. One can even argue that saving time is more satisfying when one isn't running on a schedule rather than when one is--unscheduled time allows an indvidual to appreciate their accomplishment more.
+
+While thinking about this, I remembered an xkcd comic I read this past week: ["Wasting Time"](https://xkcd.com/1502/).
+
+![wasted-time]({{"/wasted_time.png" | prepend: site.baseurl }})
+
+This comic particularly resonates with me because, despite all my talk about trying to be productive and efficient, a lot of the time I just end up wasting time. Yes, the time I do spend focused ends up being on important, well thought out activities, but during unstructured time, I've historically struggled. That is a big reason for why I started this blog, and in fact, "wasted time" is a habit that I track on my phone (for now, I've set a 2-hour limit per day).
+
+This kind of wasting time is most clearly expressed in the progression of completing an assignment. When a large assignment is first assigned by a teacher/professor, most students will typically feel no major rush. Some extremely diligent students (props to you if you're one) will immediately start on it, but, if you're like me, some will push it off to the very last day possible. In the meantime, there are many minutes wasted, perhaps on random Youtube binges, mindless social media consumption, or who knows what. Most will not pay little attention to these lost minutes.
+
+Now, as the final day to work on the assignment arrives, I will finally start working on an assignment. However, at the start of the session, I'll still probably get distracted and waste time on various shenanigans--I'll message a friend here and watch a new Youtube video there. I'm vaguely aware of the time it'll take me to finish, but the pressure has not yet mounted.
+
+However, once late night hits and drowsiness starts to set in, the stress and pressure to finish also kicks in. At this time, I rarely become sidetracked--I count every second spent on something besides my assignment because I am aware that is one less second I will get to sleep. Any periods of extreme efficiency and sections that are quick to complete are taken gladly without complaint. Spending a few minutes going to the bathroom or grabbing a printed paper is painful, and I even start running to complete these tasks if I become particuarly desperate. I am extremely grateful for literally anything that'll speed up the process and waste less time.
+
+Not all time is created equal. In the days following starting such an assignment, time feels like it has little value to me. Yet, deep into the night/morning (the latter is not good), every second of drooping eyelids and throbbing brain comes at an extreme cost. This dichotomy between value and cost, for a theoretical, perfectfully rational individual, would make no sense. Yet, here I am, and with the commonality of procrastination issues, I know I can't be the only one.
+
+When I finally finish an assignment late in the morning, I often lament about wasting time and vow never to do so ever again: "I'm a changed man! Procrastination is for the old me, I'm going to become a productivity monster. New day, new me :D!" And of course it never pans out!! Why? The missing results often frustrates me.
+
+Some extremely mature/perceptive individuals may be able to see how time will pan out in the future, usually from a combination of experience and awareness. However, I'd argue that even so, most individuals who are smart with their time have, with considerable experience and planning, set up a system that makes it so that less time is wasted. The difference is subtle, but exists in my claim that the vast majority of individuals cannot actually truly value all time the same. At the end of the day, those minutes the night before an assignment is due feels far more valuable than the extra few minutes you spent at lunch a week ago. This applies to other scenarios too: the last minute preparations before a musical performance versus practicing at home, the last few seconds before finding a bathroom versus whenever you drank that large boba drink, or even the final day on a week-long vacation. Exigency creates value--people who avoid such time-cramped situations are not magically above this law of nature but rather are probably just better at planning ahead.
+
+This final realization is instrumental in how I'm finally able to start combatting my procrastination habit. Rather than hoping for myself to magically start realizing the importance of time and work on assignments ahead of time, I need to set up plans/habits that naturally result in better use of time. Einstein may have redefined the rules of time, but I definitely follow a different rule: **the theory of stressed relativity**, where time changes relative to how stressed the individual is. Sorry, I don't make the rules.
+
+*(okay here I might have made up the rule)*

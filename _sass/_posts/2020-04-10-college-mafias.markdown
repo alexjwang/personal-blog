@@ -1,0 +1,26 @@
+---
+layout: post
+title: "college mafias"
+date: 2020-04-10
+categories:
+---
+## High School
+My mom runs one of those college/standardized test prep centers, and, as a favor to her, I hosted a video meeting where I talked to some of her students and gave them some advice. I have a lot of thoughts on the whole high school/college admission process, but I had never done any of these talks that a lot of my peers do, mostly because I don't really like the general idea that it promotes. It enforces the idea that the opinion of these college students matters now that they've gotten into some prestigious school––I guess that's the whole point of prestige, but I'm technically the same person regardless of the label of the school I attend. And, most students who give these college advice panels tend to have inflated egos as a result––sounds like I'm roasting them, which I guess I am a little, but I understand why it happens (they worked hard to get into college). Just personally not a huge fan of the whole thing.
+
+When I talked to the high school kids today, I was pretty surprised by the depth of their thinking, grind mentality, and general competence. I'd almost forgot about how grueling high school was––I definitely take for granted how much better my life in college is. It makes me a little sad that these kids have to push themselves to the brink of their mental health, and yet most of them probably don't have much of a realistic chance at a "top" school, whatever that means. There are so many things wrong with the whole college admission process, especially in the Bay Area, and all of these are indicative of general problematic trends in society.
+
+## Colleges are lowkey mafias
+
+College student dynamics are so weird. Students pay colleges money, bring them their reputation/prestige, and are the sole reason for their success––yet colleges hold all the power over their students. They can pick who can attend their school, students grovel at the chance to be admitted, and once they're in, students have very little control over their well-being and are reliant on the benevolence of the school's administration. A clear example of this is Liberty University's president, who made all his students come back during the COVID-19 epidemic. Ultimately, you can even argue that decisions made for the benefit of students are to benefit the institution itself too––happy students and good PR help the school.
+
+This kind of system doesn't exist in almost any other business. Getting into a restaurant doesn't require some obscenely large amount of personal sacrifice, and, once you're at the restaurant, it's expected that the diner is treated well. The customer has a lot of control––you pick what food you want to eat, even if the chef disagrees, and your waiter is at your service. Colleges are somehow one of the only high-profile places where this kind of behavior is exempted, and it kind of baffles me.
+
+This exemplifies how society is based off of networks and initial impressions. I can see why this happens––the world is far too large and complex for people to conduct a thorough and complete analysis of everyone/everything before making a decision, but it's really weird to me how nobody sees this as a problem. I totally support, if you're trying to survive/succeed in this world, learning how this system works and adapting to it. But, I do think that there should be a focus on developing solutions that target a lot of the inequality that consequently results from this––nobody will develop solutions if people don't think it's a problem.
+
+## Solving problems
+
+By the way, I totally meant to make this post about entrepreneurship/nice thoughts in general, but my recap of my day somehow turned into this rant lol. But, on this tangent, a good thing about thinking about startups/entrepreneurship is that it's opened my eyes to a lot of problems in society (because designing solutions require first recognizing the problems). 
+
+I think it's easy to convince myself that building a startup is a great way to benefit society, and it totally can be. I've been working on my own implementation of a solution to problems in the education system, and I see a lot of startups in facebook targeting solutions to the COVID-19 epidemic. A friend brought up today that it's kinda messed up that Zoom is making so much money off of the epidemic while so many people are suffering. And, although I think it's good that solutions like Zoom exist in the first place, I don't think tech startups solve the largest problems in society. I think if your life is truly focused on solving the most important problems in society, there are better ways to solve your time solving more important, more impactful problems––many tech startups solve rather privileged problems.
+
+This isn't to say I'm going to have a sudden change in career (there are other reasons why I'm drawn to tech entrepreneurship besides just positive impact on society), but it is interesting to think about the wide range of problems out there.
