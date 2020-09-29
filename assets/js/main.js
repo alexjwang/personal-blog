@@ -291,7 +291,7 @@ function setTheme(_theme) {
 
 function setLanguage(_lang) {
   const lang = _lang.toLowerCase();
-  fetch('/assets/texts/random.json')
+  fetch('/personal-blog/assets/texts/random.json')
     .then(response => response.json())
     .then(json => {
       if (typeof json[lang] !== 'undefined') {
