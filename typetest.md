@@ -1,6 +1,6 @@
 ---
 layout: typetest
-title: typtest
+title: typetest
 permalink: /typetest/
 ---
 blah
