@@ -18,7 +18,6 @@ let timerActive = false;
 let punctuation = false;
 
 // Get cookies
-getCookie('theme') === '' ? setTheme('light') : setTheme(getCookie('theme'));
 getCookie('language') === '' ? setLanguage('english') : setLanguage(getCookie('language'));
 getCookie('wordCount') === '' ? setWordCount(50) : setWordCount(getCookie('wordCount'));
 getCookie('timeCount') === '' ? setTimeCount(60) : setTimeCount(getCookie('timeCount'));
@@ -241,10 +240,6 @@ function showResult() {
 document.addEventListener('keydown', e => {
   // Modifiers Windows: [Alt], Mac: [Cmd + Ctrl]
   if (e.altKey || (e.metaKey && e.ctrlKey)) {
-    // [mod + t] => Change the theme
-    if (e.key === 't') {
-      setTheme(inputField.value);
-    }
     // [mod + l] => Change the language
     if (e.key === 'l') {
       setLanguage(inputField.value);
@@ -259,35 +254,8 @@ document.addEventListener('keydown', e => {
     if (e.key === 'p') {
       setPunctuation(inputField.value);
     }
-  } else if (!document.querySelector('#theme-center').classList.contains('hidden')) {
-    if (e.key === 'Escape'){
-      hideThemeCenter();
-      inputField.focus();
-    }
-  } else if (e.key === 'Escape') {
-    setText(e);
-  }
+  } 
 });
-
-function setTheme(_theme) {
-  const theme = _theme.toLowerCase();
-  fetch(`themes/${theme}.css`)
-    .then(response => {
-      if (response.status === 200) {
-        response
-          .text()
-          .then(css => {
-            setCookie('theme', theme, 90);
-            document.querySelector('#theme').setAttribute('href', `themes/${theme}.css`);
-            setText();
-          })
-          .catch(err => console.error(err));
-      } else {
-        console.log(`theme ${theme} is undefine`);
-      }
-    })
-    .catch(err => console.error(err));
-}
 
 function setLanguage(_lang) {
   const lang = _lang.toLowerCase();
@@ -389,69 +357,4 @@ function getCookie(cname) {
     }
   }
   return '';
-}
-
-showAllThemes();
-function showAllThemes(){
-    fetch(`themes/theme-list.json`)
-    .then(response => {
-      if (response.status === 200) {
-        response
-          .text()
-          .then(body => {
-            let themes = JSON.parse(body);
-            let keys = Object.keys(themes);
-            let i;
-            for(i = 0;i < keys.length; i ++){
-
-              let theme = document.createElement('div');
-              theme.setAttribute('class', 'theme-button');
-              theme.setAttribute('onClick', `setTheme('${keys[i]}')`);
-              theme.setAttribute('id', keys[i]);
-
-              // set tabindex to current theme index + 4 for the test page
-              theme.setAttribute('tabindex', i + 5);
-              theme.addEventListener('keydown', e => {
-                if (e.key === 'Enter') {
-                  setTheme(theme.id);
-                  inputField.focus();
-
-                }
-              })
-
-              if(themes[keys[i]]['customHTML'] != undefined){
-                theme.style.background = themes[keys[i]]['background'];
-                theme.innerHTML = themes[keys[i]]['customHTML']
-              }else{
-                theme.textContent = keys[i];
-                theme.style.background = themes[keys[i]]['background'];
-                theme.style.color = themes[keys[i]]['color'];
-              }
-              document.getElementById('theme-area').appendChild(theme);
-            }
-          })
-          .catch(err => console.error(err));
-      } else {
-        console.log(`Cant find theme-list.json`);
-      }
-    })
-    .catch(err => console.error(err));
-}
-
-// enter to open theme area
-document.getElementById('show-themes').addEventListener('keydown', (e) => {
-  if (e.key === 'Enter') {
-    showThemeCenter();
-    inputField.focus();
-  }
-});
-
-function showThemeCenter() {
-  document.getElementById('theme-center').classList.remove('hidden');
-  document.getElementById('command-center').classList.add('hidden');
-}
-
-function hideThemeCenter() {
-  document.getElementById('theme-center').classList.add('hidden');
-  document.getElementById('command-center').classList.remove('hidden');
 }
