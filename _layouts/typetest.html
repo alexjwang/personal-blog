@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<body>
+<h2 id="header">typings</h2>
+<div id="command-center" class="">
+    <div class="bar">
+    <div id="left-wing">
+        <span id="word-count">
+        <span id="wc-10" onclick="setWordCount(10)">10</span>
+        <text> / </text>
+        <span id="wc-25" onclick="setWordCount(25)">25</span>
+        <text> / </text>
+        <span id="wc-50" onclick="setWordCount(50)">50</span>
+        <text> / </text>
+        <span id="wc-100" onclick="setWordCount(100)">100</span>
+        <text> / </text>
+        <span id="wc-250" onclick="setWordCount(250)">250</span>
+        </span>
+    </div>
+    <div id="right-wing">WPM: XX / ACC: XX</div>
+    </div>
+    <div id="typing-area">
+    <div id="text-display"></div>
+    <div class="bar">
+        <input id="input-field" type="text" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" tabindex="1"/>
+        <button id="redo-button" onclick="setText(event)" tabindex="2">redo</button>
+    </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
