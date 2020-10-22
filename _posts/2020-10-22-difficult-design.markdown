@@ -36,7 +36,7 @@ Another benefit of to-do lists is to help with procrastination/organization–�
 
 All that being said, I'm still unsure whether or not I want to resume to-do lists.
 
-## Design is hard but I want to get good at it
+## design is hard but I want to get good at it
 Some of you may know that I've always wanted to learn design and hobbies associated with it (photography is a good example). Right now, I ordered some mechanical keyboard parts, and I'm super excited for it to come.
 
 I'm planning to stream the entire building process, which will be my first in many respects. I really want to get into content creation via this avenue––hopefully I can convert the stream into some usable footage for a video. I also want to see if I can use my keyboard to get some more practice with taking photos/editing photos.
