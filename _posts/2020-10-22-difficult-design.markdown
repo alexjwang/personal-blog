@@ -37,10 +37,10 @@ Another benefit of to-do lists is to help with procrastination/organization–�
 All that being said, I'm still unsure whether or not I want to resume to-do lists.
 
 ## design is hard but I want to get good at it
-Some of you may know that I've always wanted to learn design and hobbies associated with it (photography is a good example). Right now, I ordered some mechanical keyboard parts, and I'm super excited for it to come.
+Some of you may know that I've always wanted to learn design and hobbies associated with it (photography is a good example). Very recently, I started watching some photography YouTuber named Peter McKinnon––I like his videos. I also ordered some mechanical keyboard parts, and I'm super excited for them to come.
 
 I'm planning to stream the entire building process, which will be my first in many respects. I really want to get into content creation via this avenue––hopefully I can convert the stream into some usable footage for a video. I also want to see if I can use my keyboard to get some more practice with taking photos/editing photos.
 
-I can be a perfectionist, and the difficult with design/photography/editing is that the "perfect" product is very much in your face. While I was learning stuff like coding/math, sometimes how much I sucked at it is very apparent and it hurts, but there are definitely ways to avoid thinking about it. With photography/design, it's impossible to ignore since we live in a world where good design/photos constantly surround us.
+I can be a perfectionist, and the difficult with design/photography/editing is that the "perfect" product is very much in your face. While I was learning stuff like coding/math, sometimes how much I sucked at it was very apparent and it hurt, but there were definitely ways to avoid thinking about it. With photography/design, it's impossible to ignore since we live in a world where good design/photos constantly surround us.
 
 I'm going to try to commit to learn something more design related, no matter how cringe I feel my work is. I think that this is similar to how I felt when I first started my blog, and now I'm a lot more comfortable with publishing imperfect writing. Ideally, this will be a similar process and will help me become more comfortable with, well, sucking at stuff––this definitely holds me back from trying to learn new things, so, as long as I keep making progress along this front, hopefully I will start learning more and more things that are out of my comfort zone.
