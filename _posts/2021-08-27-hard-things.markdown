@@ -11,11 +11,11 @@ It seems like a lot of the people I respect a lot read a lot. I've recently foun
 
 This is a list of things I've read recently.
 
-- The Hard Thing about Hard Things by Ben Horowitz
+The Hard Thing about Hard Things by Ben Horowitz
 
 I found this book in the Amazon bookstore. I respect Ben Horowitz a lot, and the book seemed like it would talk a lot about startup stories, which I always enjoy reading. I started out really enjoying the book for this reason, and I think the book really put into perspective just how stressful/hard of an experience a startup is. It is quite shocking to me, but the fact that the book didn't scare me off of startups is a good sign. There were some parts of the book that I didn't really enjoy reading—namely sections like "how to hire/fire executives" which are not applicable to me at my current stage of life.
 
-- [Learning to build conviction | benkuhn.net](https://www.benkuhn.net/conviction/)
+[Learning to build conviction | benkuhn.net](https://www.benkuhn.net/conviction/)
 
 I blogged earlier this summer about wishing I could have more conviction. Between this article and the above book, I think I've realized that a lot of conviction is just being comfortable with coinflipping in situations where you have little information. Conviction will come after coinflipping enough.
 
