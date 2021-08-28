@@ -23,72 +23,50 @@ I blogged earlier this summer about wishing I could have more conviction. Betwee
 
 Friend recommended this to me. It talks about how it was hard for the author to give up working on hard technical problems because that's all he's done his whole life, which is relatable, especially when I was younger. In the past year, however, I think it's less of a thing I'm concerned about (it does pop into my mind however when I'm debating quant vs startups). I think it'd be fun to work on less technically hard problems—I'd learn a ton.
 
-- [Ethereum Whitepaper - ethereum.org]()
+- [Ethereum Whitepaper - ethereum.org](https://ethereum.org/en/whitepaper/)
 
 I actually haven't read this yet, but it's one of the first things I plan on reading in order to learn about crypto (I know nothing about it, but I feel like it's one of those things that I should probably learn about).
 
-- [Fundraising Is Not Milestones: Company Stages, Fundraising, Motivation - Y Combinator]()
+- [Fundraising Is Not Milestones: Company Stages, Fundraising, Motivation - Y Combinator](https://www.ycombinator.com/library/4f-fundraising-is-not-milestones)
 
 This and the next couple of links are just me trying to educate myself on startup related knowledge.
 
-- [A Guide to Seed Fundraising: Fundraising, Seed Round, Investors - Y Combinator]()
+- [A Guide to Seed Fundraising: Fundraising, Seed Round, Investors - Y Combinator](https://www.ycombinator.com/library/4A-a-guide-to-seed-fundraising)
 
-Nice article giving insight into the logistics behind fundraising.
+- [Startup Priorities - Geoff's Blog](https://blog.geoffralston.com/startup-priorities)
 
-- [Startup Priorities - Geoff's Blog]()
+- [Unit Economics - Sam Altman](https://blog.samaltman.com/unit-economics)
 
-Having been doing a lot of quant stuff recently, I thought it was kinda funny that people use so much quantitative reasoning to make startup decisions.
+- [The Real Product Market Fit - Michael Seibel](https://www.michaelseibel.com/blog/the-real-product-market-fit)
 
-- [Unit Economics - Sam Altman]()
+- [Users You Don’t Want - Michael Seibel](https://www.michaelseibel.com/blog/users-you-don-t-want)
 
-I remember being curious about what this concept entailed, so this was an informative read.
+- [The Post-YC Slump - Sam Altman](https://blog.samaltman.com/the-post-yc-slump)
 
-- [The Real Product Market Fit - Michael Seibel]()
+- [How Not to Fail: Cash Burn, Founding Stories, Founder Psychology - Y Combinator](https://www.ycombinator.com/library/5l-how-not-to-fail)
 
-Seems to be YC's stance on product market fit/what they tell their founders.
-
-- [Users You Don’t Want - Michael Seibel]()
-
-Interesting concept but I don't even have an idea yet, let alone users.
-
-- [The Post-YC Slump - Sam Altman]()
-
-I wonder if something similar would happen to my team and me.
-
-- [How Not to Fail: Cash Burn, Founding Stories, Founder Psychology - Y Combinator]()
-
-- [Mean People Fail - Paul Graham]()
-
-Ben Horowitz talks about something similar.
+- [Mean People Fail - Paul Graham](http://www.paulgraham.com/mean.html)
 
 - [Zero to One - Peter Thiel and Blake Masters]()
 
 Super awesome book, I highly recommend to anyone who's interested in startups. Probably one of the most important books to read if you're seriously considering startups.
 
-- [Startup = Growth - Paul Graham]()
+- [Startup = Growth - Paul Graham](http://www.paulgraham.com/growth.html)
 
-Paul Graham always has interesting essays.
+- [Do Things that Don't Scale - Paul Graham](http://paulgraham.com/ds.html)
 
-- [Do Things that Don't Scale - Paul Graham]()
-
-I agree lol.
-
-- [How to Get Startup Ideas - Paul Graham]()
+- [How to Get Startup Ideas - Paul Graham](http://www.paulgraham.com/startupideas.html)
 
 Directly/indirectly thinking about startup ideas is probably what I spend the most time on.
 
-- [Before the Startup - Paul Graham]()
+- [Before the Startup - Paul Graham](http://www.paulgraham.com/before.html)
 
-The ideas all make sense, but I'm sure that if I did a startup, I'd haveta learn these lessons the hard way again.
-
-- [Why to Not Not Start a Startup - Paul Graham]()
+- [Why to Not Not Start a Startup - Paul Graham](http://www.paulgraham.com/notnot.html)
 
 If you're indecisive on doing startups, I recommend this essay.
 
-- [Don't Talk to Corp Dev - Paul Graham]()
+- [Don't Talk to Corp Dev - Paul Graham](http://www.paulgraham.com/corpdev.html)
 
-Pretty funny tbh.
+- [Advice for ambitious 19 year olds - Sam Altman](https://blog.samaltman.com/advice-for-ambitious-19-year-olds)
 
-- [Advice for ambitious 19 year olds - Sam Altman]()
-
-It's a good sign when article titles capture exactly what the article talks about.
+I also recommend reading this one.
