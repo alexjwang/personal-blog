@@ -55,7 +55,7 @@ Interesting concept but I don't even have an idea yet, let alone users.
 
 I wonder if something similar would happen to my team and me.
 
-- [How Not to Fail: Cash Burn, Founding Stories, Founder Psychology | Y Combinator]()
+- [How Not to Fail: Cash Burn, Founding Stories, Founder Psychology - Y Combinator]()
 
 - [Mean People Fail - Paul Graham]()
 
