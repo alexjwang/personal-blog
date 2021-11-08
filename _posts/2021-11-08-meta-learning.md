@@ -56,7 +56,7 @@ There's a lot of interesting arguments in this article, specifically regarding t
 
 ### web2.0 vs web3.0
 
-All this reminded me of (this Paul Graham essay)[http://paulgraham.com/web20.html] that I read a few years ago, which seems especially relevant in the context of today.
+All this reminded me of [this Paul Graham essay](http://paulgraham.com/web20.html) that I read a few years ago, which seems especially relevant in the context of today.
 It's particularly interesting to me that at the time of writing, Paul Graham's vision for web2.0 seems remarkedly similar to today's vision for web3.0. I wonder if web3.0 will actually achieve what it sets out to do, or if it'll get sidetracked the way that web2.0 did.
 
 ## what i'm learning this week
