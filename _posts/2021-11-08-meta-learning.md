@@ -35,7 +35,7 @@ He then argues that the metaverse is in a similar situation—despite the emerge
 
 Such an explanation of the metaverse definitely feels really dystopian on the surface (many sci-fi movies come to mind), but tbh, a lot of our modern world is already pretty dystopian so what's to say that this transition over the course of several decades won't feel like a natural progression of events.
 
-Another thing that jumped out to me was that a lot of the metaverse depends on online, decentrailized transactions, of which crypto is not only a natural fit, but I doubt such a metaverse could even exist without blockchain technology.
+Another thing that jumped out to me was that a lot of the metaverse depends on online, decentralized transactions, of which crypto is not only a natural fit, but I doubt such a metaverse could even exist without blockchain technology.
 All of this makes me even more bullish on crypto.
 
 ### minimally extractive meta
