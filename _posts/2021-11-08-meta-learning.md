@@ -48,11 +48,11 @@ There's a lot of interesting arguments in this article, specifically regarding t
 
 ### minimally extractive coordinators
 
-(This article)[https://www.placeholder.vc/blog/2019/10/6/protocols-as-minimally-extractive-coordinators] elaborates more on the crypto business ecosystem, arguing that despite new challenges facing businesses (businesses must extract minimal value else risk getting undercut in this open-source, decentralized world), it ultimately benefits the end consumer. I was a bit confused because this should happen in the real world as well, but it appears that in a crypto-based, globally-accessible environment, such pressures vastly increase with the ease of copy-pasting someone else's service.
+[This article](https://www.placeholder.vc/blog/2019/10/6/protocols-as-minimally-extractive-coordinators) elaborates more on the crypto business ecosystem, arguing that despite new challenges facing businesses (businesses must extract minimal value else risk getting undercut in this open-source, decentralized world), it ultimately benefits the end consumer. I was a bit confused because this should happen in the real world as well, but it appears that in a crypto-based, globally-accessible environment, such pressures vastly increase with the ease of copy-pasting someone else's service.
 
 ### decentralization
 
-(Another interesting article)[https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e] that talks about a similar idea, specifically contrasting what a decentralized web3.0 would look like compared to the current, big tech dominated, web2.0. The biggest point is that decentralization is not about resisting government censorship, but more about changing incentives such that it favors cooperation/growth rather than just competition.
+[Another interesting article](https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e) that talks about a similar idea, specifically contrasting what a decentralized web3.0 would look like compared to the current, big tech dominated, web2.0. The biggest point is that decentralization is not about resisting government censorship, but more about changing incentives such that it favors cooperation/growth rather than just competition.
 
 ### web2.0 vs web3.0
 
