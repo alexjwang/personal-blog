@@ -15,7 +15,7 @@ Reality hit me pretty hard when I was informed that the third guy on the team wa
 
 Spent a few days on the strip staying at my friend's hotel room, which was nice but also less fun than I'd hoped. I think I quickly realized two things: 1) the strip is designed such that the only fun thing to do is gambling, 2) I'm not a big fan of gambling. After losing my stack on jamming aces pre-flop, I decided that poker wasn't really that fun for me anymore and chilled for the rest of the trip. It does bring up interesting implications regarding how I'll handle trading (supposed to be similarly stressful/require similar temperaments), but I think it's a good thing that I'm not a gambling addict.
 
-![Vegas!!]({{"/assets/images/ethanmevegas.jpg" | prepend: site.baseurl }})
+![Vegas]({{"/assets/images/ethanmevegas.jpg" | prepend: site.baseurl }})
 
 ## happiness
 
