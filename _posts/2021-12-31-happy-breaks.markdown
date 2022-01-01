@@ -19,7 +19,7 @@ A goal that I'm going to challenge myself to do is to pursue discipline in devel
 
 ## goals
 
-In [the beginning of September of 2020 (start of junior year)]({% post_url 2021-09-07-next-steps.markdown %}), I thought it would be interesting to write out all my goals for the coming year. Interestingly enough, coming back to it a year later, I actually did accomplish all of my goals. It being New Years and all, I think I'm going to write down my goals again and see how I do after some time period. Revisiting these sorts of things is always fun, especially when you see how much your perspective on things change.
+In [the beginning of September of 2020 (start of junior year)]({% post_url 2020-09-07-next-steps.markdown %}), I thought it would be interesting to write out all my goals for the coming year. Interestingly enough, coming back to it a year later, I actually did accomplish all of my goals. It being New Years and all, I think I'm going to write down my goals again and see how I do after some time period. Revisiting these sorts of things is always fun, especially when you see how much your perspective on things change.
 
 1. Figure out what I want/what makes me happy.
 
@@ -49,4 +49,4 @@ I want a really good base for what each day looks like, but I think the danger o
 
 This is a more concrete version of my first goal: I want to get in the habit of blogging more regularly. A lot of what I was getting at in my first goal was developing clarity of thought, and I think a habit of regularly thinking about things and putting it into words will help a lot along that front. This is both in terms of figuring out what I want to do in life, but also in terms of startups/my day to day. Blogging is really fun/fulfilling for me at the moment, so this is also a habit that I think will improve my day to day. Also, I've spent the majority of my life up to this point getting really good at solving really complex/hard technical problems—I find it fun to work on nontechnical problems as well, so it's a personal goal of mine to get better at solving less concrete problems (I'd imagine there's a lot of softer problems in startups/the real world outside of classes).
 
-I honestly wrote down a lot more goals than I thought I'd be able to come up with. Here's to hoping that I can accomplish them!
+Happy new year everyone!
