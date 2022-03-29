@@ -17,7 +17,7 @@ I'm going to try to keep track of the one thing I consciously pick to do every d
 
 I visited my friends in NYC! Too much stuff happened to recap every detail for the week, but it was really nice.
 
-![NYC]({{"assets/images/IMG_7801.HEIC" | prepend: site.baseurl }})
+![NYC]({{"assets/images/IMG_7801.jpg" | prepend: site.baseurl }})
 
 ## 3-28
 
@@ -25,4 +25,4 @@ It was the first day of classes, and I ended up doing something for pretty much 
 
 I ended up going to the Stanford Mall after the gym with my friends—I got this one photo with my friend that I thought was super funny because we look identical (and he hates it when I take photos of him, which naturally encourages me to take more).
 
-![NYC]({{"assets/images/andreweverlane.HEIC" | prepend: site.baseurl }})
+![NYC]({{"assets/images/andreweverlane.jpg" | prepend: site.baseurl }})
