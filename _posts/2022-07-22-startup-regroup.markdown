@@ -13,6 +13,8 @@ That being said, startups are really hard. I've read a lot about startups over t
 
 Despite all the hard points, I've been enjoying the process. I've never learned so rapidly before in my life--from figuring out how to do research effectively to learning more about DevOps than any human should ethically have to learn, the entire process has been really rewarding. It's inspiring to be around smart people who are passionate about grinding on problems of consequence, and there's a sense of comfort to know I can rely on my teammates. I really like everyone in the accelerator cohort, and the thought of being in the startup ecosystem/community for my foreseeable future is quite exciting.
 
+![sunriver]({{"/assets/images/sunriver.jpg" | prepend: site.baseurl }})
+
 ## devops hypotheses
 
 Our startup does not have a specific product idea, but we are generally interested in the DevOps space. I knew next to nothing about DevOps approximately a week and a half ago, but hopefully this means that I can explain it a little better since I also had to learn it from scratch. 
