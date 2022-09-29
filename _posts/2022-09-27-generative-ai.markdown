@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "departing airplane"
-date: 2022-09-20
+title: "generative ai"
+date: 2022-09-27
 categories:
 ---
 ## pivoting
