@@ -26,6 +26,7 @@ It is estimated that something like 30% of engineering time is spent on internal
 There is a startup in this space that does precisely this called [airplane.dev](https://www.airplane.dev/) (feel free to check them out). More broadly in the internal apps space exists a larger startup called Retool (multi-billion dollar startup). Our initial plan was to build out an open-source version of airplane.dev and hopefully realize some key insights through the process. Being open-source does give some nice advantages over a more closed-source option like airplane.dev: it makes it easier for companies to trust you (companies shy away from SaaS offerings from startups because it's unknown if the startup will be alive in the future), and you can source integrations from the community (which makes it more powerful/generally applicable). But the goal, even from the start, was never to simply become an open-source alternative to Airplane. Perhaps if we were certain that the total market was huge then it would've been worthwhile to go head-to-head with them, but the hope was that we'd find ways to differentiate our products. 
 
 ![Village screenshot]({{"/assets/images/villagestallion.jpeg" | prepend: site.baseurl }})
+
 *Screenshot of our app*
 
 ## departure
