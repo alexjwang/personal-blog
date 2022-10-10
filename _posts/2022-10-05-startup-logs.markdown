@@ -35,3 +35,12 @@ We were relatively parallelized today on what we were looking at. Kevin has been
 We had a longer meeting this morning about what we want to get done. Discussing together what our product will look like, bigger picture/endgame stuff, as well as technical limitations was really useful—I can feel that we're getting better at team discussions, which is great. I set up a lot of calls with UX designers—hopefully they'll provide us valuable data for future use.
 
 ![10-07]({{"/assets/images/10-07.jpg" | prepend: site.baseurl }})
+
+## Day 175: October 10, 2022
+We have more or less settled on an idea for now, and our goal for this week is to nail down what we need to build this product.
+
+Kevin's doing more technical exploration for how to fit an LLM on the cloud. It's necessary both for our current project, but there's an important additional benefit in that we can understand the specific difficulties in setting up an LLM for personal use. John is digging into retraining codex/gpt on figma files, but there seems to be two big blockers. One is to obviously figure out how to finetune GPT/Codex. The second is how to create a dataset of Figma files.
+
+I've been digging a bit into the engineering behind the Figma API/how a plugin would work—the docs pretty explicitly state that it's impossible to have a long running user action that monitors/responds to changes which is deeply concerning.
+
+![10-10]({{"/assets/images/10-10.jpg" | prepend: site.baseurl }})
