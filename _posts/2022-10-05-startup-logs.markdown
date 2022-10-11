@@ -23,12 +23,15 @@ We have a couple of questions that we have no answers to at the moment. The firs
 
 ![10-05]({{"/assets/images/10-05.jpg" | prepend: site.baseurl }})
 
+*What I stare at for hours every day*
+
 ### Day 171: October 6, 2022
 
 We were relatively parallelized today on what we were looking at. Kevin has been digging a lot into serverless GPUs—there seems to be a lot of promise there. John did a lot of reading on RLHF frameworks, specifically focusing on math/terminology. Tae focused on UX + product—the main problem at hand is that a lot of what we can imagine hinges on our model being nearly flawless. I'm also doing a lot of reading, but I've also been focusing on writing memos as a method of extracting insights that'll hopefully push our product towards success. We have also begun to set up calls with UX designers—we figure that it'll be supremely useful to witness Figma experts at work.
 
 ![10-06]({{"/assets/images/10-06.jpg" | prepend: site.baseurl }})
 
+*Random Figma truck serving ice cream. They were giving out swag, but Ryan took a hat without asking—the girl got mad at us and refused to give Kevin and me any swag :(*
 
 ### Day 172: October 7, 2022
 
@@ -36,11 +39,22 @@ We had a longer meeting this morning about what we want to get done. Discussing 
 
 ![10-07]({{"/assets/images/10-07.jpg" | prepend: site.baseurl }})
 
-## Day 175: October 10, 2022
-We have more or less settled on an idea for now, and our goal for this week is to nail down what we need to build this product.
+*Morning standup*
 
-Kevin's doing more technical exploration for how to fit an LLM on the cloud. It's necessary both for our current project, but there's an important additional benefit in that we can understand the specific difficulties in setting up an LLM for personal use. John is digging into retraining codex/gpt on figma files, but there seems to be two big blockers. One is to obviously figure out how to finetune GPT/Codex. The second is how to create a dataset of Figma files.
+## Day 175: October 10, 2022
+We have more or less settled on an idea for now, and our goal for this week is to nail down what we need to build for this product.
+
+Kevin's doing more technical exploration for how to fit an LLM on the cloud. It's necessary for our current project, but there's an important additional benefit in that we can understand the specific difficulties in setting up an LLM for personal use. John is digging into retraining Codex/GPT on Figma files, but there seems to be two big blockers. One is to obviously figure out how to finetune GPT/Codex. The second is how to create a dataset of Figma files.
 
 I've been digging a bit into the engineering behind the Figma API/how a plugin would work—the docs pretty explicitly state that it's impossible to have a long running user action that monitors/responds to changes which is deeply concerning.
 
 ![10-10]({{"/assets/images/10-10.jpg" | prepend: site.baseurl }})
+
+*We like to buy expensive chairs and sit on the couch instead*
+
+## Day 176: October 11, 2022
+We decided to switch up our working environment and journey to the library today this morning. At our daily standup, we had a good discussion about our level of conviction regarding an AI design tool. It might be prudent to learn how to do RLHF in general, so I've been trying to brainstorm ideas for a smaller project where I can implement RLHF without having to procure a Figma dataset (and simultaneously keep it as relevant as possible to our main thread). Kevin's also been making some interesting progress on the side on running large GPT models in the cloud—this could be a viable business direction as well, but I guess the demo would be less cool relative to a true AI design tool.
+
+![10-11]({{"/assets/images/10-11.jpg" | prepend: site.baseurl }})
+
+*Some historic Palo Alto territory*
