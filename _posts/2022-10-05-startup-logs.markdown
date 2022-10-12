@@ -21,7 +21,7 @@ The general feeling is that AI is fascinating from a technical perspective (we'r
 
 We have a couple of questions that we have no answers to at the moment. The first is even though the AI industry is rapidly growing, whether or not a billion dollar company will come out of the AI space in the future. If no company exists, there's nowhere we can position ourselves to capture said company. Another is what exact project we want to build out—for now, we've settled on copilot for Figma. However, I personally believe we should optimize for both technical learnings as well as extensibility/implications of if we do manage to successfully build out an application.
 
-![10-05]({{"/assets/images/10-05.jpg" | prepend: site.baseurl }})
+![10-05]({{"/assets/images/10-05-22.jpg" | prepend: site.baseurl }})
 
 *What I stare at for hours every day*
 
@@ -29,7 +29,7 @@ We have a couple of questions that we have no answers to at the moment. The firs
 
 We were relatively parallelized today on what we were looking at. Kevin has been digging a lot into serverless GPUs—there seems to be a lot of promise there. John did a lot of reading on RLHF frameworks, specifically focusing on math/terminology. Tae focused on UX + product—the main problem at hand is that a lot of what we can imagine hinges on our model being nearly flawless. I'm also doing a lot of reading, but I've also been focusing on writing memos as a method of extracting insights that'll hopefully push our product towards success. We have also begun to set up calls with UX designers—we figure that it'll be supremely useful to witness Figma experts at work.
 
-![10-06]({{"/assets/images/10-06.jpg" | prepend: site.baseurl }})
+![10-06]({{"/assets/images/10-06-22.jpg" | prepend: site.baseurl }})
 
 *Random Figma truck serving ice cream. They were giving out swag, but Ryan took a hat without asking—the girl got mad at us and refused to give Kevin and me any swag :(*
 
@@ -37,7 +37,7 @@ We were relatively parallelized today on what we were looking at. Kevin has been
 
 We had a longer meeting this morning about what we want to get done. Discussing together what our product will look like, bigger picture/endgame stuff, as well as technical limitations was really useful—I can feel that we're getting better at team discussions, which is great. I set up a lot of calls with UX designers—hopefully they'll provide us valuable data for future use.
 
-![10-07]({{"/assets/images/10-07.jpg" | prepend: site.baseurl }})
+![10-07]({{"/assets/images/10-07-22.jpg" | prepend: site.baseurl }})
 
 *Morning standup*
 
@@ -48,13 +48,25 @@ Kevin's doing more technical exploration for how to fit an LLM on the cloud. It'
 
 I've been digging a bit into the engineering behind the Figma API/how a plugin would work—the docs pretty explicitly state that it's impossible to have a long running user action that monitors/responds to changes which is deeply concerning.
 
-![10-10]({{"/assets/images/10-10.jpg" | prepend: site.baseurl }})
+![10-10]({{"/assets/images/10-10-22.jpg" | prepend: site.baseurl }})
 
 *We like to buy expensive chairs and sit on the couch instead*
 
 ## Day 176: October 11, 2022
 We decided to switch up our working environment and journey to the library today this morning. At our daily standup, we had a good discussion about our level of conviction regarding an AI design tool. It might be prudent to learn how to do RLHF in general, so I've been trying to brainstorm ideas for a smaller project where I can implement RLHF without having to procure a Figma dataset (and simultaneously keep it as relevant as possible to our main thread). Kevin's also been making some interesting progress on the side on running large GPT models in the cloud—this could be a viable business direction as well, but I guess the demo would be less cool relative to a true AI design tool.
 
-![10-11]({{"/assets/images/10-11.jpg" | prepend: site.baseurl }})
+![10-11]({{"/assets/images/10-11-22.jpg" | prepend: site.baseurl }})
 
 *Some historic Palo Alto territory*
+
+## Day 177: October 12, 2022
+
+Kevin managed to get end to end model inference working now. This is an interesting thread because it's very complicated to get something like this set up/working correctly—if we provided a generalized solution for people to use, it could be very valuable/save people a lot of pain. 
+
+It's surprisingly hard to figure out what the best use of time during the day is—I might spend some time thinking through/writing down the best approach to doing is. It also feels weirdly unproductive to simply think about what to do—just working on something, even if it's suboptimal, seems like a better use of time. I ultimately decided to just bite the bullet and write memos about AI for design and writing.
+
+John is writing a manifesto about data moats/personalized AI. Tae is also digging into AI for writing while continuing to wrap up our official Village manifesto for our quarterly update to investors.
+
+![10-12]({{"/assets/images/10-12-22.jpg" | prepend: site.baseurl }})
+
+*just another day in our office aka our converted dining room*
