@@ -70,3 +70,18 @@ John is writing a manifesto about data moats/personalized AI. Tae is also diggin
 ![10-12]({{"/assets/images/10-12-22.jpg" | prepend: site.baseurl }})
 
 *just another day in our office aka our converted dining room*
+
+## Day 178: October 13, 2022
+
+Today, we decided to slash our burn rate to extend our runway from ~19 months to 24 months, which actually required a substantial decrease in what we pay ourselves. I wonder how that'll affect my personal happiness, but hopefully we don't notice it financially.
+
+We dug a bit into what an AI writing tool would entail. It is a thread that I'm personally interested in because I write a good amount (especially compared to design, where I don't do design at all). I would definitely use such a tool for my blog posts, and it seems like a more tractable problem that creating an entire AI design tool. 
+
+John finished his manifesto about why personalized AI/data will be the moats of a future with AI-embedded products. The motivation is to base our ideation around strong hypotheses/takes on the future of the world—I may type up my thoughts on this as well just so we have multiple perspectives.
+
+![10-13]({{"/assets/images/10-12-22.jpg" | prepend: site.baseurl }})
+![10-13]({{"/assets/images/10-12-22.3.jpg" | prepend: site.baseurl }})
+![10-13]({{"/assets/images/10-12-22.1.jpg" | prepend: site.baseurl }})
+![10-13]({{"/assets/images/10-12-22.2.jpg" | prepend: site.baseurl }})
+
+*I think ACE hardware might just be the greatest store on Earth*
