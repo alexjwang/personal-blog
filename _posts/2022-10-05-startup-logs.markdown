@@ -88,3 +88,10 @@ John finished his manifesto about why personalized AI/data will be the moats of 
 ![10-13]({{"/assets/images/10-13-22.2.jpg" | prepend: site.baseurl }})
 
 *I think ACE hardware might just be the greatest store on Earth*
+
+## Day 179: October 14, 2022
+Today was a slower day. I'm starting to do a deep dive into an AI writing tool. John is still wrangling with Figma data—he's trying to build a dataset to tune codegen on.
+
+![10-14]({{"/assets/images/10-14-22.jpg" | prepend: site.baseurl }})
+
+*we remodeled our office*
