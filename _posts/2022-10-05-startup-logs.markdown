@@ -80,8 +80,11 @@ We dug a bit into what an AI writing tool would entail. It is a thread that I'm 
 John finished his manifesto about why personalized AI/data will be the moats of a future with AI-embedded products. The motivation is to base our ideation around strong hypotheses/takes on the future of the world—I may type up my thoughts on this as well just so we have multiple perspectives.
 
 ![10-13]({{"/assets/images/10-13-22.jpg" | prepend: site.baseurl }})
+
 ![10-13]({{"/assets/images/10-13-22.3.jpg" | prepend: site.baseurl }})
+
 ![10-13]({{"/assets/images/10-13-22.1.jpg" | prepend: site.baseurl }})
+
 ![10-13]({{"/assets/images/10-13-22.2.jpg" | prepend: site.baseurl }})
 
 *I think ACE hardware might just be the greatest store on Earth*
