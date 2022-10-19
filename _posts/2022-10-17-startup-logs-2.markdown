@@ -10,7 +10,7 @@ We are heading deeper into product development this week.
 ### Day 182: October 17, 2022
 John has gotten Figma code generation from json working for mostly everything. What's left is data labelling for training our model, and figuring out how to actually make the model good. I'm digging deeper into an AI writing tool. Kevin has finished his initial exploration into hosted GPUs and is continuing to read more academic/developer literature on generative AI.
 
-![10-17]({{"/assets/images/10-17-22.jpg" | prepend: site.baseurl }})
+![10-17]({{"/assets/images/10-17-22.JPG" | prepend: site.baseurl }})
 
 *Got new plants*
 
