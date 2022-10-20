@@ -31,3 +31,18 @@ This is an interesting [Twitter thread](https://twitter.com/Buntworthy/status/15
 ![10-19]({{"/assets/images/10-19-22.jpg" | prepend: site.baseurl }})
 
 *Evan came down today to SF to visit*
+
+### Day 185: Octoboer 20, 2022
+We had a standup today where we defined out plan more concretely. Almost everything about our current idea of building an AI design tool is good except we have a huge question mark about whether or not it will solve a real need for users. This is somewhat ironic because up to this point, our entire ideating process revolved about hypothesis testing/customer discovery. 
+
+Some things we talked about in our meeting:
+- The tasks that we need to get done
+- Set deadlines for when we need to accomplish tasks by (we have a meeting with our investor, Ali, on October 31st)
+- Listed out initial features that we want to build
+
+We are loosely operating under the assumption that all the features that we can think of, we can also build. This is a rather strong assumption, especially because we are working with bleeding edge technology, but it's also a nice moat in the sense that only teams with really strong ML engineers can hope to compete with us. Whether or not we are strong enough at ML engineering will remain a question for the near future, but this is a bet I'm happier to take because it is within our control.
+
+Another interesting [Twitter thread](https://twitter.com/mihail_eric/status/1582768388060741634?s=20&t=NVvzDmLYIQokmtL7KVNF1w) on what people are doing to work with LLMs (specifically prompt engineering). Definitely something that my team and I are looking at to improve how we work with our LLMs. 
+
+![10-20]({{"/assets/images/10-20-22.jpg" | prepend: site.baseurl }})
+*Bought a new HHKB keyboard so my typing in the work area isn't as loud lol*
