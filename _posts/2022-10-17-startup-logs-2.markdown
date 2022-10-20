@@ -20,3 +20,14 @@ We're continuing to play around with component generation to slowly improve it. 
 ![10-18]({{"/assets/images/10-18-22.jpg" | prepend: site.baseurl }})
 
 *Tae and John playing around with Figma component generation*
+
+### Day 184: Octoboer 19, 2022
+We're still working on developing conviction on AI for design. To that end, we are returning back to hypothesis validation. However, we are still spending the bulk of our time on technical exploration.
+
+We have a research channel where we send each other links. I'm going to attach one interesting link every day if people are interested in reading what we read.
+
+This is an interesting [Twitter thread](https://twitter.com/Buntworthy/status/1582307817884889088?s=20&t=-l9Lkw3PQtO73tw2oZ9k2g) that showcases how good people are getting at fine-tuning LLMs.
+
+![10-19]{{"/assets/images/10-19-22.jpg" | prepend: site.baseurl }})
+
+*Evan came down today to SF to visit*
