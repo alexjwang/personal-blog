@@ -28,6 +28,6 @@ We have a research channel where we send each other links. I'm going to attach o
 
 This is an interesting [Twitter thread](https://twitter.com/Buntworthy/status/1582307817884889088?s=20&t=-l9Lkw3PQtO73tw2oZ9k2g) that showcases how good people are getting at fine-tuning LLMs.
 
-![10-19]{{"/assets/images/10-19-22.jpg" | prepend: site.baseurl }})
+![10-19]({{"/assets/images/10-19-22.jpg" | prepend: site.baseurl }})
 
 *Evan came down today to SF to visit*
