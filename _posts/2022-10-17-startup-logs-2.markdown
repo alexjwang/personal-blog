@@ -62,4 +62,10 @@ User research calls have been interesting. I think our first call was a little d
 
 [TRLX pushes out some major changes, looks pretty clean/easy to use now](https://twitter.com/carperai/status/1583585613416390657?s=20&t=ik6mXSIjqH-AsIfST3CUng)
 
+[Scale also jumps on the human feedback train](https://twitter.com/scale_AI/status/1582890586834489344?s=20&t=V4sAHr1MWCX2grjgimqpGA)
+
+[New RLHF model](https://arxiv.org/abs/2210.11416)
+
+[IBM shows that fine-tuned models are pretty good, even when they're small](https://research.ibm.com/blog/ai-for-code-project-wisdom-red-hat)
+
 ![10-21]({{"/assets/images/10-21-22.jpg" | prepend: site.baseurl }})
