@@ -32,4 +32,9 @@ Kevin has been scraping the internet for screenshots of good design for us to fi
 ![10-25]({{"/assets/images/10-25-22.5.jpg" | prepend: site.baseurl }})
 *some AI generated pokemon images*
 
-![10-25]({{"/assets/images/10-25-22.jpg" | prepend: site.baseurl }})
+### Day 191: October 26, 2022
+We have a fully working, custom Stable Diffusion training pipeline with a lot of bells and whistles working now. This should make it easier to fine tune models for our design use case as well as any future pivots. 
+
+We also have an 8x A100 machine now. This will make it possible to train the larger codegen models, which will be necessary for better performance for our Figma component generations.
+
+![10-26]({{"/assets/images/10-26-22.jpg" | prepend: site.baseurl }})
