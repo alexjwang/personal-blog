@@ -17,3 +17,19 @@ I'm pausing work on asset generation (so stuff like artwork/icons) to focus on g
 ![10-24]({{"/assets/images/10-24-22.jpg" | prepend: site.baseurl }})
 
 *stallions*
+
+### Day 190: October 25, 2022
+Kevin has been scraping the internet for screenshots of good design for us to fine-tune our model. I've been working through several notebooks to attempt to replicate the results of research papers on fine-tuning—one interesting thing here to note is that Lambda Cloud compute is actually quite easy to use relative to the major cloud providers. However, the main issue is that I can't seem to suspend the machine without turning it completely off.
+
+[LLMs writing informal proofs for math competition problems](https://twitter.com/AlbertQJiang/status/1584877475502301184)
+
+[Waifu generation notes](https://gist.github.com/harubaru/f727cedacae336d1f7877c4bbe2196e1)
+
+![10-25]({{"/assets/images/10-25-22.1.jpg" | prepend: site.baseurl }})
+![10-25]({{"/assets/images/10-25-22.2.jpg" | prepend: site.baseurl }})
+![10-25]({{"/assets/images/10-25-22.3.jpg" | prepend: site.baseurl }})
+![10-25]({{"/assets/images/10-25-22.4.jpg" | prepend: site.baseurl }})
+![10-25]({{"/assets/images/10-25-22.5.jpg" | prepend: site.baseurl }})
+*some AI generated pokemon images*
+
+![10-25]({{"/assets/images/10-25-22.jpg" | prepend: site.baseurl }})
