@@ -25,11 +25,11 @@ Kevin has been scraping the internet for screenshots of good design for us to fi
 
 [Waifu generation notes](https://gist.github.com/harubaru/f727cedacae336d1f7877c4bbe2196e1)
 
-![10-25]({{"/assets/images/10-25-22.1.jpg" | prepend: site.baseurl }})
-![10-25]({{"/assets/images/10-25-22.2.jpg" | prepend: site.baseurl }})
-![10-25]({{"/assets/images/10-25-22.3.jpg" | prepend: site.baseurl }})
-![10-25]({{"/assets/images/10-25-22.4.jpg" | prepend: site.baseurl }})
-![10-25]({{"/assets/images/10-25-22.5.jpg" | prepend: site.baseurl }})
+![10-25]({{"/assets/images/10-25-22.1.png" | prepend: site.baseurl }})
+![10-25]({{"/assets/images/10-25-22.2.png" | prepend: site.baseurl }})
+![10-25]({{"/assets/images/10-25-22.3.png" | prepend: site.baseurl }})
+![10-25]({{"/assets/images/10-25-22.4.png" | prepend: site.baseurl }})
+![10-25]({{"/assets/images/10-25-22.5.png" | prepend: site.baseurl }})
 *some AI generated pokemon images*
 
 ### Day 191: October 26, 2022
