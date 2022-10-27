@@ -26,11 +26,18 @@ Kevin has been scraping the internet for screenshots of good design for us to fi
 [Waifu generation notes](https://gist.github.com/harubaru/f727cedacae336d1f7877c4bbe2196e1)
 
 ![10-25]({{"/assets/images/10-25-22.1.png" | prepend: site.baseurl }})
+
 ![10-25]({{"/assets/images/10-25-22.2.png" | prepend: site.baseurl }})
+
 ![10-25]({{"/assets/images/10-25-22.3.png" | prepend: site.baseurl }})
+
 ![10-25]({{"/assets/images/10-25-22.4.png" | prepend: site.baseurl }})
+
 ![10-25]({{"/assets/images/10-25-22.5.png" | prepend: site.baseurl }})
+
 *some AI generated pokemon images*
+
+![10-25]({{"/assets/images/10-25-22.jpg" | prepend: site.baseurl }})
 
 ### Day 191: October 26, 2022
 We have a fully working, custom Stable Diffusion training pipeline with a lot of bells and whistles working now. This should make it easier to fine tune models for our design use case as well as any future pivots. 
@@ -38,3 +45,18 @@ We have a fully working, custom Stable Diffusion training pipeline with a lot of
 We also have an 8x A100 machine now. This will make it possible to train the larger codegen models, which will be necessary for better performance for our Figma component generations.
 
 ![10-26]({{"/assets/images/10-26-22.jpg" | prepend: site.baseurl }})
+
+![10-26]({{"/assets/images/10-26-22.1.jpg" | prepend: site.baseurl }})
+
+![10-26]({{"/assets/images/10-26-22.2.jpg" | prepend: site.baseurl }})
+
+![10-26]({{"/assets/images/10-26-22.3.jpg" | prepend: site.baseurl }})
+
+![10-26]({{"/assets/images/10-26-22.4.jpg" | prepend: site.baseurl }})
+
+*continuing to fine tune*
+
+### Day 192: October 27, 2022
+Kevin is building a wireframing plugin for Figma. John is continuing to figure out a systematic way to tune hyperparameters for our eventual training pipelines. I'm looking to see how good a straightforward fine-tuning approach will be if applied to our dataset. I'm currently using Lambda Labs' cloud compute, which I'm quite pleased with. 
+
+![10-27]({{"/assets/images/10-27-22.jpg" | prepend: site.baseurl }})
