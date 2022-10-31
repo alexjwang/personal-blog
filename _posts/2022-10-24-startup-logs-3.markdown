@@ -37,8 +37,6 @@ Kevin has been scraping the internet for screenshots of good design for us to fi
 
 *some AI generated pokemon images*
 
-![10-25]({{"/assets/images/10-25-22.jpg" | prepend: site.baseurl }})
-
 ### Day 191: October 26, 2022
 We have a fully working, custom Stable Diffusion training pipeline with a lot of bells and whistles working now. This should make it easier to fine tune models for our design use case as well as any future pivots. 
 
