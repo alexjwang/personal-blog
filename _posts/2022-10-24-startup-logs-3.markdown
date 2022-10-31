@@ -60,3 +60,16 @@ We also have an 8x A100 machine now. This will make it possible to train the lar
 Kevin is building a wireframing plugin for Figma. John is continuing to figure out a systematic way to tune hyperparameters for our eventual training pipelines. I'm looking to see how good a straightforward fine-tuning approach will be if applied to our dataset. I'm currently using Lambda Labs' cloud compute, which I'm quite pleased with. 
 
 ![10-27]({{"/assets/images/10-25-22.jpg" | prepend: site.baseurl }})
+
+### Day 193: Octoboer 28, 2022
+
+We have our meeting with Neo on Monday, so we're still working on wrapping up our manifesto. I did two user interviews today, but the novel insights are starting to slow down.
+
+UPDATE: We have finished our manifesto, which is published [here](https://vllg.notion.site/October-2022-Update-49628be37a35454a83c751b9c204a31f).
+
+[Guide to prompt engineering](https://cdn.openart.ai/assets/Stable%20Diffusion%20Prompt%20Book%20From%20OpenArt%2010-28.pdf)
+
+[What's going on in AI, a roundup](https://twitter.com/bentossell/status/1585975733460955137?s=20&t=7iIzLi2wkdFQ-kKOIJeACw)
+
+![10-28]({{"/assets/images/10-28-22.jpg" | prepend: site.baseurl }})
+*Halloween party at our house!*
