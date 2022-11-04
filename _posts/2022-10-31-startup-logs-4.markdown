@@ -24,7 +24,7 @@ On the side, I'm running a couple of experiments to see if we can't bootstrap ou
 
 [I'm pretty sure there's a Black Mirror episode on exactly this](https://twitter.com/dsiroker/status/1587415342896148480?s=20&t=P_pDHH7GSN0ff4wDruU5wQ)
 
-![11-1]({{"/assets/images/11-1-22.jpg" | prepend: site.baseurl }})
+![11-1]({{"/assets/images/11-1-2022.jpg" | prepend: site.baseurl }})
 *My new French Press for making coffee when I forget to prep my cold brew the night before (happens more often than not).*
 
 ### Day 198: November 2, 2022
@@ -34,7 +34,7 @@ Something really cool happened—one of the founders of Airplane reached out to 
 
 [AI for creativity](https://twitter.com/anthilemoon/status/1587382500615245824?s=20&t=fVO2j3dPKRqBO0CbV-Kbpg)
 
-![11-2]({{"/assets/images/11-2-22.jpg" | prepend: site.baseurl }})
+![11-2]({{"/assets/images/11-2-2022.jpg" | prepend: site.baseurl }})
 *Randomly fancily colorful drinks at this ramen place!*
 
 ### Day 199: November 3, 2022
@@ -43,6 +43,6 @@ Not a ton of updates today, it's mostly been code monkey work (I've personally g
 It is also my birthday though (finally 22) so yay!
 
 ![11-3]({{"/assets/images/11-3-22.jpg" | prepend: site.baseurl }})
-*Randomly fancily colorful drinks at this ramen place!*
+*Weather in Palo Alto has been getting chilly recently (relatively speaking of course)*
 
 ### Day 200: November 4, 2022
