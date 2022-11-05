@@ -43,7 +43,7 @@ Not a ton of updates today, it's mostly been coding (I've personally been gettin
 It is also my birthday though (finally 22) so yay!
 
 ![11-3]({{"/assets/images/11-3-22.jpg" | prepend: site.baseurl }})
-*Weather in Palo Alto has been getting chilly recently (relatively speaking of course)*
+*Birthday cake + presents!*
 
 ### Day 200: November 4, 2022
 Wow day number 200—it's crazy to think about how long it's been, and even crazier to think about how quick it felt (it feels like the start of the Neo accelerator was just last month).
