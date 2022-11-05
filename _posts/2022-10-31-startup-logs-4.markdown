@@ -56,5 +56,5 @@ Hopefully soon I'll be able to type all these blog posts into our editor, and it
 
 ["I used LLMs to destroy LLMs"](https://arxiv.org/abs/2211.01910)
 
-![11-4]({{"/assets/images/11-4-22.jpg" | prepend: site.baseurl }})
+![11-4]({{"/assets/images/11-4-22.JPG" | prepend: site.baseurl }})
 *This random cat walked into our house this morning.*
