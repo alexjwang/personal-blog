@@ -46,3 +46,13 @@ It is also my birthday though (finally 22) so yay!
 *Weather in Palo Alto has been getting chilly recently (relatively speaking of course)*
 
 ### Day 200: November 4, 2022
+Wow day number 200—it's crazy to think about how long it's been, and even crazier to think about how quick it felt (it feels like the start of the Neo accelerator was just last month).
+
+We're still in the midst of feature developing. I'm building edit suggestions—the UX flow I'm currently imagining is generating edit suggestions for a selected section, look through the options, and click to accept. Tae is almost done with getting/populating templates for each user as well as a Cmd-K interface. We can hopefully launch this sometime next week.
+
+[DALL-E API Public Beta Release](https://openai.com/blog/dall-e-api-now-available-in-public-beta/)
+
+["I used LLMs to destroy LLMs"](https://arxiv.org/abs/2211.01910)
+
+![11-4]({{"/assets/images/11-4-22.jpg" | prepend: site.baseurl }})
+*This random cat walked into our house this morning.*
