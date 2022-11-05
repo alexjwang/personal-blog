@@ -50,6 +50,8 @@ Wow day number 200—it's crazy to think about how long it's been, and even craz
 
 We're still in the midst of feature developing. I'm building edit suggestions—the UX flow I'm currently imagining is similar to that of Google docs' collaborative edit suggestions. Tae is almost done with getting/populating templates for each user (so you can have custom AI edit/generate functions) as well as a cmd-K interface. We can hopefully launch this sometime next week.
 
+Hopefully soon I'll be able to type all these blog posts into our editor, and it'll automatically edit it to be presentable.
+
 [DALL-E API Public Beta Release](https://openai.com/blog/dall-e-api-now-available-in-public-beta/)
 
 ["I used LLMs to destroy LLMs"](https://arxiv.org/abs/2211.01910)
