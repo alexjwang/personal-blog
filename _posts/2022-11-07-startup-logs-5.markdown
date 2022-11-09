@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "startup logs 4"
-date: 2022-10-31
+title: "startup logs 5"
+date: 2022-11-07
 categories:
 ---
 ## logs
@@ -12,7 +12,7 @@ All four of us are focused on building out the product now. I'm still stuck on b
 
 [Text-to-Figma](https://twitter.com/mathemagic1an/status/1589657222094934016?s=20&t=Jy1u3bfxLaPE35NxwHMgrA)
 
-![11-7]({{"/assets/images/11-7-22.JPG" | prepend: site.baseurl }})
+![11-7]({{"/assets/images/11-7-22.jpg" | prepend: site.baseurl }})
 *Is it just me or is cutting scallions super satisfying*
 
 ### Day 204: November 8, 2022
@@ -20,5 +20,5 @@ We've built out essentially all the basic functionalities you'd want in a non-AI
 
 [Scale releases platform for LLM apps](https://twitter.com/alexandr_wang/status/1590081944603484160?s=20&t=q51RCgzOUYgSe-fMmEe2JA)
 
-![11-8]({{"/assets/images/11-8-22.JPG" | prepend: site.baseurl }})
+![11-8]({{"/assets/images/11-8-22.jpg" | prepend: site.baseurl }})
 *I really like the color of this car (oak green I believe)*
