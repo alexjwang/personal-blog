@@ -18,7 +18,22 @@ All four of us are focused on building out the product now. I'm still stuck on b
 ### Day 204: November 8, 2022
 We've built out essentially all the basic functionalities you'd want in a non-AI-powered text editor. There's only one AI feature that's really left (the edit suggestions that I'm working on). There's a lot of gnarly CRDT sync stuff with rich text that I'm still sorting through, but progress today along this front has been pretty good.
 
+John has been building out prototypes on Figma, which are surprisingly good at replicating what the actual experience would be. It responds to clicks/keyboard commands similar to what the actual app would have, and it's been useful for translating what John is envisioning to what I need to build in code.
+
 [Scale releases platform for LLM apps](https://twitter.com/alexandr_wang/status/1590081944603484160?s=20&t=q51RCgzOUYgSe-fMmEe2JA)
 
 ![11-8]({{"/assets/images/11-8-22.jpg" | prepend: site.baseurl }})
 *I really like the color of this car (oak green I believe)*
+
+### Day 205: November 9, 2022
+
+First off, damn what a crazy 48 hours it's been in the land of crypto.
+
+I have most of the core functionality working for edit suggestions, but there are still a lot of bugs when it comes to syncing complex suggestion operations. I'm starting to think that my code might be a little too naive, and getting a fully bug-free implementation of what I'm envisioning will take a lot longer than I initially expected. It's complicated enough that Kevin has also been working on this problem alongside me. John and Tae are still focused on product development/UIUX design.
+
+We're slowly starting to talk to our friends about what we're currently building (AI text editor), and it's been really nice to see how excited everyone is getting. Hopefully, that excitement translates into something more tangible at scale when we actually launch, but it's always nice to see people you care about happy for you.
+
+[Contrastive Search](https://twitter.com/joao_gante/status/1590293010385760256?s=20&t=LCiCvBZkPN2KqGdDvZJkMQ)
+
+![11-9]({{"/assets/images/11-9-22.jpg" | prepend: site.baseurl }})
+*Doing work in bed at night is kinda the move, especially for tasks that don't require a monitor.*
