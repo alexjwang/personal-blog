@@ -37,3 +37,8 @@ We're slowly starting to talk to our friends about what we're currently building
 
 ![11-9]({{"/assets/images/11-9-22.jpg" | prepend: site.baseurl }})
 *Doing work in bed at night is kinda the move, especially for tasks that don't require a monitor.*
+
+### Day 206: November 10, 2022
+This week really flew by. We're meeting Ben, our primary mentor during the Neo accelerator, tomorrow, and our goal is to show him a working demo with all of our core functionality (AI content generation, commenting, AI edit suggestions, and basic collaborative text editor stuff). The only real hard thing left at the moment is wrapping up the edit suggestions, but we should be able to finish by EOD.
+
+[Emergent abilities in larger models](https://ai.googleblog.com/2022/11/characterizing-emergent-phenomena-in.html)
