@@ -42,3 +42,6 @@ We're slowly starting to talk to our friends about what we're currently building
 This week really flew by. We're meeting Ben, our primary mentor during the Neo accelerator, tomorrow, and our goal is to show him a working demo with all of our core functionality (AI content generation, commenting, AI edit suggestions, and basic collaborative text editor stuff). The only real hard thing left at the moment is wrapping up the edit suggestions, but we should be able to finish by EOD.
 
 [Emergent abilities in larger models](https://ai.googleblog.com/2022/11/characterizing-emergent-phenomena-in.html)
+
+![11-10]({{"/assets/images/11-10-22.JPG" | prepend: site.baseurl }})
+*90% of my BeReals are just us working in this room.*
