@@ -51,5 +51,5 @@ We pushed our meeting with our mentor to Monday since he was on a flight during 
 
 [New LLM search engine](https://metaphor.systems/)
 
-![11-11]({{"/assets/images/11-11-22.JPG" | prepend: site.baseurl }})
+![11-11]({{"/assets/images/11-11-22.jpg" | prepend: site.baseurl }})
 *I'm conducting interviews for Columbia Early Decision applicants this year.*
