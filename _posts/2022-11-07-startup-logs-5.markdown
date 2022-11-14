@@ -45,3 +45,11 @@ This week really flew by. We're meeting Ben, our primary mentor during the Neo a
 
 ![11-10]({{"/assets/images/11-10-22.JPG" | prepend: site.baseurl }})
 *90% of my BeReals are just us working in this room.*
+
+### Day 207: November 11, 2022
+We pushed our meeting with our mentor to Monday since he was on a flight during the originally scheduled time (which somehow Calendly didn't automatically block off). This gives us a little more breathing room to flesh out any remaining features (edit suggestions are completely done) and iron out any loose bugs this weekend. It's kinda interesting how every time we finish one task, there seems to be a million more things that we should build.
+
+[New LLM search engine](https://metaphor.systems/)
+
+![11-11]({{"/assets/images/11-11-22.JPG" | prepend: site.baseurl }})
+*I'm conducting interviews for Columbia Early Decision applicants this year.*
