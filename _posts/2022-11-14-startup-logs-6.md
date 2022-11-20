@@ -17,9 +17,9 @@ Evan also came down to visit/work for the day. We went to this diner in Palo Alt
 
 I'm also writing this log in Orchard itself in the interest of dogfooding our product. I've already found a number of UX improvements that we probably would've otherwise taken a while to discover/solve.
 
-\[CRINGE\](<https://arxiv.org/abs/2211.05826>)
+[CRINGE](<https://arxiv.org/abs/2211.05826>)
 
-!\[11-14\]({{"/assets/images/11-14-22.jpg" | prepend: site.baseurl }})
+![11-14]({{"/assets/images/11-14-22.jpg" | prepend: site.baseurl }})
 
 _Diner that we went to in Palo Alto ft. John Kim and his peace sign_
 
@@ -29,11 +29,11 @@ Today's been a lot of development work as we try to clean up the product. I'm wr
 
 I've also started showing some of my close friends the product live in production. There are still some UX improvements to be made, especially since a lot of people are confused by how to use the AI commands (which are obviously intuitive to me and my co-founders since we were the ones building it). This'll be an interesting problem to tackle, especially as we figure out if we want to build a product for the general public or focus on a particular user segment.
 
-\[PapersWithCode just open-sourced a huge LM trained on scientific literature/LaTeX\](<https://github.com/paperswithcode/galai>)
+[PapersWithCode just open-sourced a huge LM trained on scientific literature/LaTeX](<https://github.com/paperswithcode/galai>)
 
-!\[11-15\]({{"/assets/images/11-15-22.jpg" | prepend: site.baseurl }})
+![11-15]({{"/assets/images/11-15-22.jpg" | prepend: site.baseurl }})
 
-_A quick peek at some of the linear tickets closed just today_
+*A quick peek at some of the linear tickets closed just today*
 
 ### Day 212: November 16, 2022
 
@@ -45,9 +45,9 @@ This doesn't change much as we knew that this was bound to happen, but it feels 
 
 This pushes up our release timeline significantly—with discussions regarding Notion AI already proliferating throughout Twitter, it's important to insert our product into these threads to increase visibility and generate feedback.
 
-\[Fuck Notion AI\](<https://www.notion.so/blog/introducing-notion-ai>)
+[Fuck Notion AI](<https://www.notion.so/blog/introducing-notion-ai>)
 
-!\[11-16\]({{"/assets/images/11-16-22.jpg" | prepend: site.baseurl }})
+![11-16]({{"/assets/images/11-16-22.jpg" | prepend: site.baseurl }})
 
 _Yassified car_
 
@@ -60,11 +60,11 @@ We are passively up to 88 daily active users, which is nice to see because we ha
 
 We also had a mini fire where our server went down. Thankfully, not that many people noticed. There's a constant list of bug fixes/small features that we need to get done—despite being super busy, I feel super productive as it's really satisfying to churn through linear tickets and watch our product improve.
 
-\[Benchmarking of every LLM out there\](<https://crfm.stanford.edu/helm/v1.0/?group=question_answering>)
+[Benchmarking of every LLM out there](<https://crfm.stanford.edu/helm/v1.0/?group=question_answering>)
 
-!\[11-17\]({{"/assets/images/11-17-22.jpg" | prepend: site.baseurl }})
+![11-17]({{"/assets/images/11-17-22.jpg" | prepend: site.baseurl }})
 
-!\[11-17-1\]({{"/assets/images/11-17-1.jpg" | prepend: site.baseurl }})
+![11-17-1]({{"/assets/images/11-17-1.jpg" | prepend: site.baseurl }})
 
 
 _The duality of man_
@@ -73,8 +73,8 @@ _The duality of man_
 
 Not much to update in today's log from a macro perspective. We mostly worked on feature development/bug fixes. I was working on populating our community tab with a bunch of good templates—it was actually really fun to run random prompts on text and see the outputs. Some were quite funny—my favorite was a prompt for writing a micro horror story. John has been working on a command overhaul and Kevin just cranks out PRs for random stuff left and right (a true stallion). I don't write logs over the weekend (we do still work weekends), but I'd imagine our weekend will consist mostly of grinding out more code.
 
-\[GPT-3 accuracy at fraction of the cost\](<https://twitter.com/SnorkelAI/status/1593764691628548097?s=20&t=YP1TJy0qKm5sw7gpIUE3dg>)
+[GPT-3 accuracy at fraction of the cost](<https://twitter.com/SnorkelAI/status/1593764691628548097?s=20&t=YP1TJy0qKm5sw7gpIUE3dg>)
 
-!\[11-18\]({{"/assets/images/11-18-22.jpg" | prepend: site.baseurl }})
+![11-18]({{"/assets/images/11-18-22.jpg" | prepend: site.baseurl }})
 
 _Mini high school reunion!_
