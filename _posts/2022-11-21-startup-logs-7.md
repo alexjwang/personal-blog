@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "startup logs 7"
-date: 2022-11-28
+date: 2022-11-21
 categories:
 ---
 
