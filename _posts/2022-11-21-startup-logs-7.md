@@ -52,7 +52,7 @@ _We went to hotpot tonight with our friends, but we ended up ordering way too mu
 
 Today was a slower day in terms of development. We did our usual bug fixes/minor UX improvements, but I spent most of my time today drafting emails and reaching out to various famous bloggers/writers. We essentially have two major goals at the moment: one is to create a product that's actually usable for legitimate writers, and the second is to get our product into those people's hands. We also have the Converge grant app due tomorrow, so we spent a long time discussing what our roadmap looks like. I personally have a lot of concerns about how we're positioned relative to the big players in this space: Microsoft Office, Google Docs, and Notion. We've settled on a bottoms-up strategy that focuses on students, writers, and knowledge workers—this strategy will definitely take years to execute. I really hope it works haha.
 
-Jasper AI Interview <https://sacra.com/research/dave-rogenmoser-jasper-generative-ai/>
+[Jasper AI Interview](<https://sacra.com/research/dave-rogenmoser-jasper-generative-ai/>)
 
 ![11-23]({{"/assets/images/11-23-22.jpg" | prepend: site.baseurl }})
 
