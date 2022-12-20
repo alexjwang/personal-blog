@@ -44,7 +44,7 @@ Today, we took a short call with a VC, which isn't something we normally do. How
 
 As expected, this call wasn't the most useful. Even though it was only 20 minutes, it is still a 20 minutes that I'd rather have spent coding (especially because context switching is so detrimental to coding flow). We also didn't really finish the demo in time, but that's fine because he didn't ask for one either.
 
-![12-07]({{"/assets/images/12-7-22.JPEG" | prepend: site.baseurl }})
+![12-07]({{"/assets/images/12-7-22.jpg" | prepend: site.baseurl }})
 
 *Found an old photo of my dogs.*
 
@@ -54,7 +54,7 @@ Today, Kevin and I are flying out for winter vacation. The timing is quite unfor
 
 Another thing that I need to figure out is our GTM strategy. There's a lot of logistical stuff to figure out, but, with the recent hype surrounding ChatGPT, I think we can be quite creative with this.
 
-![12-08]({{"/assets/images/12-8-22.JPEG" | prepend: site.baseurl }})
+![12-08]({{"/assets/images/12-8-22.PNG" | prepend: site.baseurl }})
 
 *Kevin and sometimes I normally cook for the four of us—this was the first dinner after both of us left.*
 
