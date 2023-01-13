@@ -32,8 +32,9 @@ We had our enterprise call today, which went relatively well. I spent a lot of t
 
 Some interesting findings:
 
-* we're currently hovering around 200 DAU, although it's decreasing 
-* hovering around 650 WAU, which is holding stable/growing this week
+* we're currently hovering around 200 Daily Active Users (DAU), although it's decreasing 
+* hovering around 650 Weekly Active Users (WAU), which is holding stable/growing this week
+* we have roughly 2,700 Monthly Active Users (MAU), although it hasn't been a month yet so this is just our overall user count.
 * 150 users have used Orchard 7+ times this month
 
 Growth in general is encouraging—we're having more new users join every week than users going dormant. This is encouraging because we haven't put in any marketing efforts beyond our initial launch, so the fact that we're still seeing steady growth is nice.
