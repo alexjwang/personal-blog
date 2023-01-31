@@ -3,8 +3,10 @@ title: productive thinking
 email: 
 description: > # this means to ignore newlines until "baseurl:"
   Alexander Wang's personal blog
-baseurl: "/personal-blog" # the subpath of your site, e.g. /blog/
-url: "http://alexjwang.github.io" # the base hostname & protocol for your site
+# baseurl: "/personal-blog" # the subpath of your site, e.g. /blog/
+baseurl: ""
+# url: "http://alexjwang.github.io" # the base hostname & protocol for your site
+url: "https://alexjwang.com"
 github_username: alexjwang
 
 # Build settings
