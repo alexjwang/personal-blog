@@ -12,7 +12,7 @@ This week, we're focusing heavily on user feedback as well as starting developme
 
 We've been getting a lot of inbound regarding job applications which is pretty interesting given that we haven't done anything related to hiring. For now, we're pretty focused on building our next version of Orchard—onboarding new hires would take a bandwidth during a time when we just want to be pushing out code as quickly as possible.
 
-Today, I did another look at our growth numbers—it was a little concerning at first until I realized that people probably don't use our product over the week. I anticipate our DAU to bounce back during the weekdays. I also set up user feedback calls in our Discord—talked to our first user today, which provided some valuable feedback but nothing extremely novel.
+Today, I did another look at our growth numbers—it was a little concerning at first until I realized that people probably don't use our product over the weekend. I anticipate our number of Daily Active Users to bounce back during the weekdays. I also set up user feedback calls in our Discord—talked to our first user today, which provided some valuable feedback but nothing extremely novel.
 
 ## Day 275: Tuesday, January 17, 2023
 
