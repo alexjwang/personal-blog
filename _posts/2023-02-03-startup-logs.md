@@ -5,7 +5,6 @@ date: 2023-02-03
 categories:
 ---
 # logs
-
 We're wrapping up software development for our latest iteration of Orchard this week.
 
 ## Day 287: Monday, January 30, 2023
