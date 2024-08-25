@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "startup logs 20"
-date: 2023-03-14
+date: 2023-03-24
 categories:
 ---
 # logs
