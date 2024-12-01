@@ -13,7 +13,7 @@ layout: null
     <generator>Jekyll v{{ jekyll.version }}</generator>
     <!-- {% for post in site.posts limit:120 %} -->
     {% assign posts_to_display = site.posts | slice: 60, 1000 %}
-    {% for post in posts_to_display limit: 200 %}
+    {% for post in posts_to_display %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
