@@ -14,7 +14,7 @@ markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
 plugins: [jekyll-paginate]
-paginate: 12
+paginate: 120
 paginate_path: /page:num/
 
 redcarpet:
