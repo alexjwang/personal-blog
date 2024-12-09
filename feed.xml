@@ -11,8 +11,8 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% assign posts_to_display = site.posts | slice: 20, 1000 %}
-    {% for post in posts_to_display limit:120 %}
+    {% assign posts_to_display = site.posts | slice: 5, 1000 %}
+    {% for post in posts_to_display limit:40 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
