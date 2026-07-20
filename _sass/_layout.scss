@@ -11,16 +11,16 @@
   color: $brand-color;
 }
 
-.site-title {
+.site-logo {
   float: left;
   margin-left: 25px;
-  padding-top: 16px;
+  padding-top: 15px;
   display: inline-block;
-  font-family: Helvetica;
-  font-weight: 700;
-  line-height: $base-line-height;
-  letter-spacing: 0.05em;
-  text-decoration: none;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
 
   &:hover {
     opacity: 0.8;
