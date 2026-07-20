@@ -11,10 +11,30 @@
   color: $brand-color;
 }
 
+.site-title {
+  float: left;
+  margin-left: 25px;
+  padding-top: 16px;
+  display: inline-block;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: $base-line-height;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
 .site-nav {
   padding-top: 16px;
   float: right;
   margin-right: 25px;
+
+  .nav-toggle {
+    display: none;
+  }
 
   .menu-icon {
     display: none;
@@ -22,6 +42,7 @@
     font-weight: 700 !important;
     line-height: $base-line-height;
     letter-spacing: 0.05em;
+    cursor: pointer;
   }
 
   @include media-query($on-palm) {
@@ -47,7 +68,7 @@
       display: none;
     }
 
-    &:hover .trigger {
+    .nav-toggle:checked ~ .trigger {
       display: block;
       padding-bottom: 5px;
     }
@@ -105,7 +126,6 @@
  * ============================================== */
 .page-content {
   padding: $spacing-unit 0;
-  text-align: justify;
 }
 
 .page-heading {
@@ -161,6 +181,11 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+}
+
+.back-to-top {
+  font-size: 1.5em;
+  text-decoration: none;
 }
 
 /* Post Format

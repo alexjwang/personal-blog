@@ -1,22 +1,8 @@
 ---
 layout: default
 ---
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134168252-3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-134168252-3');
-  </script>
-</head>
-
 <div class="home">
 
-  <h1 class="page-heading">{{ site.title }}</h1>
-  
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
