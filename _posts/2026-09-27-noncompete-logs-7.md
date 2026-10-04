@@ -4,7 +4,6 @@ title: "noncompete logs 7"
 date: 2026-09-27
 categories:
 ---
-
 # logs
 
 Fishing and traveling has generally been exhausting, and my logging habit wasn't very well established even before all of this. However, these days have felt special enough where I feel that jotting down a few notes remembering these experiences is worth it in the long run. I just finished my guiding trip with Okumoto, a fishing legend around Hokkaido. He talked a lot about how he writes stories about his journeys fly fishing over his life, from backpacking across the world to solo float tripping in Alaska. Overall, I felt quite inspired and figured writing some stuff down on my own would be good.
@@ -29,6 +28,8 @@ First day fishing with Okumoto, his English honestly was surprisingly excellent.
 
 The first spot he showed me was on the Otofuke river, the wading was a lot easier than expected. But wow, that first run really opened my eyes to how good runs could be. I basically was getting bites left and right throughout the entire stretch. For my first fish, he said "oh it's a small fish," but after a few seconds, I thought to myself "dang I probably have to put this one on the reel." Pretty good sized fish tbh--this made me realize that all the "small" fish that he had been pointing out were actually decently sized.
 
+At some point while fishing, three large Japanese cranes flew overhead as a group. They’re quite large birds, so the sight left me awestruck for a few minutes. You never really know what sorts of experiences you’ll have while out in nature.
+
 We capped off the day with a second spot up north closer to where I was staying in Ashoro. Really steep cliffs, again some awesome runs. The wind was quite rough, so casting was much harder than I expected but I got some good practice in.
 
 At night, he recommended a Yakitori place to me. He didn't say much about it except for the fact that the owner fly fished and was fat. Sorta out of pocket, but also kinda funny. The chicken was honestly some of the best I've ever had in my life.
@@ -40,11 +41,18 @@ Capped off the night with a random bar in the same cluster of restaurants/bars. 
 Next day, Okumoto took me to a spot where he described the fishing as "the most technical in Hokkaido." Boy it was really difficult. There were the deep, slow pools, where giant rainbows were posted up right next to the bank where the grass overhung. It was not easy casting in there, as being off by even a few inches meant you were either snagged in the grass, or missed the spot. Also, if the trout saw your fly and something was wrong about the presentation, they got spooked quite easily since the water so clear and still. Mending was another skillset that I had yet to really get proficient at--the casts are so far that it crosses currents of varying speed. You need to "mend" your fly line depending on which parts of the line are going at what speeds, as if one part of your line is going too fast and starts dragging your fly, the trout can tell the fly is not real and the gig is up.
 
 Caught a really nice sized rainbow and a few other smaller ones. They honestly all fight really well, I had a lot of fun and learned a ton this day.
+
+![rainbow trout]({{"/assets/images/noncompete-day80-rainbow.jpg" | prepend: site.baseurl }})
+
 ## Day 81: Saturday, September 26, 2026
 
 Final day with Oku, he took me to a lake in the morning. Right when we got there, we could see trout rising and feeding on the surface, but the wind picked up right as we started fishing and the trout stopped rising. Switched to a wet fly, and caught a few trout in the lake. The scenery was probably the best part, and photos don't do it enough justice whatsoever. I just had a blast fishing there.
 
+![rainbow trout]({{"/assets/images/noncompete-day81-rainbow.jpg" | prepend: site.baseurl }})
+
 In the afternoon, on the way back to Obihiro, Oku took me to a small creek deep in the mountain forests where apparently some Dolly Varden were. I didn't have many expectations, since I had heard that Dolly Varden were quite rare and many people who fish Hokkaido haven't even caught them. But this didn't stop Oku, he put me in a spot where I caught nearly a dozen of these guys. Probably the prettiest fish I've seen in Hokkaido thus far, I really loved catching these guys.
+
+![dolly varden]({{"/assets/images/noncompete-day81-dolly-varden.jpg" | prepend: site.baseurl }})
 
 I got to talk a lot to Oku over the past few days, and just hearing his stories and listening to his instruction was honestly such a great experience. He's a super nice and funny dude, and he's lived quite the interesting life. The fact that he's a legend in the Japanese fly fishing world is just the cherry on top. It's going to be a tough guiding act to follow up on.
 ## Day 82: Sunday, September 27, 2026
