@@ -48,7 +48,7 @@ Fishing every day is definitely leaving me quite tired, although I will say the 
 
 After the rain got super heavy, we had some instant ramen after parking the car, and oh man it helped warm me up. Nothing tastes better than some hot instant ramen and coffee under a van back door in the rain after a long day of fishing.
 ## Day 87: Friday, October 2, 2026
-Last day of fishing with Lucky Lodge, surprised time flies so fast. Started the morning off with some Dolly Varden fishing up in tiny streams deep in the mountains (initially wanted to go for brook trout but the conditions were too bad). These fish are so pretty, definitely up there with brook trout for me for my favorite fish to look at.
+Last day of fishing with Lucky Lodge, surprised time flies so fast. Started the morning off with some Dolly Varden fishing up in tiny streams deep in the mountains (initially wanted to go for brook trout but the conditions were too bad). These fish are so pretty, definitely up there with brook trout for me for my favorite fish to look at. The water where these fish live are super clear and cold (near the top of the mountain streams), and their skin is unbelievably soft, especially compared to rainbow trout.
 
 ![dolly varden]({{"/assets/images/noncompete-day87-dolly-varden.jpg" | prepend: site.baseurl }})
 
