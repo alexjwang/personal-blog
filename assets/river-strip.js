@@ -8,9 +8,8 @@
   const ctx = cv.getContext('2d');
   const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const rand = (a, b) => a + Math.random() * (b - a);
-  const HEIGHT = 66;                     // css px, both themes
 
-  let mode = '', P = 3, H = 22, W = 0, dpr = 1, g = ctx, bed = null, t = 0;
+  let mode = '', P = 3, H = 22, HEIGHT = 66, W = 0, dpr = 1, g = ctx, bed = null, t = 0;
   let fish = [], drift = [], rings = [];
   const game = () => mode === 'game';
 
@@ -176,6 +175,7 @@
 
   function fit() {
     mode = getComputedStyle(cv).getPropertyValue('--strip-style').trim() || 'sketch';
+    HEIGHT = game() ? 144 : 66;            // css px: the dark river is taller, the light sketch stays slim
     P = game() ? 2 : 3; H = Math.round(HEIGHT / P);
     dpr = window.devicePixelRatio || 1;
     cv.style.height = HEIGHT + 'px';
@@ -185,8 +185,8 @@
     W = Math.floor(w / P);
     fish = []; drift = []; rings = [];
     if (game()) {
-      for (let i = 0; i < 5; i++) fish.push(newFish(i));
-      for (let i = 0; i < 70; i++) drift.push({ x: rand(0, W), y: rand(TOP + 1, BOT() - 1), v: rand(4, 10), b: Math.random() < .2, life: rand(0, 14) });
+      for (let i = 0; i < 6; i++) fish.push(newFish(i));
+      for (let i = 0; i < 140; i++) drift.push({ x: rand(0, W), y: rand(TOP + 1, BOT() - 1), v: rand(4, 10), b: Math.random() < .2, life: rand(0, 14) });
       bed = paintBed();
     } else {
       for (let i = 0; i < 5; i++) fish.push({ x: rand(0, W), y: Math.round(rand(3, H - 8)), v: rand(.02, .08), ph: rand(0, 6), hold: Math.random() < .5 });
