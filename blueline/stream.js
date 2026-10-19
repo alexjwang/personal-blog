@@ -3,10 +3,11 @@
 (() => {
 'use strict';
 
-// index.html?strip is a thin moving window onto the river, for the bottom of the blog's home page: as wide as
-// its frame at one pixel to one pixel, no angler, no controls, the view drifting slowly downstream.
+// index.html?strip is a mini river for the bottom of the blog's home page: the full river, bank to bank,
+// shown at half size and as wide as its frame. No angler, no controls, and the view stays put.
 const STRIP = new URLSearchParams(location.search).has('strip');
-const VW = STRIP ? Math.max(384, Math.ceil(innerWidth)) : 384, REACHES = Math.max(1, Math.min(24, Number(new URLSearchParams(location.search).get('reaches')) || (STRIP ? 3 : 8))), W = VW * REACHES, H = 288;  // the screen shows one VW-wide window on a W-long river
+const RL = 384;  // one reach of river; the view (VW) is usually one reach wide, the strip several
+const VW = STRIP ? Math.max(RL, Math.ceil(innerWidth * 2)) : RL, REACHES = Math.max(1, Math.min(24, Number(new URLSearchParams(location.search).get('reaches')) || (STRIP ? Math.ceil(VW / RL) + 1 : 8))), W = RL * REACHES, H = 288;  // the screen shows one VW-wide window on a W-long river
 const cv = document.getElementById('stream');
 const ctx = cv.getContext('2d');
 cv.width = VW; cv.height = H;
@@ -35,7 +36,7 @@ if (KIOSK) document.body.classList.add('kiosk');
 load('blueline.opts', opts);
 if (KIOSK) Object.assign(opts, { drift: true, preview: false, mode: 'cast' });
 if (WEB) opts.mode = 'feed';
-if (!SANDBOX) load('blueline.fish', store);
+if (!SANDBOX && !STRIP) load('blueline.fish', store);  // the strip is a different-sized river: it keeps its own throwaway fish
 
 // ---------- helpers ----------
 function mulberry32(a) {
@@ -83,9 +84,9 @@ function ring(cx, cy, r, c) {
 const srand = mulberry32(1012);
 const reaches = [];
 for (let k = 0; k < REACHES; k++) {
-  reaches.push({ k, x0: k * VW, flip: k % 2 === 1, poolX: k ? 265 + srand() * 40 : 285, bayX: 110 + srand() * 40, bay: k % 3 === 1 ? 0 : 15, riffle: k ? [30, 70] : [58, 100] });
+  reaches.push({ k, x0: k * RL, flip: k % 2 === 1, poolX: k ? 265 + srand() * 40 : 285, bayX: 110 + srand() * 40, bay: k % 3 === 1 ? 0 : 15, riffle: k ? [30, 70] : [58, 100] });
 }
-const reachAt = x => reaches[clamp(Math.floor(x / VW), 0, REACHES - 1)];
+const reachAt = x => reaches[clamp(Math.floor(x / RL), 0, REACHES - 1)];
 const ucRange = r => [r.poolX - 39, r.poolX + 45];  // where the pool-side bank is undercut
 // Bank edges for one reach in its own frame (pool against the bottom bank); flipped reaches mirror it.
 const topL = (r, lx) => 30 + 8 * bump((lx - r.poolX) / 80) - r.bay * bump((lx - r.bayX) / 16);  // the dip is a slack bay
@@ -95,7 +96,7 @@ function edge(x, bottom) {
   const r = reachAt(x), lx = x - r.x0;
   let v = at(r);
   if (lx < 30 && r.k > 0) v += (at(reaches[r.k - 1]) - v) * (1 - sm(0, 30, lx)) * .5;  // ease across the joins
-  if (lx > VW - 30 && r.k < REACHES - 1) v += (at(reaches[r.k + 1]) - v) * sm(VW - 30, VW, lx) * .5;
+  if (lx > RL - 30 && r.k < REACHES - 1) v += (at(reaches[r.k + 1]) - v) * sm(RL - 30, RL, lx) * .5;
   return v;
 }
 const TOP = new Float32Array(W + 1), BOT = new Float32Array(W + 1);
@@ -290,7 +291,7 @@ function describe(x, y) {
 const HIDING = ['tucked under the log', 'under the cut bank', 'under the branches', 'deep in the pool'];
 function pickLies(score, spacing, perReach) {  // reach by reach, so every stretch gets its share and a long river stays quick to build
   const all = [];
-  for (const r of reaches) all.push(...pickIn(score, spacing, perReach, Math.max(5, r.x0 / C), Math.min(GW - 9, (r.x0 + VW) / C)));
+  for (const r of reaches) all.push(...pickIn(score, spacing, perReach, Math.max(5, r.x0 / C), Math.min(GW - 9, (r.x0 + RL) / C)));
   return all.sort((a, b) => b.q - a.q);
 }
 function pickIn(score, spacing, count, i0, i1) {
@@ -579,8 +580,9 @@ function toDisk(last) {
 function saveFish() {
   if (watching) return;
   store.rev++;
+  if (SANDBOX || STRIP) return;
+  save('blueline.fish', store);  // on the blog this is the only copy: the visitor's own browser
   if (NOSERVER) return;
-  save('blueline.fish', store);
   if (!diskTimer) diskTimer = setTimeout(toDisk, 1500);
   if (!$('settings').hidden) renderRoster();
 }
@@ -1299,20 +1301,18 @@ function draw() {
   const [dark, tint, a] = TINT[lightNow()];
   if (dark) { ctx.fillStyle = `rgba(0,0,0,${dark})`; ctx.fillRect(0, 0, VW, H); }
   if (tint) { ctx.globalAlpha = a; ctx.fillStyle = tint; ctx.fillRect(0, 0, VW, H); ctx.globalAlpha = 1; }
-  drawClock();
+  if (!STRIP) drawClock();
 }
 
 // Fixed steps, so the stream runs at the same pace when the browser throttles frames.
 const STEP = 1 / 30;  // thirty frames a second: plenty for pixel art, and about half the work of sixty
 // The view: drag, scroll, arrow keys or the map move it; left alone, it wanders the river by itself.
-let camX = 0, idle = 0, wander = 1;
+let camX = STRIP ? Math.round((W - VW) / 2) : 0, idle = 0, wander = 1;  // the strip looks at the middle reach
 function pan(to) { camX = clamp(to, 0, W - VW); idle = 0; }
 let last = performance.now(), owed = 0;
 function frame(now) {
   const real = Math.min(.25, (now - last) / 1000);
-  if (STRIP) {  // a slow, steady drift down the river and back; at one pixel to one pixel each step is a single pixel
-    camX += wander * 4 * real;
-    if (camX <= 0 || camX >= W - VW) { wander = -wander; camX = clamp(camX, 0, W - VW); }
+  if (STRIP) {  // the view stays put
   } else if (opts.drift && (idle += real) > 15) {
     camX += wander * 6 * real;
     if (camX <= 0 || camX >= W - VW) { wander = -wander; camX = clamp(camX, 0, W - VW); }
@@ -1765,7 +1765,7 @@ function autoFish(dt) {
 }
 
 function fit() {
-  if (STRIP) { cv.style.width = VW + 'px'; cv.style.height = H + 'px'; return; }
+  if (STRIP) { cv.style.width = VW / 2 + 'px'; cv.style.height = H / 2 + 'px'; return; }
   if (KIOSK) {  // the river at the biggest whole-number scale that leaves room for the list beside it
     const s = Math.max(1, Math.floor(Math.min((innerWidth - 300) / VW, innerHeight / H)));
     document.querySelector('.pad').classList.add('wide');

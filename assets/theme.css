@@ -19,8 +19,8 @@ html.dark .theme-toggle .icon-sun { display: inline; }
 
 /* home page river: the sketch in light, the real river (blueline's ?strip view) in dark */
 .river-frame { display: none; }
-html.dark .river-frame { display: block; height: 132px; border-radius: 4px; overflow: hidden; border: 1px solid #262c33; view-transition-name: river; }
-.river-frame iframe { display: block; width: 100%; height: 132px; border: 0; pointer-events: none; }
+html.dark .river-frame { display: block; height: 144px; border-radius: 4px; overflow: hidden; border: 1px solid #262c33; view-transition-name: river; }
+.river-frame iframe { display: block; width: 100%; height: 144px; border: 0; pointer-events: none; }
 html.dark #river-strip { display: none; }
 
 /* fade between pages; the home page's river strip grows into blueline's river */
