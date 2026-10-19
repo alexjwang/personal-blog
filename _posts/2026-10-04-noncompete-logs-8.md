@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "noncompete logs 8"
+title: "noncompete logs 8: lucky lodge"
 date: 2026-10-04
 categories:
 ---

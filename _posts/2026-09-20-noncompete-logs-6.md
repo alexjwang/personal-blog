@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "noncompete logs 6"
+title: "noncompete logs 6: travel gap"
 date: 2026-09-20
 categories:
 ---

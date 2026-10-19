@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "noncompete logs 4"
+title: "noncompete logs 4: move out"
 date: 2026-08-04
 categories:
 ---

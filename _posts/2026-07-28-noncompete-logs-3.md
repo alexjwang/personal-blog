@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "noncompete logs 3"
+title: "noncompete logs 3: japan plans"
 date: 2026-07-28
 categories:
 ---

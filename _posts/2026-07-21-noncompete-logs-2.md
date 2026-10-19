@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "noncompete logs 2"
+title: "noncompete logs 2: nyc to hawaii"
 date: 2026-07-21
 categories:
 ---

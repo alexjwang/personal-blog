@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "noncompete logs 7"
+title: "noncompete logs 7: oku"
 date: 2026-09-27
 categories:
 ---
