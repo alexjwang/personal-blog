@@ -41,3 +41,10 @@ layout: default
   {% endif %}
 </div>
 {% endif %}
+
+<div class="river-wrap">
+  <a class="river-frame" href="{{ "/blueline/" | prepend: site.baseurl }}" aria-label="go fishing: open blueline"><iframe src="{{ "/blueline/?strip" | prepend: site.baseurl }}" title="" tabindex="-1" loading="lazy"></iframe></a>
+  <canvas id="river-strip" title="go fishing" onclick="location.href='{{ "/blueline/" | prepend: site.baseurl }}'"></canvas>
+  <a class="river-link" href="{{ "/blueline/" | prepend: site.baseurl }}">go fishing &rarr;</a>
+</div>
+<script src="{{ "/assets/river-strip.js" | prepend: site.baseurl }}"></script>

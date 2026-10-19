@@ -1,0 +1,29 @@
+/* Dark is the default, in blueline's palette; readers can switch to the original light theme from the menu.
+   Plain CSS on purpose (not run through Sass). */
+html.dark { color-scheme: dark; }
+html.dark body { background-color: #0b0d10 !important; color: #dfe5e4; }
+html.dark a, html.dark a:hover, html.dark .post-link, html.dark .site-header a { color: #dfe5e4; }
+html.dark .site-header { background-color: #14181d; border-bottom: 1px solid #262c33; }
+html.dark .site-logo img { filter: invert(1); opacity: .92; }
+@media screen and (max-width: 700px) { html.dark .site-nav { background-color: #14181d; border-color: #262c33; } }
+html.dark .post-meta, html.dark .footer, html.dark .river-link { color: #7d8a8c; }
+html.dark .post-link:hover { color: #2fa37c; }
+html.dark blockquote { color: #9aa5a7; border-left-color: #2fa37c; }
+html.dark pre, html.dark code, html.dark pre > code { background-color: #14181d; border-color: #262c33; color: #dfe5e4; }
+/* the theme switch: an icon beside the logo, away from the tabs. Sun in dark (go light), moon in light (go dark). */
+.theme-toggle { float: left; margin: 17px 0 0 14px; padding: 2px; border: 0; background: none; color: #000; opacity: .55; cursor: pointer; line-height: 0; }
+.theme-toggle:hover { opacity: 1; }
+html.dark .theme-toggle { color: #dfe5e4; }
+.theme-toggle .icon-sun, html.dark .theme-toggle .icon-moon { display: none; }
+html.dark .theme-toggle .icon-sun { display: inline; }
+
+/* home page river: the sketch in light, the real river (blueline's ?strip view) in dark */
+.river-frame { display: none; }
+html.dark .river-frame { display: block; height: 132px; border-radius: 4px; overflow: hidden; border: 1px solid #262c33; view-transition-name: river; }
+.river-frame iframe { display: block; width: 100%; height: 132px; border: 0; pointer-events: none; }
+html.dark #river-strip { display: none; }
+
+/* fade between pages; the home page's river strip grows into blueline's river */
+@view-transition { navigation: auto; }
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: .45s; }
+html:not(.dark) #river-strip { view-transition-name: river; }

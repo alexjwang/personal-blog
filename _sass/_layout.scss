@@ -201,3 +201,10 @@
 .wrong {
   color: #c6262e;
 }
+
+
+// river strip on the home page
+.river-wrap { margin: 40px 0 0; }
+#river-strip { width: 100%; height: 66px; display: block; cursor: pointer; image-rendering: pixelated; }
+.river-link { display: block; text-align: right; font-size: 12px; color: #959595; text-decoration: none; margin-top: 4px; }
+.river-link:hover { color: #000; text-decoration: none; }

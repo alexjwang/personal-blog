@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>blueline</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="site-header"><a class="site-logo" href="/"><img src="/assets/logo/ajw.svg" alt="home"></a><nav><a href="/about/">about</a><a href="/typetest/">typetest</a><a href="/blueline/">blueline</a></nav></div>
+<main class="pad">
+  <header>
+    <span class="name">blueline</span>
+    <span id="status"></span>
+    <button class="icon-btn" id="logBtn" title="River log" aria-label="River log" aria-expanded="false">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 20V11M12 20V4M19 20v-6"/></svg>
+    </button>
+    <button class="icon-btn" id="gear" title="Settings" aria-label="Settings" aria-expanded="false">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h2M10 12h10M4 18h8M16 18h4"/><circle cx="16" cy="6" r="2"/><circle cx="8" cy="12" r="2"/><circle cx="14" cy="18" r="2"/></svg>
+    </button>
+    <div id="settings" hidden>
+      <label>Light <select id="optLight"></select></label>
+      <label>Flow <select id="optFlow"></select></label>
+      <label><span><input type="checkbox" id="optLies"> Show holding water</span></label>
+      <label><span><input type="checkbox" id="optAim"> Preview the drift before casting</span></label>
+      <label><span><input type="checkbox" id="optDrift"> Wander the river when idle</span></label>
+      <button class="btn" id="optHatch">Start a hatch</button>
+      <h4></h4>
+      <ol id="rosterHere" class="roster"></ol>
+      <h4></h4>
+      <ol id="rosterAway" class="roster"></ol>
+    </div>
+  </header>
+  <div class="screen">
+    <canvas id="stream" aria-label="A trout stream seen from above"></canvas>
+    <div id="toast" role="status"></div>
+    <div id="catch" hidden>
+      <canvas id="catchFish"></canvas>
+      <div id="catchName"></div>
+      <div id="catchTask"></div>
+      <div id="catchHow"></div>
+    </div>
+  </div>
+  <div class="side">
+    <canvas id="map" aria-label="Map of the whole river; click to move the view"></canvas>
+    <h3>Fly <span id="mode" role="group" aria-label="What a click on the water does"><button data-mode="cast" title="Cast it on your line">cast</button><button data-mode="feed" title="Drop a real one on the water, no line (or alt-click)">feed</button></span></h3>
+    <div id="box" aria-label="Fly box: what a click on the water drops"></div>
+    <h3>Today <span id="tasksNote"></span></h3>
+    <form id="creel" autocomplete="off">
+      <input id="creelText" type="text" placeholder="add something to do" aria-label="Add a task for today; finishing one earns a catch" maxlength="140">
+    </form>
+    <ul id="tasks"></ul>
+    <h3>River</h3>
+    <ul id="feed" aria-live="off"></ul>
+  </div>
+  <p class="about-game">This is a retro-style idle game I built while fly fishing in Hokkaido. The mechanics are all based on real life (how the current moves, where fish sit in it, how they use cover), and every fish and bug in it is one I've come across firsthand in Hokkaido. I have a version of this for my personal use as a productivity tool, hooked up to Obsidian and other productivity apps, but I figured the game portion could stand on its own here. Pick a bug, click the water to drop it, and see who comes up for it.</p>
+</main>
+<div id="dash" hidden>
+  <div class="sheet" role="dialog" aria-label="River log">
+    <div class="sheet-head"><h2>River log</h2><button class="icon-btn" id="dashClose" aria-label="Close">✕</button></div>
+    <div id="dashBody"></div>
+  </div>
+</div>
+<div id="tip" hidden></div>
+<script src="stream.js"></script>
+</body>
+</html>
