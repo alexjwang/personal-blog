@@ -4,10 +4,11 @@
 'use strict';
 
 // index.html?strip is a mini river for the bottom of the blog's home page: the full river, bank to bank,
-// shown at half size and as wide as its frame. No angler, no controls, and the view stays put.
+// shown small (a third of full size by default) and as wide as its frame, with only a few fish. No angler, no controls, and the view stays put.
 const STRIP = new URLSearchParams(location.search).has('strip');
+const STRIP_SCALE = Number(new URLSearchParams(location.search).get('scale')) || 3, STRIP_FISH = Number(new URLSearchParams(location.search).get('fish')) || 8;  // strip: shown at 1/scale, with this many fish
 const RL = 384;  // one reach of river; the view (VW) is usually one reach wide, the strip several
-const VW = STRIP ? Math.max(RL, Math.ceil(innerWidth * 2)) : RL, REACHES = Math.max(1, Math.min(24, Number(new URLSearchParams(location.search).get('reaches')) || (STRIP ? Math.ceil(VW / RL) + 1 : 8))), W = RL * REACHES, H = 288;  // the screen shows one VW-wide window on a W-long river
+const VW = STRIP ? Math.max(RL, Math.ceil(innerWidth * STRIP_SCALE)) : RL, REACHES = Math.max(1, Math.min(24, Number(new URLSearchParams(location.search).get('reaches')) || (STRIP ? Math.ceil(VW / RL) + 1 : 8))), W = RL * REACHES, H = 288;  // the screen shows one VW-wide window on a W-long river
 const cv = document.getElementById('stream');
 const ctx = cv.getContext('2d');
 cv.width = VW; cv.height = H;
@@ -1765,7 +1766,7 @@ function autoFish(dt) {
 }
 
 function fit() {
-  if (STRIP) { cv.style.width = VW / 2 + 'px'; cv.style.height = H / 2 + 'px'; return; }
+  if (STRIP) { cv.style.width = VW / STRIP_SCALE + 'px'; cv.style.height = H / STRIP_SCALE + 'px'; return; }
   if (KIOSK) {  // the river at the biggest whole-number scale that leaves room for the list beside it
     const s = Math.max(1, Math.floor(Math.min((innerWidth - 300) / VW, innerHeight / H)));
     document.querySelector('.pad').classList.add('wide');
@@ -1801,7 +1802,7 @@ fit();
   store.credited = store.credited || {};
   for (const k of Object.keys(store.credited)) if (Date.now() - store.credited[k] > 14 * 864e5) delete store.credited[k];
   if (store.tasks) tasks = store.tasks;
-  for (const r of [...store.fish].sort(() => Math.random() - .5).slice(0, 7 * REACHES)) spawn(r, false);
+  for (const r of [...store.fish].sort(() => Math.random() - .5).slice(0, STRIP ? STRIP_FISH : 7 * REACHES)) spawn(r, false);
   saveFish();
   status();
   setInterval(status, 500);

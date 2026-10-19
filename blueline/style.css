@@ -187,7 +187,7 @@ body.strip { background: transparent; overflow: hidden; }
 body.strip .site-header, body.strip .side, body.strip header, body.strip .about-game, body.strip #tip, body.strip #toast { display: none !important; }
 body.strip .pad { margin: 0; padding: 0; border: 0; border-radius: 0; background: none; width: auto; max-width: none; }
 body.strip .screen { padding: 0; border: 0; border-radius: 0; background: none; }
-body.strip #stream { display: block; margin: 0; pointer-events: none; image-rendering: auto; }  /* half size: let it soften rather than drop pixels */
+body.strip #stream { display: block; margin: 0; pointer-events: none; image-rendering: auto; }  /* shown small: let it soften rather than drop pixels */
 
 /* coming from the blog: fade between pages, and the river strip on the home page grows into this river */
 @view-transition { navigation: auto; }

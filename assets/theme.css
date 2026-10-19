@@ -17,13 +17,10 @@ html.dark .theme-toggle { color: #dfe5e4; }
 .theme-toggle .icon-sun, html.dark .theme-toggle .icon-moon { display: none; }
 html.dark .theme-toggle .icon-sun { display: inline; }
 
-/* home page river: the sketch in light, the real river (blueline's ?strip view) in dark */
-.river-frame { display: none; }
-html.dark .river-frame { display: block; height: 144px; border-radius: 4px; overflow: hidden; border: 1px solid #262c33; view-transition-name: river; }
-.river-frame iframe { display: block; width: 100%; height: 144px; border: 0; pointer-events: none; }
-html.dark #river-strip { display: none; }
+/* home page river: the same scene, drawn in blueline's colours */
+html.dark #river-strip { --strip-style: game; }
 
 /* fade between pages; the home page's river strip grows into blueline's river */
 @view-transition { navigation: auto; }
 ::view-transition-old(root), ::view-transition-new(root) { animation-duration: .45s; }
-html:not(.dark) #river-strip { view-transition-name: river; }
+#river-strip { view-transition-name: river; }
