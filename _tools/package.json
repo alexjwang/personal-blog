@@ -1,0 +1,13 @@
+{
+  "name": "blog-tools",
+  "private": true,
+  "type": "module",
+  "description": "Helpers for the blog that never ship with the site (Jekyll skips folders starting with _).",
+  "scripts": {
+    "photos": "node sort-catch-photos.mjs"
+  },
+  "dependencies": {
+    "exifr": "7.1.3",
+    "sharp": "0.33.5"
+  }
+}

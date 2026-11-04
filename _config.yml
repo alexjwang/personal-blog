@@ -14,6 +14,11 @@ markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
 plugins: [jekyll-paginate]
+
+# one file per fishing outing, shown on /catch-collection/ (no page of their own)
+collections:
+  catches:
+    output: false
 paginate: 12
 paginate_path: /page:num/
 

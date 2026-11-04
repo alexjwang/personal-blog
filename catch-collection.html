@@ -1,0 +1,145 @@
+---
+layout: page
+title: catch collection
+permalink: /catch-collection/
+---
+{% comment %}
+  Everything on this page comes from three places:
+    _catches/      one file per outing (front matter = the facts, body = the notes)
+    _data/species.yml  the cards under "by fish"
+    _data/places.yml   the maps and rivers under "by water" (outlines in _data/maps.yml)
+  Counts with no number written down count as one fish, and make the totals read "at least".
+{% endcomment %}
+{% assign outings = site.catches | reverse %}
+{% assign n_fish = 0 %}{% assign fuzzy = false %}{% assign big = 0 %}{% assign big_species = "" %}{% assign big_date = "" %}
+{% for c in outings %}{% for f in c.fish %}
+  {% if f.count %}{% assign n_fish = n_fish | plus: f.count %}{% if f.approx %}{% assign fuzzy = true %}{% endif %}{% else %}{% assign n_fish = n_fish | plus: 1 %}{% assign fuzzy = true %}{% endif %}
+  {% if f.biggest and f.biggest > big %}{% assign big = f.biggest %}{% assign big_species = f.species %}{% assign big_date = c.date %}{% endif %}
+{% endfor %}{% endfor %}
+{% assign n_species = 0 %}{% for s in site.data.species %}{% assign hit = false %}{% for c in outings %}{% for f in c.fish %}{% if f.species == s.id %}{% assign hit = true %}{% endif %}{% endfor %}{% endfor %}{% if hit %}{% assign n_species = n_species | plus: 1 %}{% endif %}{% endfor %}
+<link rel="stylesheet" href="{{ "/assets/catches/catches.css" | prepend: site.baseurl }}">
+
+<div class="catches">
+
+<p class="cc-credit">started by <a href="https://github.com/sophiajao/alexs-catch-collection">sophie</a></p>
+
+<div class="cc-stats">
+  <div><div class="cc-lab">outings</div><div class="cc-num">{{ outings.size }}</div></div>
+  <div><div class="cc-lab">fish</div><div class="cc-num">{{ n_fish }}{% if fuzzy %}<span class="cc-sub">+</span>{% endif %}</div></div>
+  <div><div class="cc-lab">species</div><div class="cc-num">{{ n_species }}</div></div>
+  <div><div class="cc-lab">biggest</div><div class="cc-num">{% if big > 0 %}{{ big }}<span class="cc-sub"> cm</span>{% else %}–{% endif %}</div>{% if big > 0 %}<div class="cc-lab">{% for s in site.data.species %}{% if s.id == big_species %}{{ s.name }}{% endif %}{% endfor %}, {{ big_date | date: "%b %-d, %Y" }}</div>{% endif %}</div>
+</div>
+
+<h2 class="cc-h">by fish</h2>
+<div class="cc-species">
+{% for s in site.data.species %}
+  {% assign n = 0 %}{% assign plus = false %}{% assign first = "" %}{% assign sbig = 0 %}{% assign hooked = false %}
+  {% for c in site.catches %}{% for f in c.fish %}{% if f.species == s.id %}
+    {% if first == "" %}{% assign first = c.date %}{% endif %}
+    {% if f.count %}{% assign n = n | plus: f.count %}{% if f.approx %}{% assign plus = true %}{% endif %}{% else %}{% assign n = n | plus: 1 %}{% assign plus = true %}{% endif %}
+    {% if f.biggest and f.biggest > sbig %}{% assign sbig = f.biggest %}{% endif %}
+  {% endif %}{% endfor %}{% for l in c.lost %}{% if l.species == s.id %}{% assign hooked = true %}{% endif %}{% endfor %}{% endfor %}
+  {% if n > 0 %}
+  <button type="button" class="cc-sp" data-species="{{ s.id }}" data-name="{{ s.name }}" data-about="{{ s.about | escape }}" data-first="{{ first | date: "%b %-d, %Y" }}" title="{{ s.about | escape }}">
+  {% else %}
+  <div class="cc-sp cc-not" title="{{ s.about | escape }}">
+  {% endif %}
+    <span class="cc-art">{% if s.art %}<img src="{{ s.art | prepend: site.baseurl }}" alt="{{ s.name }}" loading="lazy">{% else %}<svg viewBox="0 0 100 34" aria-hidden="true"><path d="M8 17 Q30 4 62 10 Q80 13 86 17 Q80 21 62 24 Q30 30 8 17Z M86 17 L97 8 L94 17 L97 26Z" fill="{{ s.color }}"/></svg>{% endif %}</span>
+    <span class="cc-name">{{ s.name }}</span>
+    <span class="cc-ja">{{ s.ja }}</span>
+    <span class="cc-count">{% if n > 0 %}{{ n }}{% if plus %}+{% endif %}{% if sbig > 0 %} · {{ sbig }} cm{% endif %}{% elsif hooked %}hooked, not landed{% else %}not yet{% endif %}</span>
+  {% if n > 0 %}</button>{% else %}</div>{% endif %}
+{% endfor %}
+</div>
+
+<h2 class="cc-h">by water</h2>
+{% for r in site.data.places %}{% assign m = site.data.maps[r.map] %}
+{% assign rn = 0 %}{% for a in r.areas %}{% for w in a.waters %}{% assign wn = site.catches | where: "water", w.id | size %}{% assign rn = rn | plus: wn %}{% endfor %}{% endfor %}
+<div class="cc-region">
+  <div class="cc-region-head">{{ r.region }} <span class="cc-lab">· {{ rn }} outing{% if rn != 1 %}s{% endif %}</span></div>
+  <svg class="cc-island cc-island-{{ r.map }}" viewBox="0 0 {{ m.width }} {{ m.height }}" role="group" aria-label="Map of {{ r.region }}" font-size="{{ m.label_size }}">
+    <path class="cc-land" d="{{ m.path }}"/>
+    {% assign pin = m.label_size | times: 0.42 %}{% assign gap = m.label_size | times: 0.85 %}
+    {% for a in r.areas %}{% for w in a.waters %}{% if w.at %}{% assign wn = site.catches | where: "water", w.id | size %}
+    <circle class="cc-wdot" data-water="{{ w.id }}" data-name="{{ w.name }}" data-area="{{ a.id }}" cx="{{ w.at[1] | minus: m.lon0 | times: m.kx | plus: m.pad | round: 1 }}" cy="{{ m.lat1 | minus: w.at[0] | times: m.ky | plus: m.pad | round: 1 }}" r="{{ pin | times: 0.6 | round: 1 }}"{% if wn > 0 %} tabindex="0" role="button" aria-label="{{ w.name }}"{% endif %}><title>{{ w.name }}</title></circle>
+    {% endif %}{% endfor %}{% endfor %}
+    {% for a in r.areas %}
+      {% assign an = 0 %}{% for w in a.waters %}{% assign wn = site.catches | where: "water", w.id | size %}{% assign an = an | plus: wn %}{% endfor %}
+      {% assign ax = a.at[1] | minus: m.lon0 | times: m.kx | plus: m.pad | round: 1 %}
+      {% assign ay = m.lat1 | minus: a.at[0] | times: m.ky | plus: m.pad | round: 1 %}
+      {% case a.label %}
+        {% when "left" %}{% assign tx = ax | minus: gap %}{% assign ty = ay | plus: pin %}{% assign anchor = "end" %}
+        {% when "above" %}{% assign tx = ax %}{% assign ty = ay | minus: gap %}{% assign anchor = "middle" %}
+        {% when "below" %}{% assign tx = ax %}{% assign ty = ay | plus: gap | plus: gap %}{% assign anchor = "middle" %}
+        {% else %}{% assign tx = ax | plus: gap %}{% assign ty = ay | plus: pin %}{% assign anchor = "start" %}
+      {% endcase %}
+    <g class="cc-area" data-area="{{ a.id }}" data-name="{{ a.name }}" tabindex="0" role="button" aria-label="{{ a.name }}, {{ an }} outings">
+      <circle class="cc-pin" cx="{{ ax }}" cy="{{ ay }}" r="{{ pin | round: 1 }}"/>
+      <text x="{{ tx }}" y="{{ ty }}" text-anchor="{{ anchor }}">{{ a.name }} · {{ an }}</text>
+    </g>
+    {% endfor %}
+  </svg>
+  {% for a in r.areas %}
+    {% assign rows = a.waters.size | plus: 2 | divided_by: 3 %}{% assign ph = rows | times: 84 | plus: 10 %}
+  <div class="cc-panel" data-area="{{ a.id }}"{% if r.areas.size > 1 %} hidden{% endif %}>
+    <div class="cc-lab">{{ a.name }}</div>
+    <div class="cc-scroll">
+    <svg class="cc-map" viewBox="0 0 640 {{ ph }}" role="group" aria-label="Waters fished around {{ a.name }}">
+    {% for w in a.waters %}{% assign wn = site.catches | where: "water", w.id | size %}
+      {% assign col = forloop.index0 | modulo: 3 %}{% assign row = forloop.index0 | divided_by: 3 %}
+      {% assign x0 = col | times: 212 | plus: 10 %}{% assign y = row | times: 84 | plus: 32 %}
+      {% case w.kind %}
+        {% when "lake" %}{% assign d = "" %}
+        {% when "sea" %}{% capture d %}M{{ x0 }} {{ y }} q15 -9 30 0 t30 0 t30 0 t30 0 t30 0 t30 0{% endcapture %}
+        {% when "creek" %}{% capture d %}M{{ x0 }} {{ y }} c20 -10 34 8 52 0 s34 -8 52 2 s38 6 56 -4{% endcapture %}
+        {% else %}{% capture d %}M{{ x0 }} {{ y | plus: 4 }} C{{ x0 | plus: 60 }} {{ y | minus: 14 }} {{ x0 | plus: 110 }} {{ y | plus: 16 }} {{ x0 | plus: 180 }} {{ y | minus: 2 }}{% endcapture %}
+      {% endcase %}
+      <g class="cc-w cc-{{ w.kind }}{% if wn == 0 %} cc-empty{% endif %}" data-water="{{ w.id }}" data-name="{{ w.name }}" data-n="{{ wn }}"{% if wn > 0 %} tabindex="0" role="button"{% endif %}>
+        {% if d == "" %}<ellipse class="cc-line" cx="{{ x0 | plus: 84 }}" cy="{{ y }}" rx="64" ry="17"/>{% else %}<path class="cc-hit" d="{{ d }}"/><path class="cc-line" d="{{ d }}"/>{% endif %}
+        <text x="{{ x0 }}" y="{{ y | plus: 36 }}">{{ w.name }}{% if wn > 0 %} · {{ wn }}{% endif %}</text>
+      </g>
+    {% endfor %}
+    </svg>
+    </div>
+  </div>
+  {% endfor %}
+  {% if r.areas.size > 1 %}<p class="cc-hint">Pick a place on the map to see its rivers and lakes.</p>{% endif %}
+</div>
+{% endfor %}
+
+<h2 class="cc-h">log</h2>
+<p class="cc-filter" hidden><span class="cc-filter-what"></span> <button type="button" class="cc-clear">show all</button></p>
+
+<div class="cc-log">
+{% for c in outings %}
+  {% assign wname = c.water %}{% assign warea = "" %}{% for r in site.data.places %}{% for a in r.areas %}{% for w in a.waters %}{% if w.id == c.water %}{% assign wname = w.name %}{% assign warea = a.id %}{% endif %}{% endfor %}{% endfor %}{% endfor %}
+  {% assign rid = c.date | date: "%Y-%m-%d" | append: "-" | append: c.water %}
+  {% assign obig = 0 %}{% capture sp %}{% for f in c.fish %} {{ f.species }}{% if f.biggest and f.biggest > obig %}{% assign obig = f.biggest %}{% endif %}{% endfor %} {% endcapture %}
+  {% capture summary %}{% if c.fish %}{% for f in c.fish %}{% for s in site.data.species %}{% if s.id == f.species %}{{ s.name }}{% endif %}{% endfor %}{% if f.count %}{% if f.approx %} ~{% else %} ×{% endif %}{{ f.count }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if obig > 0 %} · {{ obig }} cm{% endif %}{% elsif c.skunked %}skunked{% else %}catch not written up yet{% endif %}{% endcapture %}
+  <div class="cc-out" id="{{ rid }}" data-water="{{ c.water }}" data-area="{{ warea }}" data-species="{{ sp }}">
+    <button type="button" class="cc-row" aria-expanded="false" aria-controls="{{ rid }}-body">
+      <span class="cc-date post-meta">{{ c.date | date: "%b %-d, %Y" }}</span>
+      <span class="cc-what"><span class="cc-water">{{ wname }}</span> <span class="cc-sum">· {{ summary | strip }}</span></span>
+    </button>
+    <div class="cc-body" id="{{ rid }}-body" hidden>
+      <div class="cc-day">{% if c.day %}Day {{ c.day }}{% else %}{{ c.date | date: "%A" }}{% endif %}</div>
+      <div class="cc-meta">{% if c.day %}{{ c.date | date: "%A, %B %-d, %Y" }}{% else %}{{ c.date | date: "%B %-d, %Y" }}{% endif %}{% if c.guide %} · with {{ c.guide }}{% endif %}{% if c.conditions %} · {{ c.conditions }}{% endif %}</div>
+      {% assign notes = c.content | strip %}
+      {% if notes != "" or c.photos %}<div class="cc-main{% if c.photos %} cc-has-photo{% endif %}">
+        <div class="cc-notes">{% if notes != "" %}{{ c.content | markdownify }}{% endif %}</div>
+        {% if c.photos %}<div class="cc-photos">{% for p in c.photos %}<figure><img src="{{ p.src | prepend: site.baseurl }}" alt="{{ p.caption | default: wname }}" loading="lazy"><figcaption>{{ p.caption }}</figcaption></figure>{% endfor %}</div>{% endif %}
+      </div>{% endif %}
+      <div class="cc-strip">
+        <div><div class="cc-lab">tally</div>{% for f in c.fish %}{% for s in site.data.species %}{% if s.id == f.species %}{{ s.name }}{% endif %}{% endfor %}{% if f.count %}{% if f.approx %} ~{% else %} ×{% endif %}{{ f.count }}{% endif %}{% if f.biggest %}, {{ f.biggest }} cm{% endif %}<br>{% endfor %}{% unless c.fish %}{% if c.skunked %}nothing{% else %}not written up yet{% endif %}{% endunless %}</div>
+        {% if c.flies %}<div><div class="cc-lab">flies</div>{{ c.flies | join: ", " }}</div>{% endif %}
+        {% if c.lost %}<div><div class="cc-lab">lost</div>{% for l in c.lost %}{% for s in site.data.species %}{% if s.id == l.species %}{{ s.name }}{% endif %}{% endfor %}: {{ l.note }}<br>{% endfor %}</div>{% endif %}
+        {% if c.sketch %}<div><div class="cc-lab">the spot</div><img src="{{ c.sketch | prepend: site.baseurl }}" alt="sketch of the spot" loading="lazy"></div>{% endif %}
+      </div>
+      {% if c.post %}{% for p in site.posts %}{% if p.id == c.post %}<a class="cc-post" href="{{ p.url | prepend: site.baseurl }}">from {{ p.title }} &rarr;</a>{% endif %}{% endfor %}{% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+</div>
+<script src="{{ "/assets/catches/catches.js" | prepend: site.baseurl }}"></script>

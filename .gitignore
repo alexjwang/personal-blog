@@ -1,2 +1,8 @@
 .vercel
 .DS_Store
+_photo-inbox/
+_tools/node_modules/
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/

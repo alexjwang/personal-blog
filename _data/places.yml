@@ -1,0 +1,129 @@
+# Where the outings happen: region (a map) > area (a mark on it) > water (what an outing points at).
+#   at:     [lat, lon] for an area's mark on the map. Optional on a water: a smaller dot for a named river or lake.
+#   label:  which side of the mark its name goes on (right by default; left, above or below)
+#   kind:   river | creek | lake | sea, for how the water is drawn when its area is opened
+# Waters lay themselves out three to a row, so adding one is just an id, a name and a kind.
+# Names marked "rename me" are placeholders until the real river name goes in.
+
+- region: Hokkaido
+  map: hokkaido
+  areas:
+    - id: rebun
+      name: Rebun
+      at: [45.38, 141.03]
+      waters:
+        - id: rebun-streams
+          name: Rebun's streams   # rename me
+          kind: creek
+
+    - id: sapporo
+      name: Sapporo
+      at: [43.06, 141.35]
+      waters:
+        - id: sapporo-rivers
+          name: Sapporo   # rename me
+          kind: river
+
+    - id: niseko
+      name: Niseko
+      at: [42.86, 140.69]
+      label: left
+      waters:
+        - id: niseko-rivers
+          name: Konbu and Shiribetsu rivers
+          kind: river
+
+    - id: tokachi
+      name: Tokachi
+      at: [42.92, 143.20]
+      label: below
+      waters:
+        - id: otofuke
+          name: Otofuke river
+          kind: river
+          at: [43.10, 143.20]
+        - id: shikaribetsu
+          name: Lake Shikaribetsu
+          kind: lake
+          at: [43.28, 143.11]
+        - id: technical-river
+          name: the technical river   # rename me
+          kind: river
+        - id: oku-lake
+          name: Oku's lake   # rename me
+          kind: lake
+        - id: oku-creek
+          name: Oku's creek   # rename me
+          kind: creek
+        - id: farm-stream
+          name: farm-field stream   # rename me
+          kind: creek
+        - id: dam-gorge
+          name: the dam gorge   # rename me
+          kind: river
+        - id: headwaters
+          name: headwaters   # rename me
+          kind: creek
+        - id: emerger-creek
+          name: emerger creek   # rename me
+          kind: creek
+
+    - id: akan
+      name: Akan
+      at: [43.43, 144.09]
+      label: left
+      waters:
+        - id: lake-akan
+          name: Lake Akan
+          kind: lake
+        - id: akan-river
+          name: Akan river
+          kind: river
+          at: [43.25, 144.17]
+        - id: akan-streams
+          name: streams near Akan   # rename me
+          kind: creek
+
+    - id: teshikaga
+      name: Teshikaga
+      at: [43.49, 144.46]
+      waters:
+        - id: kussharo
+          name: Lake Kussharo
+          kind: lake
+          at: [43.62, 144.34]
+        - id: slippery-river
+          name: the slippery river   # rename me
+          kind: river
+        - id: wild-rainbow-river
+          name: wild rainbow river   # rename me
+          kind: river
+
+    - id: abashiri
+      name: Abashiri
+      at: [44.02, 144.27]
+      waters:
+        - id: hopper-river
+          name: the hopper river   # rename me
+          kind: river
+        - id: genya-river
+          name: Genya's nymphing river   # rename me
+          kind: river
+        - id: marsh-rivers
+          name: marsh rivers   # rename me
+          kind: creek
+
+- region: Oahu
+  map: oahu
+  areas:
+    - id: kailua
+      name: Kailua
+      at: [21.40, -157.74]
+      label: left
+      waters:
+        - id: hawaii-home
+          name: home water
+          kind: lake
+        - id: hawaii-offshore
+          name: offshore, on a charter
+          kind: sea

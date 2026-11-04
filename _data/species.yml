@@ -1,0 +1,69 @@
+# Every fish the catch collection knows about, in the order the cards appear.
+# A species with no landed fish in _catches/ shows as "not yet".
+#   art:   a cutout (transparent png) in assets/catches/species/; without one, a drawn silhouette in `color`
+#   about: one line under the name when the card is open
+
+- id: rainbow
+  name: rainbow trout
+  ja: ニジマス
+  art: /assets/catches/species/rainbow.png
+  color: "#b9c4be"
+  about: Introduced to Hokkaido a century ago and now the fish of the Tokachi and Akan rivers.
+
+- id: brown
+  name: brown trout
+  ja: ブラウントラウト
+  color: "#c9a26a"
+  about: Deep, cold, fast water under overhanging grass.
+
+- id: oshorokoma
+  name: dolly varden
+  ja: オショロコマ
+  art: /assets/catches/species/oshorokoma.png
+  color: "#7f8a5a"
+  about: Oshorokoma, a dolly varden of the coldest headwater streams. The prettiest fish in Hokkaido.
+
+- id: iwana
+  name: iwana
+  ja: イワナ
+  color: "#8f9a96"
+  about: White-spotted char. A 30cm one (shaku) is a trophy.
+
+- id: amemasu
+  name: amemasu
+  ja: アメマス
+  art: /assets/catches/species/amemasu.png
+  color: "#a8a58c"
+  about: The big lake and sea-run form of the white-spotted char.
+
+- id: kokanee
+  name: kokanee
+  ja: ヒメマス
+  art: /assets/catches/species/kokanee.png
+  color: "#b5524a"
+  about: Landlocked sockeye that never leave fresh water. Spawning males go humped and red.
+
+- id: yamame
+  name: yamame
+  ja: ヤマメ
+  art: /assets/catches/species/yamame.png
+  color: "#c48a5a"
+  about: Cherry salmon that stay in the mountain streams.
+
+- id: tilapia
+  name: tilapia
+  ja: ティラピア
+  color: "#7d8f6a"
+  about: First fish on the fly, Hawaii.
+
+- id: amberjack
+  name: amberjack
+  ja: カンパチ
+  color: "#9aa7b0"
+  about: Jigging off Hawaii, with Sophia and her family.
+
+- id: miyabe
+  name: miyabe char
+  ja: ミヤベイワナ
+  color: "#6f8f8a"
+  about: Lives only in Lake Shikaribetsu, and nobody landed one on a fly this season.

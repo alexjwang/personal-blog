@@ -1,0 +1,103 @@
+/* catch collection: plain CSS like theme.css, light by default and blueline's palette under html.dark */
+.catches { --cc-text: #111; --cc-sub: #828282; --cc-line: #e6e6e6; --cc-panel: #f6f6f6; --cc-water: #3a7cb0; --cc-acc: #2a7a5f; }
+html.dark .catches { --cc-text: #dfe5e4; --cc-sub: #7d8a8c; --cc-line: #262c33; --cc-panel: #14181d; --cc-water: #4a8bb5; --cc-acc: #2fa37c; }
+
+.catches button { font: inherit; color: inherit; background: none; border: 0; padding: 0; margin: 0; text-align: left; cursor: pointer; }
+.catches button:focus-visible, .catches .cc-w:focus-visible { outline: 2px solid var(--cc-acc); outline-offset: 2px; }
+
+.cc-credit { color: var(--cc-sub); font-size: 14px; margin-top: -18px; }
+.cc-credit a { color: var(--cc-sub); }
+.cc-lab { font-size: 12px; color: var(--cc-sub); letter-spacing: .03em; }
+.catches .cc-h { font-weight: normal; color: var(--cc-sub); margin: 34px 0 12px; }
+
+/* stats */
+.cc-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; margin-top: 22px; }
+.cc-stats > div { border-top: 1px solid var(--cc-line); padding-top: 8px; }
+.cc-num { font-size: 28px; line-height: 1.2; }
+.cc-sub { font-size: 16px; color: var(--cc-sub); }
+
+/* by fish */
+.cc-species { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+.catches .cc-sp { display: flex; flex-direction: column; align-items: center; text-align: center; border: 1px solid var(--cc-line); border-radius: 4px; padding: 10px 6px 8px; min-width: 0; transition: border-color .15s; }
+.catches button.cc-sp:hover, .catches .cc-sp.cc-on { border-color: var(--cc-acc); }
+.catches .cc-not { border-style: dashed; color: var(--cc-sub); }
+.cc-art { height: 40px; width: 100%; display: flex; align-items: center; justify-content: center; margin-bottom: 6px; }
+.cc-art img { max-height: 40px; max-width: 100%; }
+.cc-art svg { height: 30px; width: 90%; }
+.cc-not .cc-art svg path { fill: var(--cc-line); }
+.cc-name { font-size: 14px; line-height: 1.3; }
+.cc-ja { font-size: 11px; color: var(--cc-sub); }
+.cc-count { font-size: 12px; color: var(--cc-sub); margin-top: 2px; }
+
+/* by water: a map per region, a mark per area, and the area's waters drawn underneath once it's picked */
+.catches { --cc-land: #f1f1f1; --cc-coast: #d6d6d6; --cc-bg: #fff; }
+html.dark .catches { --cc-land: #161b21; --cc-coast: #2c343c; --cc-bg: #0b0d10; }
+.cc-region { margin-bottom: 30px; }
+.cc-region-head { font-size: 17px; margin-bottom: 8px; }
+.cc-island { display: block; width: 100%; height: auto; overflow: visible; }
+.cc-island-hokkaido { max-width: 560px; }
+.cc-island-oahu { max-width: 220px; }
+.cc-land { fill: var(--cc-land); stroke: var(--cc-coast); stroke-width: 1; stroke-linejoin: round; }
+.cc-island-oahu .cc-land { stroke-width: 2.5; }
+.cc-island text { font-family: Helvetica, Arial, sans-serif; fill: var(--cc-text); }
+.cc-area { cursor: pointer; }
+.cc-area .cc-pin { fill: var(--cc-bg); stroke: var(--cc-text); stroke-width: 2; }
+.cc-island-oahu .cc-area .cc-pin { stroke-width: 5; }
+.cc-area:hover .cc-pin, .cc-area.cc-on .cc-pin { fill: var(--cc-acc); stroke: var(--cc-acc); }
+.cc-area:hover text, .cc-area.cc-on text { fill: var(--cc-acc); }
+.cc-wdot { fill: var(--cc-water); }
+.cc-wdot[role=button] { cursor: pointer; }
+.cc-wdot.cc-on, .cc-wdot[role=button]:hover { fill: var(--cc-acc); }
+.cc-area:focus-visible, .cc-wdot:focus-visible { outline: none; }
+.cc-area:focus-visible .cc-pin, .cc-wdot:focus-visible { stroke: var(--cc-acc); stroke-width: 4; }
+.cc-panel { margin-top: 10px; }
+.cc-hint { font-size: 13px; color: var(--cc-sub); margin: 6px 0 0; }
+.cc-scroll { overflow-x: auto; }
+.cc-map { display: block; width: 100%; min-width: 600px; }
+.cc-w .cc-line { fill: none; stroke: var(--cc-water); stroke-width: 2.5; stroke-linecap: round; }
+.cc-creek .cc-line { stroke-width: 1.5; }
+.cc-sea .cc-line { stroke-width: 2; }
+.cc-w .cc-hit { fill: none; stroke: transparent; stroke-width: 16; }
+.cc-w text { font-family: Helvetica, Arial, sans-serif; font-size: 12px; fill: var(--cc-sub); }
+.cc-w .cc-dot { fill: var(--cc-water); }
+.cc-w[role=button] { cursor: pointer; }
+.cc-w[role=button]:hover text, .cc-w.cc-on text { fill: var(--cc-text); }
+.cc-w.cc-on .cc-line { stroke: var(--cc-acc); }
+.cc-w.cc-on .cc-dot { fill: var(--cc-acc); }
+.cc-empty .cc-line { stroke-dasharray: 3 4; opacity: .6; }
+
+/* log */
+.cc-filter { font-size: 14px; color: var(--cc-sub); margin: 0 0 8px; }
+.cc-filter .cc-clear { color: var(--cc-acc); text-decoration: underline; }
+.cc-out { border-top: 1px solid var(--cc-line); }
+.cc-out:last-child { border-bottom: 1px solid var(--cc-line); }
+.cc-row { display: flex; gap: 14px; align-items: baseline; width: 100%; padding: 9px 0; }
+.cc-row .cc-date { min-width: 104px; flex-shrink: 0; }
+.cc-row:hover .cc-water, .cc-out.cc-open .cc-water { color: var(--cc-acc); }
+.cc-sum { color: var(--cc-sub); font-size: 15px; }
+
+.cc-body { padding: 6px 0 26px; }
+.cc-day { font-size: 22px; letter-spacing: -.5px; }
+.cc-meta { font-size: 14px; color: var(--cc-sub); margin-top: 2px; }
+.cc-main { margin-top: 14px; }
+.cc-main.cc-has-photo { display: grid; grid-template-columns: minmax(0, 1fr) 230px; gap: 22px; align-items: start; }
+.cc-notes p:last-child, .cc-notes blockquote:last-child { margin-bottom: 0; }
+.cc-photos figure { margin: 0 0 12px; }
+.cc-photos img { display: block; width: 100%; border-radius: 2px; }
+.cc-photos figcaption { font-size: 12px; color: var(--cc-sub); margin-top: 4px; }
+.cc-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 18px; margin-top: 18px; padding-top: 12px; border-top: 1px dashed var(--cc-line); font-size: 14px; line-height: 1.6; }
+.cc-strip .cc-lab { margin-bottom: 2px; }
+.cc-strip img { max-width: 100%; }
+.cc-post { display: inline-block; margin-top: 16px; font-size: 14px; }
+html.dark .catches .cc-post, .catches .cc-post { color: var(--cc-acc); }
+
+@media screen and (max-width: 700px) {
+  .cc-island-hokkaido text { font-size: 22px; }
+  .cc-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cc-species { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .cc-main.cc-has-photo { grid-template-columns: minmax(0, 1fr); }
+  .cc-row { flex-direction: column; gap: 0; }
+}
+@media screen and (max-width: 420px) {
+  .cc-species { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
