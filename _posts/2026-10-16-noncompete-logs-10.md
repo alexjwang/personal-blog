@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "noncompete logs 10: shin"
+title: "noncompete logs 10: eastern hokkaido"
 date: 2026-10-16
 categories:
 ---
