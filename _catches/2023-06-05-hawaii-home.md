@@ -1,11 +1,18 @@
 ---
 date: 2023-06-05
-water: hawaii-home
+day:
+area: "Kailua"
+water: "home water"
+guide: ""
+conditions: ""
 fish:
-  - species: tilapia
+  - "tilapia"
+biggest: []
+flies: []
+lost: []
 photos:
-  - src: /assets/images/06-05-23.1.jpg
-    caption: man. fish. dog.
-post: /2023/06/01/travel-logs
+  - "/assets/images/06-05-23.1.jpg | man. fish. dog."
+post: "[[2023-06-07-travel-logs]]"
+skunked: false
 ---
 Thought I'd be more productive this week, but I've just been fishing all day and looking after the dog. It's a nice life.

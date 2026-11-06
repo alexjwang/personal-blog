@@ -50,6 +50,12 @@
   color: "#c48a5a"
   about: Cherry salmon that stay in the mountain streams.
 
+- id: dace
+  name: dace
+  ja: ウグイ
+  color: "#a3ab9a"
+  about: Ugui, the Japanese dace. Common in Hokkaido's rivers, and often the first thing to take the fly.
+
 - id: tilapia
   name: tilapia
   ja: ティラピア

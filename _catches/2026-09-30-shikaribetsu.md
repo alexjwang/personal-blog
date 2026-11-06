@@ -1,15 +1,19 @@
 ---
 date: 2026-09-30
 day: 85
-water: shikaribetsu
-guide: Koudai Araki, Lucky Lodge
-conditions: sunny and warm, an awafuki hatch
+area: "Tokachi"
+water: "Lake Shikaribetsu"
+guide: "Koudai Araki, Lucky Lodge"
+conditions: "sunny and warm, an awafuki hatch"
 fish:
-  - species: rainbow
+  - "rainbow"
+biggest: []
+flies: []
 lost:
-  - species: rainbow
-    note: the biggest rainbow I've ever seen, first cast, broke me off instantly
-post: /2026/10/04/noncompete-logs-8
+  - "rainbow: the biggest rainbow I've ever seen, first cast, broke me off instantly"
+photos: []
+post: "[[2026-10-04-noncompete-logs-8]]"
+skunked: false
 ---
 Lake Shikaribetsu is open to fishing for about ten days in autumn and a short window in spring, so it's rare to get a chance at it. Conditions were perfect: the water was covered in thousands of awafuki, and dozens of big rainbows were eating them off the surface.
 

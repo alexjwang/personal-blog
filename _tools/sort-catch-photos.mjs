@@ -5,7 +5,8 @@
 //   node sort-catch-photos.mjs [inbox] --sheets <dir>     also write a contact sheet per day, for picking the keepers
 //   node sort-catch-photos.mjs [inbox] --copy a.jpg,b.jpg  copy chosen files into assets/catches/photos/<date>/,
 //                                                          resized to 1600px with all metadata (GPS included) stripped,
-//                                                          and print the `photos:` lines to paste into the outing
+//                                                          and print the `photos:` entries to paste into the outing
+//                                                          (caption goes after the |)
 //
 // The inbox defaults to ../_photo-inbox, which git ignores. Timestamps come from EXIF, then from camera file names
 // (DJI_20261006143012_..., PXL_20261006_143012..., IMG_20261006_143012...), then from the file's modified time.
@@ -78,7 +79,7 @@ if (copyList) {
     fs.mkdirSync(outDir, { recursive: true });
     const out = path.join(outDir, path.basename(name).replace(/\.\w+$/, '.jpg').toLowerCase());
     await sharp(src).rotate().resize({ width: 1600, height: 1600, fit: 'inside', withoutEnlargement: true }).jpeg({ quality: 82, mozjpeg: true }).toFile(out);
-    console.log(`  - src: /${path.relative(repo, out).split(path.sep).join('/')}\n    caption: ""`);
+    console.log(`  - "/${path.relative(repo, out).split(path.sep).join('/')} | "`);
   }
   process.exit(0);
 }

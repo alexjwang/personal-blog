@@ -1,0 +1,39 @@
+{% comment %}
+  The rivers and lakes drawn under a map for one area of the catch collection.
+  area:   the outings' `area:` value to collect waters for
+  extras: optional waters from _data/places.yml (for a kind that can't be guessed, or one with no outings yet)
+  label:  heading, defaults to the area
+  hidden: start hidden until the area is picked on the map
+  always: shown regardless of what's picked (outings tagged with just the region's name)
+{% endcomment %}
+{% assign names = "|" %}
+{% for c in site.catches %}{% if c.area == include.area %}{% assign key = "|" | append: c.water | append: "|" %}{% unless names contains key %}{% assign names = names | append: c.water | append: "|" %}{% endunless %}{% endif %}{% endfor %}
+{% for w in include.extras %}{% assign key = "|" | append: w.name | append: "|" %}{% unless names contains key %}{% assign names = names | append: w.name | append: "|" %}{% endunless %}{% endfor %}
+{% assign wl = names | split: "|" %}{% assign wcount = 0 %}{% for wname in wl %}{% if wname != "" %}{% assign wcount = wcount | plus: 1 %}{% endif %}{% endfor %}
+{% assign rows = wcount | plus: 2 | divided_by: 3 %}{% assign ph = rows | times: 84 | plus: 10 %}
+<div class="cc-panel{% if include.always %} cc-panel-always{% endif %}" data-area="{{ include.area | slugify }}"{% if include.hidden %} hidden{% endif %}>
+  <div class="cc-lab">{{ include.label | default: include.area }}</div>
+  <div class="cc-scroll">
+  <svg class="cc-map" viewBox="0 0 640 {{ ph }}" role="group" aria-label="Waters fished {{ include.label | default: include.area | prepend: 'around ' | replace: 'around around', 'around' }}">
+  {% assign i = 0 %}
+  {% for wname in wl %}{% if wname == "" %}{% continue %}{% endif %}
+    {% assign wn = site.catches | where: "water", wname | size %}
+    {% assign lname = wname | downcase %}{% assign kind = "river" %}
+    {% if lname contains "lake" %}{% assign kind = "lake" %}{% elsif lname contains "creek" or lname contains "stream" %}{% assign kind = "creek" %}{% elsif lname contains "offshore" or lname contains "charter" or lname contains " sea" %}{% assign kind = "sea" %}{% endif %}
+    {% for w in include.extras %}{% if w.name == wname and w.kind %}{% assign kind = w.kind %}{% endif %}{% endfor %}
+    {% assign col = i | modulo: 3 %}{% assign row = i | divided_by: 3 %}{% assign i = i | plus: 1 %}
+    {% assign x0 = col | times: 212 | plus: 10 %}{% assign y = row | times: 84 | plus: 32 %}
+    {% case kind %}
+      {% when "lake" %}{% assign d = "" %}
+      {% when "sea" %}{% capture d %}M{{ x0 }} {{ y }} q15 -9 30 0 t30 0 t30 0 t30 0 t30 0 t30 0{% endcapture %}
+      {% when "creek" %}{% capture d %}M{{ x0 }} {{ y }} c20 -10 34 8 52 0 s34 -8 52 2 s38 6 56 -4{% endcapture %}
+      {% else %}{% capture d %}M{{ x0 }} {{ y | plus: 4 }} C{{ x0 | plus: 60 }} {{ y | minus: 14 }} {{ x0 | plus: 110 }} {{ y | plus: 16 }} {{ x0 | plus: 180 }} {{ y | minus: 2 }}{% endcapture %}
+    {% endcase %}
+    <g class="cc-w cc-{{ kind }}{% if wn == 0 %} cc-empty{% endif %}" data-water="{{ wname | slugify }}" data-name="{{ wname }}" data-n="{{ wn }}"{% if wn > 0 %} tabindex="0" role="button"{% endif %}>
+      {% if d == "" %}<ellipse class="cc-line" cx="{{ x0 | plus: 84 }}" cy="{{ y }}" rx="64" ry="17"/>{% else %}<path class="cc-hit" d="{{ d }}"/><path class="cc-line" d="{{ d }}"/>{% endif %}
+      <text x="{{ x0 }}" y="{{ y | plus: 36 }}">{{ wname }}{% if wn > 0 %} · {{ wn }}{% endif %}</text>
+    </g>
+  {% endfor %}
+  </svg>
+  </div>
+</div>

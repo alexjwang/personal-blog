@@ -33,7 +33,7 @@
   // (a region with a single area always shows it)
   function showArea(area) {
     root.querySelectorAll('.cc-region').forEach(function (r) {
-      var ps = r.querySelectorAll('.cc-panel');
+      var ps = r.querySelectorAll('.cc-panel:not(.cc-panel-always)');
       if (ps.length < 2) return;
       var here = !!area && !!r.querySelector('.cc-panel[data-area="' + area + '"]');
       ps.forEach(function (p) { p.hidden = !(here && p.dataset.area === area); });

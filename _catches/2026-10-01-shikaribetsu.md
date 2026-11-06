@@ -1,16 +1,21 @@
 ---
 date: 2026-10-01
 day: 86
-water: shikaribetsu
-guide: Koudai Araki, Lucky Lodge
-conditions: cold, wet, windy, raining; forgot my fleece
+area: "Tokachi"
+water: "Lake Shikaribetsu"
+guide: "Koudai Araki, Lucky Lodge"
+conditions: "cold, wet, windy, raining; forgot my fleece"
 fish:
-  - species: rainbow
-flies: [dry fly, streamers]
+  - "rainbow"
+biggest: []
+flies:
+  - "dry fly"
+  - "streamers"
 lost:
-  - species: miyabe
-    note: hooked one, and had bites from others. No miyabe had been caught on the fly all season.
-post: /2026/10/04/noncompete-logs-8
+  - "miyabe: hooked one, and had bites from others. No miyabe had been caught on the fly all season."
+photos: []
+post: "[[2026-10-04-noncompete-logs-8]]"
+skunked: false
 ---
 Back to Shikaribetsu, and the conditions were the opposite of the day before. Unbelievably cold and miserable, and still a productive day: rainbows on dry flies and streamers, and a surprise species.
 

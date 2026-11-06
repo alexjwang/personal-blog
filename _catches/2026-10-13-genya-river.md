@@ -1,13 +1,19 @@
 ---
 date: 2026-10-13
 day: 98
-water: genya-river
-guide: Genya
-conditions: casting hand sore, pinky catching when I grip
+area: "Abashiri"
+water: "Genya's nymphing river"
+guide: "Genya"
+conditions: "casting hand sore, pinky catching when I grip"
 fish:
-  - species: rainbow
-flies: [nymph]
-post: /2026/10/16/noncompete-logs-10
+  - "rainbow"
+biggest: []
+flies:
+  - "nymph"
+lost: []
+photos: []
+post: "[[2026-10-16-noncompete-logs-10]]"
+skunked: false
 ---
 First day with Genya, Shin's younger brother, nymphing for rainbows. Tons of rainbows, including a few really large ones.
 

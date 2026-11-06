@@ -1,15 +1,21 @@
 ---
 date: 2023-06-02
-water: hawaii-home
-conditions: tilapia fry everywhere
+day:
+area: "Kailua"
+water: "home water"
+guide: ""
+conditions: "tilapia fry everywhere"
 fish:
-  - species: tilapia
-    count: 1
-flies: [topwater, nymphs]
+  - "tilapia 1"
+biggest: []
+flies:
+  - "topwater"
+  - "nymphs"
+lost: []
 photos:
-  - src: /assets/images/06-02-23.jpg
-    caption: first fish on the fly
-post: /2023/06/01/travel-logs
+  - "/assets/images/06-02-23.jpg | first fish on the fly"
+post: "[[2023-06-07-travel-logs]]"
+skunked: false
 ---
 Stayed home and fished all day. The tilapia were feeding on the surface last time I was here, but they weren't nearly as keen on topwater flies as I'd hoped, and the nymphs didn't do much either.
 

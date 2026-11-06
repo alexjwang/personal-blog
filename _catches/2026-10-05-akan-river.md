@@ -1,16 +1,21 @@
 ---
 date: 2026-10-05
 day: 90
-water: akan-river
-guide: Sapporo Streams
-conditions: steam off the river all morning; fall leaves; one brown bear
+area: "Akan"
+water: "Akan river"
+guide: "Sapporo Streams"
+conditions: "steam off the river all morning; fall leaves; one brown bear"
 fish:
-  - species: rainbow
-    count: 4
-    approx: true
-    biggest: 40
-flies: [nymph, grasshopper dry-dropper]
-post: /2026/10/07/noncompete-logs-9
+  - "rainbow ~4"
+biggest:
+  - "rainbow 40"
+flies:
+  - "nymph"
+  - "grasshopper dry-dropper"
+lost: []
+photos: []
+post: "[[2026-10-07-noncompete-logs-9]]"
+skunked: false
 ---
 Four fishermen lined up one run after another, because there were big rainbows visible all through the water. We waded around a bend and had it to ourselves.
 

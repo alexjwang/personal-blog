@@ -1,13 +1,20 @@
 ---
 date: 2026-10-14
 day: 99
-water: marsh-rivers
-guide: Genya
-conditions: tight, sandy marsh rivers under heavy cover; amemasu spawning
+area: "Abashiri"
+water: "marsh rivers"
+guide: "Genya"
+conditions: "tight, sandy marsh rivers under heavy cover; amemasu spawning"
 fish:
-  - species: amemasu
-flies: [lures, a first]
-post: /2026/10/16/noncompete-logs-10
+  - "amemasu"
+biggest: []
+flies:
+  - "lures"
+  - "a first"
+lost: []
+photos: []
+post: "[[2026-10-16-noncompete-logs-10]]"
+skunked: false
 ---
 Amemasu in marsh rivers: sand and gravel instead of stones, narrow, with fallen trees everywhere and almost no room to cast, which is why it's lure fishing here. Spawning fish don't eat, so the lure has to sit right at eye level and move enough to provoke a hit.
 

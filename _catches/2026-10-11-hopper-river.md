@@ -1,15 +1,19 @@
 ---
 date: 2026-10-11
 day: 96
-water: hopper-river
-guide: Shin
-conditions: heavy cover, the water full of fallen leaves; only a week or two left before it gets too cold
+area: "Abashiri"
+water: "the hopper river"
+guide: "Shin"
+conditions: "heavy cover, the water full of fallen leaves; only a week or two left before it gets too cold"
 fish:
-  - species: rainbow
-    count: 20
-    approx: true
-flies: [large hoppers]
-post: /2026/10/16/noncompete-logs-10
+  - "rainbow ~20"
+biggest: []
+flies:
+  - "large hoppers"
+lost: []
+photos: []
+post: "[[2026-10-16-noncompete-logs-10]]"
+skunked: false
 ---
 Maybe 20 rainbows, 8 of them pretty big. Apparently most people catch one big one here. Wild fish deep upstream in the mountains, catchable for only a week or two in autumn, and exceptionally beautiful.
 

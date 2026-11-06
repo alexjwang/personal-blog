@@ -1,17 +1,19 @@
 ---
 date: 2026-09-25
 day: 80
-water: technical-river
-guide: Okumoto
-conditions: clear, still water
+area: "Tokachi"
+water: "the technical river"
+guide: "Okumoto"
+conditions: "clear, still water"
 fish:
-  - species: rainbow
-    count: 3
-    approx: true
+  - "rainbow ~3"
+biggest: []
+flies: []
+lost: []
 photos:
-  - src: /assets/images/noncompete-day80-rainbow.jpg
-    caption: the nice one
-post: /2026/09/27/noncompete-logs-7
+  - "/assets/images/noncompete-day80-rainbow.jpg | the nice one"
+post: "[[2026-09-27-noncompete-logs-7]]"
+skunked: false
 ---
 Oku called this "the most technical fishing in Hokkaido." Deep, slow pools with giant rainbows posted up against the bank under overhanging grass. A few inches off and you're snagged in the grass or you've missed the spot, and in water that clear and still a bad presentation spooks them instantly.
 

@@ -1,13 +1,20 @@
 ---
 date: 2026-10-15
 day: 100
-water: genya-river
-guide: Genya
-conditions: brutal wind, cold water
+area: "Abashiri"
+water: "Genya's nymphing river"
+guide: "Genya"
+conditions: "brutal wind, cold water"
 fish:
-  - species: rainbow
-flies: [nymph, mostly roll casts]
-post: /2026/10/16/noncompete-logs-10
+  - "rainbow"
+biggest: []
+flies:
+  - "nymph"
+  - "mostly roll casts"
+lost: []
+photos: []
+post: "[[2026-10-16-noncompete-logs-10]]"
+skunked: false
 ---
 Day 100. Wind made casting hard and the cold water meant few active fish, so we moved spots and ended up back on the river from the first day.
 

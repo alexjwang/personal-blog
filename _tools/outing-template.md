@@ -1,26 +1,29 @@
 ---
-# Copy to _catches/YYYY-MM-DD-<water-id>.md. Two outings on one day: add -1-, -2- after the date, in the order they happened.
+# Outings are written in the Obsidian vault (desk/writing/catches, from templates/Catch Outing.md) and copied
+# here by the vault's scripts/publish-catches script. Edit them there, not in _catches/.
+# Two outings on one day: name them YYYY-MM-DD-1-..., YYYY-MM-DD-2-... in the order they happened.
 date: 2026-10-10
-day: 95                       # noncompete day number, optional
-water: akan-river             # an id from _data/places.yml (add a new water under its area there first)
-guide: Sapporo Streams        # optional
-conditions: overcast, low clear water, caddis hatch at dusk   # optional, one line
-skunked: false                # true for a day with no fish; leaving out `fish` without this reads "not written up yet"
-fish:
-  - species: rainbow          # an id from _data/species.yml
-    count: 3                  # optional; no count means "at least one"
-    approx: true              # optional; shows as ~3
-    biggest: 52               # optional, in cm
-flies: [elk caddis, bead-head nymph]   # optional
-lost:                         # optional
-  - species: rainbow
-    note: big one, broke off at the net
-photos:                       # optional; _tools/sort-catch-photos.mjs --copy prints these lines for you
-  - src: /assets/catches/photos/2026-10-10/img_0412.jpg
-    caption: the 52
-sketch: /assets/catches/sketches/2026-10-10.jpg   # optional: a photo of a notebook sketch of the spot
-post: /2026/10/14/noncompete-logs-10   # optional: the post's address without .html (its front-matter date wins over the filename's)
+day: 95                        # noncompete day number, optional
+area: "Akan"                   # a map mark from _data/places.yml
+water: "Akan river"            # any river or lake name; new ones appear under their area on their own
+guide: "Sapporo Streams"
+conditions: "overcast, low clear water, caddis hatch at dusk"
+fish:                          # species ids from _data/species.yml
+  - "rainbow 3"                # exact count
+  - "iwana 2+"                 # at least
+  - "yamame ~5"                # about
+  - "amemasu"                  # at least one
+biggest:
+  - "rainbow 52"               # cm
+flies:
+  - "elk caddis"
+lost:
+  - "rainbow: big one, broke off at the net"
+photos:
+  - "/assets/catches/photos/2026-10-10/img_0412.jpg | the 52"   # _tools/sort-catch-photos.mjs --copy prints the path
+post: "[[2026-10-16-noncompete-logs-10]]"   # the log post's file name, as an Obsidian link
+skunked: false                 # true for a day with no fish
 ---
-Notes go here, in normal markdown. A line starting with > becomes an aside (the blog's blockquote style).
+Notes in normal markdown. A line starting with > becomes an aside in the blog's blockquote style.
 
 > the one that made the day.
