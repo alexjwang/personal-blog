@@ -13,6 +13,7 @@ flies: []
 lost: []
 photos: []
 post: "[[2026-09-20-noncompete-logs-6]]"
+video: "https://www.youtube.com/watch?v=oOyi4bfyg8I"
 skunked: false
 ---
 Rugged coastline, cliffs, dense green, and streams you could step across. The fishing was bluelining: follow the thin blue lines on the map into water nobody bothers with, and look for wild iwana.
