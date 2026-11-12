@@ -27,6 +27,7 @@
 - id: iwana
   name: iwana
   ja: イワナ
+  art: /assets/catches/species/iwana.png
   color: "#8f9a96"
   about: White-spotted char. A 30cm one (shaku) is a trophy.
 
