@@ -3,7 +3,7 @@ date: 2026-09-25
 day: 80
 area: Tokachi
 water:
-  - Shiobetsu River
+  - Toshibetsu River
 guide: Okumoto
 conditions: clear, still water
 fish:

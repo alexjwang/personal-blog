@@ -3,7 +3,7 @@ date: 2026-10-15
 day: 100
 area: Abashiri
 water:
-  - Shiobetsu River
+  - Toshibetsu River
 guide: Genya
 conditions: brutal wind, cold water
 fish:

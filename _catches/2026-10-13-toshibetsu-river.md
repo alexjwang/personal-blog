@@ -3,7 +3,7 @@ date: 2026-10-13
 day: 98
 area: Abashiri
 water:
-  - Shiobetsu River
+  - Toshibetsu River
 guide: Genya
 conditions: casting hand sore, pinky catching when I grip
 fish:
@@ -13,7 +13,7 @@ flies:
   - nymph
 lost: []
 photos:
-  - 2026-10-13/img-6649.jpg | Shiobetsu rainbow
+  - 2026-10-13/img-6649.jpg | Toshibetsu rainbow
   - 2026-10-13/img-6061.jpg | rainbow in the net
 post: "[[2026-10-16-noncompete-logs-10]]"
 skunked: false
