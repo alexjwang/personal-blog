@@ -2,7 +2,8 @@
 date: 2026-10-15
 day: 100
 area: "Abashiri"
-water: "Genya's nymphing river"
+water:
+  - "Genya's nymphing river"
 guide: "Genya"
 conditions: "brutal wind, cold water"
 fish:

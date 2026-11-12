@@ -2,7 +2,8 @@
 date: 2026-09-06
 day: 61
 area: Rebun
-water: Rebun's streams
+water:
+  - Rebun's streams
 guide: Kevin, Sapporo Streams
 conditions: sunny and warm, good for wet wading
 fish:

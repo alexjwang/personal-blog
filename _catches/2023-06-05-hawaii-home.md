@@ -1,17 +1,18 @@
 ---
 date: 2023-06-05
 day:
-area: "Kailua"
-water: "home water"
+area: Kailua
+water:
+  - Enchanted Lake
 guide: ""
 conditions: ""
 fish:
-  - "tilapia"
+  - tilapia
 biggest: []
 flies: []
 lost: []
 photos:
-  - "/assets/images/06-05-23.1.jpg | man. fish. dog."
+  - /assets/images/06-05-23.1.jpg | man. fish. dog.
 post: "[[2023-06-07-travel-logs]]"
 skunked: false
 ---

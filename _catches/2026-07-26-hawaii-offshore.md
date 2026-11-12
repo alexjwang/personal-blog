@@ -2,7 +2,8 @@
 date: 2026-07-26
 day: 19
 area: Oahu
-water: offshore, on a charter
+water:
+  - Oahu offshore
 guide: Sophia and her family, on a charter
 conditions: blue sky, calm offshore of Oahu
 fish:

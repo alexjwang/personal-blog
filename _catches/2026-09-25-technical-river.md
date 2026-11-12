@@ -2,7 +2,7 @@
 date: 2026-09-25
 day: 80
 area: Tokachi
-water: the technical river
+water:
 guide: Okumoto
 conditions: clear, still water
 fish:

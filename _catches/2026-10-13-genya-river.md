@@ -2,7 +2,8 @@
 date: 2026-10-13
 day: 98
 area: "Abashiri"
-water: "Genya's nymphing river"
+water:
+  - "Genya's nymphing river"
 guide: "Genya"
 conditions: "casting hand sore, pinky catching when I grip"
 fish:

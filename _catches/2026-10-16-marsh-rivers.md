@@ -2,7 +2,8 @@
 date: 2026-10-16
 day: 101
 area: "Abashiri"
-water: "marsh rivers"
+water:
+  - "marsh rivers"
 guide: "Genya"
 conditions: "sunny, very clear water, fish hiding"
 fish:

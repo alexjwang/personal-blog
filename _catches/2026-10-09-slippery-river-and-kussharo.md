@@ -2,12 +2,15 @@
 date: 2026-10-09
 day: 94
 area: "Teshikaga"
-water: "the slippery river"
+water:
+  - "the slippery river"
+  - "Lake Kussharo"
 guide: "Shin"
 conditions: "big smooth rocks under a layer of fall leaves and dirt"
 fish:
   - "amemasu"
   - "rainbow"
+  - "kokanee 1"
 biggest: []
 flies: []
 lost:
@@ -19,3 +22,5 @@ skunked: false
 Shin took me to a river full of both rainbows and amemasu, I think because he figured I'd caught plenty of rainbows already. A number of decent iwana and amemasu, and a number of nice rainbows too.
 
 > Slipped and fell twice in quick succession.
+
+Back for himemasu in the afternoon. They're everywhere, and it's still hard to get one to strike. One male.

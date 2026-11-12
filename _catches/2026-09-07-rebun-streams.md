@@ -2,7 +2,8 @@
 date: 2026-09-07
 day: 62
 area: Rebun
-water: Rebun's streams
+water:
+  - Rebun's streams
 guide: Kevin, Sapporo Streams
 conditions: ""
 fish:

@@ -2,7 +2,8 @@
 date: 2026-08-31
 day: 55
 area: Sapporo
-water: Sapporo
+water:
+  - Rivers around Sapporo
 guide: Kevin, Sapporo Streams
 conditions: a 4 AM meet
 fish:

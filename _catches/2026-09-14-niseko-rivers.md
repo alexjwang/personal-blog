@@ -2,7 +2,9 @@
 date: 2026-09-14
 day: 69
 area: Niseko
-water: Konbu and Shiribetsu rivers
+water:
+  - Konbu River
+  - Shiribetsu
 guide: Hugo, JFA
 conditions: sunny
 fish:

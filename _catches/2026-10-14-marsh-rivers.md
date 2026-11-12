@@ -2,7 +2,8 @@
 date: 2026-10-14
 day: 99
 area: "Abashiri"
-water: "marsh rivers"
+water:
+  - "marsh rivers"
 guide: "Genya"
 conditions: "tight, sandy marsh rivers under heavy cover; amemasu spawning"
 fish:

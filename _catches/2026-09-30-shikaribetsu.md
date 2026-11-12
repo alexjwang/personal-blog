@@ -2,7 +2,8 @@
 date: 2026-09-30
 day: 85
 area: "Tokachi"
-water: "Lake Shikaribetsu"
+water:
+  - "Lake Shikaribetsu"
 guide: "Koudai Araki, Lucky Lodge"
 conditions: "sunny and warm, an awafuki hatch"
 fish:

@@ -1,19 +1,20 @@
 ---
 date: 2023-06-02
 day:
-area: "Kailua"
-water: "home water"
+area: Kailua
+water:
+  - Enchanted Lake
 guide: ""
-conditions: "tilapia fry everywhere"
+conditions: tilapia fry everywhere
 fish:
-  - "tilapia 1"
+  - tilapia 1
 biggest: []
 flies:
-  - "topwater"
-  - "nymphs"
+  - topwater
+  - nymphs
 lost: []
 photos:
-  - "/assets/images/06-02-23.jpg | first fish on the fly"
+  - /assets/images/06-02-23.jpg | first fish on the fly
 post: "[[2023-06-07-travel-logs]]"
 skunked: false
 ---

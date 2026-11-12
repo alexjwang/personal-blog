@@ -2,7 +2,8 @@
 date: 2026-10-05
 day: 90
 area: "Akan"
-water: "Akan river"
+water:
+  - "Akan river"
 guide: "Sapporo Streams"
 conditions: "steam off the river all morning; fall leaves; one brown bear"
 fish:

@@ -2,7 +2,8 @@
 date: 2026-10-11
 day: 96
 area: "Abashiri"
-water: "the hopper river"
+water:
+  - "the hopper river"
 guide: "Shin"
 conditions: "heavy cover, the water full of fallen leaves; only a week or two left before it gets too cold"
 fish:

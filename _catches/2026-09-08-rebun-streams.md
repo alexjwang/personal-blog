@@ -2,7 +2,8 @@
 date: 2026-09-08
 day: 63
 area: Rebun
-water: Rebun's streams
+water:
+  - Rebun's streams
 guide: Kevin, Sapporo Streams
 conditions: sunny and warm, an awafuki hatch
 fish:

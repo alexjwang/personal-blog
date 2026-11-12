@@ -2,7 +2,8 @@
 date: 2026-10-01
 day: 86
 area: "Tokachi"
-water: "Lake Shikaribetsu"
+water:
+  - "Lake Shikaribetsu"
 guide: "Koudai Araki, Lucky Lodge"
 conditions: "cold, wet, windy, raining; forgot my fleece"
 fish:
