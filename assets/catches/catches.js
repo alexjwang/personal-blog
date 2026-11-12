@@ -70,7 +70,7 @@
         if (pin) pin.classList.add('cc-on');
       }
     }
-    filterWhat.textContent = label + ' · ' + shown + (shown === 1 ? ' outing' : ' outings');
+    filterWhat.textContent = label + ' · ' + shown + (shown === 1 ? ' day' : ' days');
     filterBar.hidden = false;
     filterBar.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   }

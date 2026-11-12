@@ -1,0 +1,14 @@
+{% comment %}
+  Which area each river or lake belongs to, worked out once per page as `owned`: a string of "|water=area" pairs.
+  1. A water listed under an area in _data/places.yml belongs to that area.
+  2. Otherwise it belongs to the `area` of the first outing that fished it (where Alex stayed that day; with a list
+     of areas, the waters pair up with them in order). Pin a water in places.yml when that guess is wrong.
+  Counts on the page are fishing days worked out from these waters, not from where Alex stayed.
+{% endcomment %}
+{% assign owned = "|" %}
+{% for r in site.data.places %}{% for a in r.areas %}{% for w in a.waters %}{% assign key = "|" | append: w.name | append: "=" %}{% unless owned contains key %}{% assign owned = owned | append: w.name | append: "=" | append: a.name | append: "|" %}{% endunless %}{% endfor %}{% endfor %}{% endfor %}
+{% for c in site.catches %}{% assign oa = c.area | join: "|" | split: "|" %}{% assign ow = c.water | join: "|" | split: "|" %}
+  {% for wname in ow %}{% if oa.size == 1 %}{% assign wa = oa[0] %}{% else %}{% assign wa = oa[forloop.index0] %}{% endif %}
+    {% assign key = "|" | append: wname | append: "=" %}{% unless owned contains key %}{% assign owned = owned | append: wname | append: "=" | append: wa | append: "|" %}{% endunless %}
+  {% endfor %}
+{% endfor %}

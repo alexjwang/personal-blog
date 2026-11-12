@@ -1,0 +1,9 @@
+{% comment %}
+  For the outing in `c`, sets `fa` to the areas it fished, as "|Area|Area|" (from its waters and `owned`,
+  see catch-owned.html), and `fal` to the same areas as a list.
+{% endcomment %}
+{% assign fa = "|" %}{% assign fw = c.water | join: "|" | split: "|" %}
+{% for w in fw %}{% assign key = "|" | append: w | append: "=" %}{% assign parts = owned | split: key %}
+  {% if parts.size > 1 %}{% assign warea = parts[1] | split: "|" | first %}{% assign k2 = "|" | append: warea | append: "|" %}{% unless fa contains k2 %}{% assign fa = fa | append: warea | append: "|" %}{% endunless %}{% endif %}
+{% endfor %}
+{% assign fal = fa | remove_first: "|" | split: "|" %}

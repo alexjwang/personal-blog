@@ -7,20 +7,9 @@
   always: shown regardless of what's picked (outings tagged with just the region's name)
 {% endcomment %}
 {% comment %}
-  Each water (by name) belongs to exactly one area, so a river fished from two bases is still one river:
-  1. a water listed under an area in _data/places.yml belongs to that area;
-  2. otherwise it belongs to the area of the first outing that fished it.
-  An outing's `area` and `water` can each be one name or a list. With one area, every water is in it;
-  with several (a day that crossed areas), the waters pair up with the areas in order.
-  `owned` collects "|water=area" pairs; this panel shows the waters whose area is include.area.
+  Each water belongs to exactly one area (`owned`, worked out once by catch-owned.html), so a river fished
+  from two bases is still one river. This panel shows the waters whose area is include.area.
 {% endcomment %}
-{% assign owned = "|" %}
-{% for r in site.data.places %}{% for a in r.areas %}{% for w in a.waters %}{% assign key = "|" | append: w.name | append: "=" %}{% unless owned contains key %}{% assign owned = owned | append: w.name | append: "=" | append: a.name | append: "|" %}{% endunless %}{% endfor %}{% endfor %}{% endfor %}
-{% for c in site.catches %}{% assign oa = c.area | join: "|" | split: "|" %}{% assign ow = c.water | join: "|" | split: "|" %}
-  {% for wname in ow %}{% if oa.size == 1 %}{% assign wa = oa[0] %}{% else %}{% assign wa = oa[forloop.index0] %}{% endif %}
-    {% assign key = "|" | append: wname | append: "=" %}{% unless owned contains key %}{% assign owned = owned | append: wname | append: "=" | append: wa | append: "|" %}{% endunless %}
-  {% endfor %}
-{% endfor %}
 {% assign names = "|" %}
 {% assign pairs = owned | split: "|" %}
 {% for pr in pairs %}{% if pr == "" %}{% continue %}{% endif %}{% assign bits = pr | split: "=" %}

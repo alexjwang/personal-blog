@@ -8,7 +8,9 @@
 #            "offshore", "charter" or "sea" as the sea; anything else as a river)
 #            A water listed here belongs to this area on the map even when an outing elsewhere fished it,
 #            so one river fished from two bases still shows up once; unlisted waters belong to the area
-#            of the first outing that fished them.
+#            of the first outing that fished them (its `area`, where Alex stayed), so pin a water here
+#            whenever it sits somewhere other than where he stayed. Map counts are fishing days by where
+#            the water is.
 
 - region: Hokkaido
   map: hokkaido
@@ -35,6 +37,7 @@
       waters:
         - name: Akan River
           at: [43.25, 144.17]
+        - name: streams near Akan
     - name: Teshikaga
       at: [43.49, 144.46]
       waters:
@@ -42,6 +45,13 @@
           at: [43.62, 144.34]
     - name: Abashiri
       at: [44.02, 144.27]
+      waters:
+        - name: Abashiri River
+    - name: Kushiro
+      at: [43.13, 144.52]
+      waters:
+        - name: Tohoro River       # marsh rivers on the Kushiro wetland, fished with Genya from Abashiri
+        - name: Tokotan River
 
 - region: Oahu
   map: oahu

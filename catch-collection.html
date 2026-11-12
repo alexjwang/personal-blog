@@ -13,6 +13,10 @@ permalink: /catch-collection/
   "rainbow" (at least one); biggest are "rainbow 60". Anything not an exact count makes totals read "at least".
 {% endcomment %}
 {% assign outings = site.catches | reverse %}
+{% include catch-owned.html %}
+{% comment %} dayfa: one "|Area|Area|" per outing, the areas it fished (see catch-fished.html) {% endcomment %}
+{% assign dayfa = "" %}{% for c in site.catches %}{% include catch-fished.html %}{% assign dayfa = dayfa | append: fa | append: "#" %}{% endfor %}
+{% assign dayfa = dayfa | split: "#" %}
 {% assign n_fish = 0 %}{% assign fuzzy = false %}{% assign big = 0 %}{% assign big_species = "" %}{% assign big_date = "" %}
 {% for c in outings %}
   {% for e in c.fish %}{% assign bits = e | split: " " %}
@@ -65,9 +69,9 @@ permalink: /catch-collection/
 
 <h2 class="cc-h">by water</h2>
 {% for r in site.data.places %}{% assign m = site.data.maps[r.map] %}
-{% assign rw = site.catches | where: "area", r.region | size %}{% assign rn = rw %}{% for a in r.areas %}{% assign an = site.catches | where: "area", a.name | size %}{% assign rn = rn | plus: an %}{% endfor %}
+{% assign rk = "|" | append: r.region | append: "|" %}{% assign rw = 0 %}{% assign rn = 0 %}{% for f in dayfa %}{% assign inr = false %}{% if f contains rk %}{% assign rw = rw | plus: 1 %}{% assign inr = true %}{% endif %}{% for a in r.areas %}{% assign ak = "|" | append: a.name | append: "|" %}{% if f contains ak %}{% assign inr = true %}{% endif %}{% endfor %}{% if inr %}{% assign rn = rn | plus: 1 %}{% endif %}{% endfor %}
 <div class="cc-region">
-  <div class="cc-region-head">{{ r.region }} <span class="cc-lab">· {{ rn }} outing{% if rn != 1 %}s{% endif %}</span></div>
+  <div class="cc-region-head">{{ r.region }} <span class="cc-lab">· {{ rn }} day{% if rn != 1 %}s{% endif %}</span></div>
   <svg class="cc-island cc-island-{{ r.map }}" viewBox="0 0 {{ m.width }} {{ m.height }}" role="group" aria-label="Map of {{ r.region }}" font-size="{{ m.label_size }}">
     <path class="cc-land" d="{{ m.path }}"/>
     {% assign pin = m.label_size | times: 0.42 %}{% assign gap = m.label_size | times: 0.85 %}
@@ -75,7 +79,7 @@ permalink: /catch-collection/
     <circle class="cc-wdot" data-water="{{ w.name | slugify }}" data-name="{{ w.name }}" cx="{{ w.at[1] | minus: m.lon0 | times: m.kx | plus: m.pad | round: 1 }}" cy="{{ m.lat1 | minus: w.at[0] | times: m.ky | plus: m.pad | round: 1 }}" r="{{ pin | times: 0.6 | round: 1 }}"{% if wn > 0 %} tabindex="0" role="button" aria-label="{{ w.name }}"{% endif %}><title>{{ w.name }}</title></circle>
     {% endif %}{% endfor %}{% endfor %}
     {% for a in r.areas %}
-      {% assign an = site.catches | where: "area", a.name | size %}
+      {% assign ak = "|" | append: a.name | append: "|" %}{% assign an = 0 %}{% for f in dayfa %}{% if f contains ak %}{% assign an = an | plus: 1 %}{% endif %}{% endfor %}
       {% assign ax = a.at[1] | minus: m.lon0 | times: m.kx | plus: m.pad | round: 1 %}
       {% assign ay = m.lat1 | minus: a.at[0] | times: m.ky | plus: m.pad | round: 1 %}
       {% case a.label %}
@@ -84,7 +88,7 @@ permalink: /catch-collection/
         {% when "below" %}{% assign tx = ax %}{% assign ty = ay | plus: gap | plus: gap %}{% assign anchor = "middle" %}
         {% else %}{% assign tx = ax | plus: gap %}{% assign ty = ay | plus: pin %}{% assign anchor = "start" %}
       {% endcase %}
-    <g class="cc-area" data-area="{{ a.name | slugify }}" data-name="{{ a.name }}" tabindex="0" role="button" aria-label="{{ a.name }}, {{ an }} outings">
+    <g class="cc-area" data-area="{{ a.name | slugify }}" data-name="{{ a.name }}" tabindex="0" role="button" aria-label="{{ a.name }}, {{ an }} fishing days">
       <circle class="cc-pin" cx="{{ ax }}" cy="{{ ay }}" r="{{ pin | round: 1 }}"/>
       <text x="{{ tx }}" y="{{ ty }}" text-anchor="{{ anchor }}">{{ a.name }} · {{ an }}</text>
     </g>
@@ -93,6 +97,7 @@ permalink: /catch-collection/
   {% for a in r.areas %}{% if r.areas.size > 1 %}{% assign hide = true %}{% else %}{% assign hide = false %}{% endif %}{% include catch-waters.html area=a.name extras=a.waters hidden=hide %}{% endfor %}
   {% if rw > 0 %}{% capture around %}around {{ r.region }}{% endcapture %}{% include catch-waters.html area=r.region label=around always=true %}{% endif %}
   {% if r.areas.size > 1 %}<p class="cc-hint">Pick a place on the map to see its rivers and lakes.</p>{% endif %}
+  {% if forloop.first %}<p class="cc-hint cc-countnote">Counts are fishing days, by where the water is. A day on two waters counts for each.</p>{% endif %}
 </div>
 {% endfor %}
 
@@ -106,15 +111,16 @@ permalink: /catch-collection/
   {% capture sp %}{% for e in c.fish %}{% assign bits = e | split: " " %} {{ bits[0] }}{% endfor %} {% endcapture %}
   {% capture tally %}{% for e in c.fish %}{% assign bits = e | split: " " %}{% for s in site.data.species %}{% if s.id == bits[0] %}{{ s.name }}{% endif %}{% endfor %}{% if bits.size > 1 %}{% if bits[1] contains "~" or bits[1] contains "+" %} {{ bits[1] }}{% else %} ×{{ bits[1] }}{% endif %}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
   {% assign nf = c.fish | size %}{% capture summary %}{% if nf > 0 %}{{ tally }}{% if obig > 0 %} · {{ obig }} cm{% endif %}{% elsif c.skunked %}skunked{% else %}catch not written up yet{% endif %}{% endcapture %}
-  {% assign oa = c.area | join: "|" | split: "|" %}{% assign ow = c.water | join: "|" | split: "|" %}
-  <div class="cc-out" id="{{ rid }}" data-water="{% for w in ow %} {{ w | slugify }}{% endfor %}" data-area="{% for a in oa %} {{ a | slugify }}{% endfor %}" data-species="{{ sp }}">
+  {% assign oa = c.area | join: "|" | split: "|" %}{% assign ow = c.water | join: "|" | split: "|" %}{% include catch-fished.html %}
+  {% assign stay_other = false %}{% for a in oa %}{% assign ak = "|" | append: a | append: "|" %}{% unless fa contains ak %}{% assign stay_other = true %}{% endunless %}{% endfor %}
+  <div class="cc-out" id="{{ rid }}" data-water="{% for w in ow %} {{ w | slugify }}{% endfor %}" data-area="{% for a in fal %} {{ a | slugify }}{% endfor %}" data-species="{{ sp }}">
     <button type="button" class="cc-row" aria-expanded="false" aria-controls="{{ rid }}-body">
       <span class="cc-date post-meta">{{ c.date | date: "%b %-d, %Y" }}</span>
       <span class="cc-what"><span class="cc-water">{{ ow | join: ", " }}</span> <span class="cc-sum">· {{ summary | strip }}</span></span>
     </button>
     <div class="cc-body" id="{{ rid }}-body" hidden>
       <div class="cc-day">{% if c.day %}Day {{ c.day }}{% else %}{{ c.date | date: "%A" }}{% endif %}</div>
-      <div class="cc-meta">{% if c.day %}{{ c.date | date: "%A, %B %-d, %Y" }}{% else %}{{ c.date | date: "%B %-d, %Y" }}{% endif %}{% if oa.size > 0 %} · {{ oa | join: ", " }}{% endif %}{% if c.guide and c.guide != "" %} · with {{ c.guide }}{% endif %}{% if c.conditions and c.conditions != "" %} · {{ c.conditions }}{% endif %}</div>
+      <div class="cc-meta">{% if c.day %}{{ c.date | date: "%A, %B %-d, %Y" }}{% else %}{{ c.date | date: "%B %-d, %Y" }}{% endif %}{% if fal.size > 0 %} · {{ fal | join: ", " }}{% endif %}{% if stay_other %} · stayed in {{ oa | join: ", " }}{% endif %}{% if c.guide and c.guide != "" %} · with {{ c.guide }}{% endif %}{% if c.conditions and c.conditions != "" %} · {{ c.conditions }}{% endif %}</div>
       {% assign notes = c.content | strip %}
       {% assign vid = "" %}{% if c.video and c.video != "" %}{% assign vid = c.video | split: "v=" | last | split: "&" | first %}{% endif %}
       {% assign np = c.photos | size %}{% if vid != "" %}{% assign side = true %}{% elsif np > 0 %}{% assign side = true %}{% else %}{% assign side = false %}{% endif %}
