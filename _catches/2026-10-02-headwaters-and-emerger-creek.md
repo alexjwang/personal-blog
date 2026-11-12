@@ -22,8 +22,10 @@ photos:
 post: "[[2026-10-04-noncompete-logs-8]]"
 skunked: false
 ---
-Dolly varden in tiny streams near the tops of the mountains, where the water is clear and cold. Their skin is unbelievably soft compared to a rainbow's. Up there with brook trout as my favourite fish to look at.
+Last day of fishing with Lucky Lodge, surprised time flies so fast. Started the morning off with some Dolly Varden fishing up in tiny streams deep in the mountains (initially wanted to go for brook trout but the conditions were too bad). These fish are so pretty, definitely up there with brook trout for me for my favorite fish to look at. The water where these fish live are super clear and cold (near the top of the mountain streams), and their skin is unbelievably soft, especially compared to rainbow trout.
 
-After a fresh bear print (and wet prints on the rocks) chased us off one river, we finished in a tiny creek chock full of small rainbows that wouldn't eat. We clocked it when I kept getting strikes on a dry fly that was dragging, half sunk: they were eating emergers.
+Afternoon was tough to find a river that was fishable. There was a moment when walking to the river where we saw a fresh bear print, which was a little spooky. Then when we got to the river, we saw wet prints on rocks, which was definitely a sign that the bear was just there. Needless to say, we got out of there as fast as possible.
 
-> Saw a rise in a tough spot, cast right at it with the line laid perfectly, and it ate instantly. Perhaps the most satisfying cast of my life so far.
+Ended the day going for smaller rainbows in a tiny creek. The creek was chock full of them, but getting them to eat was actually surprisingly difficult. We finally clocked that they were eating emergers when I was getting strikes on my dry fly dragging in the water (e.g. a little sinking, a little floating still), imitating that stage of life cycle when a bug is going from underwater to flying up out of the water.
+
+It was a nice little capstone experience, where a lot of the technical lessons with sight fishing and casting were required to catch these fish (albeit small). But I did get a few nice ones there, and perhaps the most satisfying cast of my life so far too. I saw a rise in a particularly tough spot, cast perfectly at it with the optimal line lay, and the fish ate it instantly. Not the biggest fish in the world, but an important one in my fly fishing skill journey.

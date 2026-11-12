@@ -4,7 +4,7 @@ day: 69
 area: Niseko
 water:
   - Konbu River
-  - Shiribetsu
+  - Shiribetsu River
 guide: Hugo, JFA
 conditions: sunny
 fish:

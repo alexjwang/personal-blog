@@ -4,7 +4,7 @@ day: 70
 area: Niseko
 water:
   - Konbu River
-  - Shiribetsu
+  - Shiribetsu River
 guide: Hugo, JFA
 conditions: ""
 fish:
@@ -13,7 +13,8 @@ biggest:
   - brown 40
 flies: []
 lost: []
-photos: []
+photos:
+  - "2026-09-15/img-4040.jpg | 40cm brown, sight fished in the upper Konbu"
 post: "[[2026-09-20-noncompete-logs-6]]"
 skunked: false
 ---

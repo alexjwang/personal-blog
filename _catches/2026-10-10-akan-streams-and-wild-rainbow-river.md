@@ -15,14 +15,12 @@ fish:
 biggest: []
 flies: []
 lost: []
-photos: []
+photos:
+  - "2026-10-10/img-5806.jpg | yamame"
+  - "2026-10-10/img-5823.jpg | wild rainbow"
 post: "[[2026-10-16-noncompete-logs-10]]"
 skunked: false
 ---
-Akan was too crowded, so we fished the streams nearby for big amemasu and rainbows and didn't find anything big. Tons of yamame though.
+We had an earlier start today since we needed to go to Akan (7am), but when we got there, it was absolutely packed. I think it was some combination of the national 3 day weekend combined with an Akan festival. So we ended up fishing some streams near there for big amemasu and rainbows, but we didn’t manage to catch anything that big or substantial. Tons of yamame though, I honestly like catching those still even though they’re small! Hopefully one day I’ll build a small 3 weight and come back to catch some.
 
-> I still like catching those even though they're small. One day I'll build a little 3 weight and come back for them.
-
-Wild rainbows in the afternoon. Some pretty big trout, nowhere near as massive as Akan a week ago, which says a lot about how far my standards have moved. The colours on these wild fish were amazing.
-
-That night, persistent thuds on the cabin window: kususan, the biggest moths of my life. A guest at Lucky Lodge had watched a giant trout eat one. Four on the front of the cabin in the morning.
+In the afternoon, we went fishing for some wild rainbows. It’s crazy how much my standards have gone up after Akan a week ago, I caught some pretty big trout this time around but they were nowhere as massive as Akan. But, it was still a ton of fun and the colors on these wild rainbows were amazing.
