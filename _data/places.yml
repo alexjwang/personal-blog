@@ -28,6 +28,7 @@
           at: [43.10, 143.20]
         - name: Lake Shikaribetsu
           at: [43.28, 143.11]
+        - name: Toshibetsu River    # fished with Oku from Ashoro (Sep 25) and with Genya from Abashiri (Oct 13, 15); one river, filed here
     - name: Akan
       at: [43.43, 144.09]
       label: left
@@ -41,8 +42,6 @@
           at: [43.62, 144.34]
     - name: Abashiri
       at: [44.02, 144.27]
-      waters:
-        - name: Shiobetsu River     # also fished from Tokachi with Oku (Sep 25); one river, filed here
 
 - region: Oahu
   map: oahu
