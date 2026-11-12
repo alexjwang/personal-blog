@@ -13,6 +13,7 @@
 - id: brown
   name: brown trout
   ja: ブラウントラウト
+  art: /assets/catches/species/brown.png
   color: "#c9a26a"
   about: Deep, cold, fast water under overhanging grass.
 
