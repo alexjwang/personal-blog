@@ -16,6 +16,10 @@ It was a really sunny and calm day, so we ended up driving to Lake Kussharo to t
 
 Fishing for these is quite tricky, as it's spawning season and they don't eat during this time. Instead, you're trying to trigger their aggression response by flashing a large streamer by their face. I only managed to catch 3 today, despite throwing a fly through literally hundreds of fish today.
 
+![spawning male himemasu]({{"/assets/catches/photos/2026-10-08/img-5689.jpg" | prepend: site.baseurl }})
+
+![himemasu]({{"/assets/catches/photos/2026-10-08/img-5694.jpg" | prepend: site.baseurl }})
+
 Some learnings to jot down for myself:
 - I can probably afford to tighten my fly rod sections a little bit more now that I have the wax on each joint.
 - When getting snagged, letting out a bunch of extra line, raising the rod, and casting sharply at the snap helps whip out the hook from whatever snag. Note to self, if it's not actually snagged, whipping it out might send a hook flying at one's face.
@@ -27,6 +31,8 @@ The room itself is quite nice. Not the largest place in the world, but it's made
 ## Day 94: Friday, October 9, 2026
 We went to a river with rainbows and amemasu today, presumably because Shin realized I had caught plenty of rainbows already. We caught a number of pretty decently sized iwana/amemasu, but I did end up losing the biggest one of the day. Also caught a number of nice rainbows!
 
+![white-spotted char, abashiri river]({{"/assets/catches/photos/2026-10-09/img-5751.jpg" | prepend: site.baseurl }})
+
 This river felt pretty amazing due to the number of both rainbows and amemasu. But, it was extremely slippery as well. At some point, I slipped and fell twice in quick succession. The rocks are just these large smooth surfaces, with tons of dirt/dead organic matter over the top since it’s fall. 
 
 In the afternoon, we went back for himemasu with a photographer. But I only managed to catch one male Kokanee, they’re everywhere but it’s quite hard to actually get them to strike unfortunately.
@@ -35,7 +41,11 @@ In the afternoon, we went back for himemasu with a photographer. But I only mana
 
 We had an earlier start today since we needed to go to Akan (7am), but when we got there, it was absolutely packed. I think it was some combination of the national 3 day weekend combined with an Akan festival. So we ended up fishing some streams near there for big amemasu and rainbows, but we didn’t manage to catch anything that big or substantial. Tons of yamame though, I honestly like catching those still even though they’re small! Hopefully one day I’ll build a small 3 weight and come back to catch some.
 
+![yamame]({{"/assets/catches/photos/2026-10-10/img-5806.jpg" | prepend: site.baseurl }})
+
 In the afternoon, we went fishing for some wild rainbows. It’s crazy how much my standards have gone up after Akan a week ago, I caught some pretty big trout this time around but they were nowhere as massive as Akan. But, it was still a ton of fun and the colors on these wild rainbows were amazing.
+
+![wild rainbow]({{"/assets/catches/photos/2026-10-10/img-5823.jpg" | prepend: site.baseurl }})
 
 The day of needing a new airbnb came today, and there was literally only one place I could find nearby, this cottage farm place with no running water in the cabin itself. Also no internet which kinda sucked since I also am out of data for the past week and 2 weeks more. Anywho, their dinner was this self grill thing from produce that they grew themselves. I had the foresight of grabbing a beer from a konbini on the way back, so it was honestly quite a nice vibe. Shared showers and bathroom were also super clean, which I was nervous about after college bathroom experiences but since this is Japan I guess there was no need for such a worry haha.
 
@@ -50,7 +60,11 @@ Cover was extremely heavy, so casting was difficult. Tons of leaves in the water
 
 These rainbows were exceptionally beautiful, being wild rainbows deep upstream in the mountains. From what my guide said, these rainbows are only catchable for a week or two in autumn before the leaves turn and it gets too cold again (in a week they’ll be gone). In the summer, it’s too hot in this stretch of river for the fish to be this active.
 
+![wild rainbow in the leaves]({{"/assets/catches/photos/2026-10-11/img-5963.jpg" | prepend: site.baseurl }})
+
 There were a few runs I was particularly proud of. One such spot was a series of riffles coming into a long deep channel. My guide didn’t think there were any fish, but I wanted to take a few casts regardless! If I learned anything from Kevin, Oku, and Araki, this seemed like it had multiple seams where nice fish could sit. All in all I think I caught like 4 giant rainbows from that spot. It was a nice moment where I felt that my knowledge had grown to a point where I could have my own independent opinions outside my guide, and it still result in tons of nice fish.
+
+![wild rainbow]({{"/assets/catches/photos/2026-10-11/img-5907.jpg" | prepend: site.baseurl }})
 
 Checked into my Airbnb, my host also apparently owns an izakaya that was doing a collab with a cafe that evening. I showed up, it was empty besides me (I actually have no clue how people are supposed to know it was open), and chatted with them for a while in my broken Japanese. The owner of the cafe was wearing a bunch of studio d’artisan, I commented on it which he was super stoked about. He talked about his jeans/the fading for a while, and showed me his SDA aprons and whatnot too. I think he felt good about someone finally recognizing how cool his denim/that brand was.
 ## Day 97: Monday, October 12, 2026
@@ -74,6 +88,8 @@ I was less excited than normal this day, and it took me a bit to try to piece to
 
 Anywho, the day ended up being quite productive, where I caught tons of rainbows including a few really large ones. However, another factor that started bothering me a bit was the fact that the guide was also fishing alongside me. Specifically, he was fishing ahead of me, so most of the holes that I was fishing, he had already fished it by the time I reached it. And the craziest part was that he was also catching fish. I was honestly a bit confused, and I also was trying to figure out if I had just been spoiled by other guides. He also spoke essentially zero english (including super basic words), so we operated in silence. I would've appreciated at least some attempt at communication, as I had previously expressed that I could understand some basic Japanese. It really did feel like we were just two people fishing together independently (except for the fact that he was driving/brought me to the spot). I think if I had not already fished with other guides before and learned from them, this would've been a much rougher experience. Thankfully I had picked up enough knowledge from before to find spots in each run that the guide hadn't already fished. I was proud that I was able to find the best spots in each section and catch fish in parts that the guide himself wasn't able to catch! But it was indeed a bit annoying, since spooking fish is another big component of fishing--in these waters, the fish can see you. So if there's another person further ahead of you, then the fish that you're trying to catch in your area can see that person and therefore won't really bite.
 
+![shiobetsu rainbow]({{"/assets/catches/photos/2026-10-13/img-6649.jpg" | prepend: site.baseurl }})
+
 Overall, I was a bit torn on how to feel since I had a productive day. But I wasn't quite happy since of the aforementioned fishing competition. And my hand really hurt, so catching big fish was quite the physical pain tolerance ordeal.
 
 At night, I went to the izakaya that one of the locals at the bar had recommended. I already had really high standards from the host's izakaya, but this one honestly blew me away. The sashimi platter was super fresh, the beer was equally as good, and the interior was really cool and vibey (like an old fishing vessel). 
@@ -89,6 +105,8 @@ Amemasu are spawning around this time of year, so they're not really looking to 
 
 The fish were everywhere, and a lot of the fish were tucked in little pockets around big fallen logs. I think the fallen trees causes the current to hit it and deflect around it, including downwards. This causes divots in the soft sand, creating this nice little cave almost for the fish to sit in. The water is also super clear and relatively slow however, so the fish spook very easily. Even casting a lure a little too close causes the fish to spook. That being said, I got really frustrated today with my guide, because he was doing the same thing again where he was just fishing by himself and getting really close to all the fish. Since the water was really clear, my suspicions were confirmed and I could see all the fish spook and run off in either direction. That was really frustrating, since by the time I got to the spots, the fish were all gone. I was still able to catch some fish however, but I noticed my best chances to catch fish were when he was taking a smoke break, or if I casted ahead of where he was going to walk/cast. I didn't want to be rude however and cast in front of him though, which is somewhat ironic since that's what he was doing repeatedly.
 
+![amemasu on a lure]({{"/assets/catches/photos/2026-10-14/img-6655.jpg" | prepend: site.baseurl }})
+
 I was super spent by the end of this. I think the guide could tell, as I slept for pretty much the entire ride both directions of the trip (~2.5 hours each day). The next day will be a later start as a result (8am instead of 7am).
 
 I was craving yakiniku but since Abashiri is a fishing town, I decided to try robata instead (basically bbq grilled seafood). The first couple spots I tried were all closed. I hate how the hours online are never actually accurate with reality, particularly in smaller towns. Towns like Akan were especially bad, I could literally never find a restaurant there since the hours were all random, and many get reserved? So when I walk into the restaurant, there's no indication that it's not actually available for walk-ins, and then I get turned away once I'm inside. Oh well, can't complain too much, Abashiri has great food. The seafood restaurant I ultimately ended up at, I was a little bit suspicious since there were tons of reviews that were all high, which is a bit unusual for Japan. Typically, Japanese people are super critical when it comes to reviews, as 3-4 stars are actually meant for your average restaurant, and 5 stars is exceptional. Also, Japanese people might find one negative thing and just tank the review down to a 1 star (you'll see service as a common one). A good restaurant in Japan is probably in that 3.6-3.8 range, although google maps typically ends up inflated due to the number of tourists (me included) adding 5 stars to the review pool. When I see the large number of reviews, typically this indicates that there's some special promo/request for a Google review, where people add a better score. Also, restaurants that are more tourist traps also end up in this sphere, with fewer locals giving genuine ratings. All this to say that I wasn't the most impressed with the food, although I'm sure a month ago I would've thought it was amazing. Food here has been a true hedonic treadmill, with standards increasing from Tokyo to Sapporo to now the local seafood towns in rural Hokkaido.
@@ -102,12 +120,18 @@ It was extremely windy today, which made casting quite difficult. I just ended u
 
 We returned to the original spot from day 1, but the fishing didn't necessarily improve much there. At the final spot, I read the water and casted again to a seam that I thought had a chance at holding a fish and lo and behold! At first, I didn't think the fish was particularly big, but then the fish woke up to the fact that it was indeed hooked. What ensued was a long battle with a giant rainbow! Landing that fish was extra satisfying due to how tough of a day it had been, and it reminded me that fishing was fun due to the challenge of catching fish. When it starts feeling guaranteed, a lot of the fun starts to go away, and I needed that day of challenge to get the spark back. Before that point, I had made my peace with not catching many big fish today, and I was just really enjoying the cold water running past my legs and beautiful autumn scenery.
 
+![the giant from the last seam]({{"/assets/catches/photos/2026-10-15/img-6184.jpg" | prepend: site.baseurl }})
+
+![worth the cold]({{"/assets/catches/photos/2026-10-15/img-6664.jpg" | prepend: site.baseurl }})
+
 I concluded with an old-school yakiniku spot (I actually much prefer old-school style bbq restaurants vs the more modern qr-code based ones) as I'd been craving yakiniku for some time. I ended up getting an AYCE and AYCD deal. It wasn't the best bbq of all time, but it really hit the spot and was definitely better than most bbq in the US. I got to try a bunch of new meats, including one that translates to "white cartilage." Admittedly when it came out, it looked a bit unappetizing, even for me, but actually ended up being right up my alley! Pork cartilage with a bit of meat around it, reminded me a lot of pig ear actually, and I'm a big fan of crunchy textures. 
 ## Day 101: Friday, October 16, 2026
 
 Final day with Genya. The knowledge that fishing was going to be over and I could finally take a break made today a lot more bearable than yesterday. Decided to go for amemasu today, which meant round 2 of lure fishing! Today went a lot better than the last time, but there were noticeably way fewer fish mostly due to the weather conditions. The sun was out and the water was extremely clear, so I presume all the fish were hiding rather than stacked waiting for food.
 
 We started at one river and returned to the original river from two days ago. Lure casting accuracy was much better this time around, and I found that although I wasn't able to catch more fish, from an EV perspective I was much better this time around. 
+
+![last amemasu in hokkaido]({{"/assets/catches/photos/2026-10-16/img-6671.jpg" | prepend: site.baseurl }})
 
 When the day ended, we exited into a huge wide open field, where the sun was setting over the treeline. It was honestly a beautiful sight and quite the fitting end to my fly fishing adventures in Hokkaido. 
 

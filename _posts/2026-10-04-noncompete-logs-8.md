@@ -11,6 +11,8 @@ This was the first day fishing with Lucky Lodge guides--my guide's name is Kouda
 
 ![brown trout]({{"/assets/images/noncompete-day83-brown.jpg" | prepend: site.baseurl }})
 
+![in the farm-field stream]({{"/assets/catches/photos/2026-09-28/img-3486.jpg" | prepend: site.baseurl }})
+
 I also learned a new word the hard way--irakusa (stinging nettle). I don't remember exactly if this was my first time experience it (it was indeed a familiar sensation), but it was definitely the first time that I remember now. Not an irakusa fan.
 
 In the afternoon, we transitioned to fishing for rainbow trout in the river. Same river that I fished with Okumoto before (Otofuke river), but this spot required a lot more wading, particularly through a heavy mosquito-infested section. I did manage to catch some small rainbows, but I did miss a few nice ones. Anyways, difficulty was definitely higher here, and gaps in my skill are showing when it comes to setting the hook and managing line drag/fly presentation in the water. A thunderstorm came out of nowhere, and waving a 9 foot graphite stick in the air is not a good way to stay healthy. So we decided to call it, but overall a nice first day!
@@ -24,6 +26,8 @@ Day 2 with Araki. First spot we fished had some nice runs, but due to lots of ra
 Then we went to another spot underneath a dam where water is extremely fast and rough near the dam, and slows down into a deep, still, clear gorge. Truly beautiful spot, and some giant rainbows there. Like with Okumoto, this type of fishing is called sight fishing and is highly technical. We stood there for maybe 30-40 minutes hidden amongst the rocks scouting for rising trout, and planning the cast. After finally casting, I caught this super nice 45cm trout. Suboptimal cast but worked, super sick eat, and awesome colors on the fish.
 
 ![rainbow trout]({{"/assets/images/noncompete-day84-rainbow.jpg" | prepend: site.baseurl }})
+
+![the 45, in the gorge]({{"/assets/catches/photos/2026-09-29/img-3527.jpg" | prepend: site.baseurl }})
 
 I also caught a fish on a fly that I tied! Somehow makes it more special haha. Something I made was able to fool a trout that it was a real bug!
 
@@ -40,9 +44,13 @@ This day, we went to Lake Shikaribetsu. It's only open 10 days during autumn sea
 
 Despite that, we spent most of the day hunting big rainbows. The conditions were honestly perfect: sunny and warm meant that "awafuki" (a type of bug) were out in massive numbers. The water was literally covered in thousands of these tiny bugs, and dozens of massive rainbows were just constantly eating them up on the surface. I wish I could describe the "pop pop pop" sounds of the fish eating them on the surface. Despite the large numbers of big fish feeding constantly, the still clear water made it difficult to catch these guys. I think they know exactly what the real awafuki looks like, and since the water is slow they have a good chance to eye each bug up. But at the end of the day, was able to catch some nice fish.
 
+![lake shikaribetsu rainbow]({{"/assets/catches/photos/2026-09-30/img-3556.jpg" | prepend: site.baseurl }})
+
 Side note, my very first cast I hooked into possibly the largest rainbow I've seen in my entire life in a spot that was completely random. Needless to say, it instantly broke me off before I had a chance to realize what I had hooked into.
 ## Day 86: Thursday, October 1, 2026
 Today we went back to Lake Shikaribetsu, I was honored since I think the guides could tell how good of a day I had the previous day. However, the conditions were completely different: super cold, wet, windy, and rainy. I forgot to bring my fleece and I got unbelievably cold and miserable. Yet, it was a rather productive day! No miyabe have been caught on the fly this season, yet I was able to hook into one and had several bites from others! So close yet so far, it would've been nice to have my name as the only fly fisherman to catch miyabe on a fly this season. Other than that, I caught some nice rainbows on both dry fly and streamers, as well as a surprise species.
+
+![cold, wet, and still smiling]({{"/assets/catches/photos/2026-10-01/img-3576.jpg" | prepend: site.baseurl }})
 
 Fishing every day is definitely leaving me quite tired, although I will say the fatigue hasn't increased past a certain point. The only thing is my pinky finger on my casting hand is getting super sore/weak when I have to grip things tightly. Just think the tendon is overworked, hopefully the upcoming rest day will let it recover.
 
@@ -52,11 +60,15 @@ Last day of fishing with Lucky Lodge, surprised time flies so fast. Started the 
 
 ![dolly varden]({{"/assets/images/noncompete-day87-dolly-varden.jpg" | prepend: site.baseurl }})
 
+![dolly varden]({{"/assets/catches/photos/2026-10-02/img-3626.jpg" | prepend: site.baseurl }})
+
 Afternoon was tough to find a river that was fishable. There was a moment when walking to the river where we saw a fresh bear print, which was a little spooky. Then when we got to the river, we saw wet prints on rocks, which was definitely a sign that the bear was just there. Needless to say, we got out of there as fast as possible. 
 
 Ended the day going for smaller rainbows in a tiny creek. The creek was chock full of them, but getting them to eat was actually surprisingly difficult. We finally clocked that they were eating emergers when I was getting strikes on my dry fly dragging in the water (e.g. a little sinking, a little floating still), imitating that stage of life cycle when a bug is going from underwater to flying up out of the water.
 
 It was a nice little capstone experience, where a lot of the technical lessons with sight fishing and casting were required to catch these fish (albeit small). But I did get a few nice ones there, and perhaps the most satisfying cast of my life so far too. I saw a rise in a particularly tough spot, cast perfectly at it with the optimal line lay, and the fish ate it instantly. Not the biggest fish in the world, but an important one in my fly fishing skill journey.
+
+![with araki, last day at lucky lodge]({{"/assets/catches/photos/2026-10-02/img-5102.jpg" | prepend: site.baseurl }})
 ## Day 88: Saturday, October 3, 2026
 Packed and checked out of Lucky Lodge. Finally got my thoughts together enough to try to get my stuff out of my wet and ruined storage unit. Stopped at a few points along the drive, including a cafe where I sat down and planned out the storage unit situation with a friend. I was honestly just going to put it off until later, but it was nice to crank out a plan to help fix some stuff.
 
