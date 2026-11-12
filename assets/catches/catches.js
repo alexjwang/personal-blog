@@ -49,9 +49,8 @@
     root.querySelectorAll('.cc-on').forEach(function (el) { el.classList.remove('cc-on'); });
     var shown = 0;
     outs.forEach(function (out) {
-      var match = !current || (kind === 'species'
-        ? (' ' + out.dataset.species + ' ').indexOf(' ' + id + ' ') !== -1
-        : out.dataset[kind] === id);
+      // species, water and area are space-separated lists on each outing
+      var match = !current || (' ' + out.dataset[kind] + ' ').indexOf(' ' + id + ' ') !== -1;
       out.hidden = !match;
       if (match) shown++;
     });

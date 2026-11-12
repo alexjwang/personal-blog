@@ -5,7 +5,8 @@ permalink: /catch-collection/
 ---
 {% comment %}
   Everything on this page comes from:
-    _catches/          one note per outing, edited in the Obsidian vault (writing/catches) and copied here
+    _catches/          one note per fishing day, edited in the Obsidian vault (writing/catches) and copied here;
+                       `area` and `water` are each one name or a list (see _includes/catch-waters.html)
     _data/species.yml  the cards under "by fish"
     _data/places.yml   the map marks under "by water" (outlines in _data/maps.yml)
   An outing's fish are entries like "rainbow 7", "rainbow 20+" (at least), "rainbow ~3" (about) or just
@@ -105,18 +106,19 @@ permalink: /catch-collection/
   {% capture sp %}{% for e in c.fish %}{% assign bits = e | split: " " %} {{ bits[0] }}{% endfor %} {% endcapture %}
   {% capture tally %}{% for e in c.fish %}{% assign bits = e | split: " " %}{% for s in site.data.species %}{% if s.id == bits[0] %}{{ s.name }}{% endif %}{% endfor %}{% if bits.size > 1 %}{% if bits[1] contains "~" or bits[1] contains "+" %} {{ bits[1] }}{% else %} ×{{ bits[1] }}{% endif %}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
   {% assign nf = c.fish | size %}{% capture summary %}{% if nf > 0 %}{{ tally }}{% if obig > 0 %} · {{ obig }} cm{% endif %}{% elsif c.skunked %}skunked{% else %}catch not written up yet{% endif %}{% endcapture %}
-  <div class="cc-out" id="{{ rid }}" data-water="{{ c.water | slugify }}" data-area="{{ c.area | slugify }}" data-species="{{ sp }}">
+  {% assign oa = c.area | join: "|" | split: "|" %}{% assign ow = c.water | join: "|" | split: "|" %}
+  <div class="cc-out" id="{{ rid }}" data-water="{% for w in ow %} {{ w | slugify }}{% endfor %}" data-area="{% for a in oa %} {{ a | slugify }}{% endfor %}" data-species="{{ sp }}">
     <button type="button" class="cc-row" aria-expanded="false" aria-controls="{{ rid }}-body">
       <span class="cc-date post-meta">{{ c.date | date: "%b %-d, %Y" }}</span>
-      <span class="cc-what"><span class="cc-water">{{ c.water }}</span> <span class="cc-sum">· {{ summary | strip }}</span></span>
+      <span class="cc-what"><span class="cc-water">{{ ow | join: ", " }}</span> <span class="cc-sum">· {{ summary | strip }}</span></span>
     </button>
     <div class="cc-body" id="{{ rid }}-body" hidden>
       <div class="cc-day">{% if c.day %}Day {{ c.day }}{% else %}{{ c.date | date: "%A" }}{% endif %}</div>
-      <div class="cc-meta">{% if c.day %}{{ c.date | date: "%A, %B %-d, %Y" }}{% else %}{{ c.date | date: "%B %-d, %Y" }}{% endif %}{% if c.area and c.area != "" %} · {{ c.area }}{% endif %}{% if c.guide and c.guide != "" %} · with {{ c.guide }}{% endif %}{% if c.conditions and c.conditions != "" %} · {{ c.conditions }}{% endif %}</div>
+      <div class="cc-meta">{% if c.day %}{{ c.date | date: "%A, %B %-d, %Y" }}{% else %}{{ c.date | date: "%B %-d, %Y" }}{% endif %}{% if oa.size > 0 %} · {{ oa | join: ", " }}{% endif %}{% if c.guide and c.guide != "" %} · with {{ c.guide }}{% endif %}{% if c.conditions and c.conditions != "" %} · {{ c.conditions }}{% endif %}</div>
       {% assign notes = c.content | strip %}
       {% assign np = c.photos | size %}{% if notes != "" or np > 0 %}<div class="cc-main{% if np > 0 %} cc-has-photo{% endif %}">
         <div class="cc-notes">{% if notes != "" %}{{ c.content | markdownify }}{% endif %}</div>
-        {% if np > 0 %}<div class="cc-photos">{% for p in c.photos %}{% assign pp = p | split: " | " %}<figure><img src="{{ pp[0] | strip | prepend: site.baseurl }}" alt="{{ pp[1] | default: c.water }}" loading="lazy">{% if pp[1] %}<figcaption>{{ pp[1] }}</figcaption>{% endif %}</figure>{% endfor %}</div>{% endif %}
+        {% if np > 0 %}<div class="cc-photos">{% for p in c.photos %}{% assign pp = p | split: " | " %}<figure><img src="{{ pp[0] | strip | prepend: site.baseurl }}" alt="{{ pp[1] | default: ow[0] }}" loading="lazy">{% if pp[1] %}<figcaption>{{ pp[1] }}</figcaption>{% endif %}</figure>{% endfor %}</div>{% endif %}
       </div>{% endif %}
       <div class="cc-strip">
         <div><div class="cc-lab">tally</div>{% for e in c.fish %}{% assign bits = e | split: " " %}{% for s in site.data.species %}{% if s.id == bits[0] %}{{ s.name }}{% endif %}{% endfor %}{% if bits.size > 1 %}{% if bits[1] contains "~" or bits[1] contains "+" %} {{ bits[1] }}{% else %} ×{{ bits[1] }}{% endif %}{% endif %}{% for b in c.biggest %}{% assign bb = b | split: " " %}{% if bb[0] == bits[0] %}, {{ bb[1] }} cm{% endif %}{% endfor %}<br>{% endfor %}{% if nf == 0 %}{% if c.skunked %}nothing{% else %}not written up yet{% endif %}{% endif %}</div>

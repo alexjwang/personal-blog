@@ -50,6 +50,3 @@
     - name: Kailua
       at: [21.40, -157.74]
       label: left
-      waters:
-        - name: home water
-          kind: lake
