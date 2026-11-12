@@ -14,7 +14,8 @@ biggest: []
 flies: []
 lost: []
 photos:
-  - "/assets/images/noncompete-day83-brown.jpg | brown trout"
+  - "2026-09-28/img-3496.jpg | brown trout"
+  - "2026-09-28/img-3486.jpg | in the farm-field stream"
 post: "[[2026-10-04-noncompete-logs-8]]"
 skunked: false
 ---

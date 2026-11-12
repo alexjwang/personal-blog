@@ -11,7 +11,8 @@ fish:
 biggest: []
 flies: []
 lost: []
-photos: []
+photos:
+  - "2026-09-04/pxl-20260903-213647988.jpg | dace in the high, muddy water"
 post: "[[2026-09-20-noncompete-logs-6]]"
 skunked: false
 ---

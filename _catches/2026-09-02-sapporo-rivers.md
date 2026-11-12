@@ -15,7 +15,9 @@ biggest:
 flies:
   - nymph
 lost: []
-photos: []
+photos:
+  - "2026-09-02/pxl-20260901-213819426.jpg | big rainbow, 6:38am"
+  - "2026-09-02/pxl-20260901-221336354.jpg | big rainbow, 7:13am"
 post: "[[2026-09-20-noncompete-logs-6]]"
 skunked: false
 ---

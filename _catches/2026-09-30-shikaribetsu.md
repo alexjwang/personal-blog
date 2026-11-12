@@ -12,7 +12,8 @@ biggest: []
 flies: []
 lost:
   - "rainbow: the biggest rainbow I've ever seen, first cast, broke me off instantly"
-photos: []
+photos:
+  - "2026-09-30/img-3556.jpg | Lake Shikaribetsu"
 post: "[[2026-10-04-noncompete-logs-8]]"
 skunked: false
 ---

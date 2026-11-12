@@ -14,7 +14,8 @@ flies:
   - "nymph"
   - "grasshopper dry-dropper"
 lost: []
-photos: []
+photos:
+  - "2026-10-05/pxl-20261004-224753170.jpg | steam off the Akan river"
 post: "[[2026-10-07-noncompete-logs-9]]"
 skunked: false
 ---

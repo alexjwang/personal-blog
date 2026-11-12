@@ -3,6 +3,7 @@ date: 2026-09-25
 day: 80
 area: Tokachi
 water:
+  - Shiobetsu River
 guide: Okumoto
 conditions: clear, still water
 fish:
@@ -12,7 +13,8 @@ biggest:
 flies: []
 lost: []
 photos:
-  - /assets/images/noncompete-day80-rainbow.jpg | the nice one
+  - "2026-09-25/img-4538.jpg | the nice one"
+  - "2026-09-25/img-4551.jpg | the nice one, in hand"
 post: "[[2026-09-27-noncompete-logs-7]]"
 skunked: false
 ---

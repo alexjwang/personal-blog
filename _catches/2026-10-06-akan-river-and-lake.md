@@ -21,7 +21,9 @@ flies:
   - "Alexandra streamer"
   - "from Oku"
 lost: []
-photos: []
+photos:
+  - "2026-10-06/img-5405.jpg | Akan river rainbow"
+  - "2026-10-06/pxl-20261006-022106628.jpg | iwana"
 post: "[[2026-10-07-noncompete-logs-9]]"
 skunked: false
 ---

@@ -12,7 +12,8 @@ fish:
 biggest: []
 flies: []
 lost: []
-photos: []
+photos:
+  - "2026-08-31/pxl-20260831-013549360.jpg | first day with Kevin"
 post: "[[2026-09-20-noncompete-logs-6]]"
 skunked: false
 ---

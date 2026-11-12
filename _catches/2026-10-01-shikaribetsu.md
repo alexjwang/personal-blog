@@ -14,7 +14,8 @@ flies:
   - "streamers"
 lost:
   - "miyabe: hooked one, and had bites from others. No miyabe had been caught on the fly all season."
-photos: []
+photos:
+  - "2026-10-01/img-3576.jpg | cold, wet, and still smiling"
 post: "[[2026-10-04-noncompete-logs-8]]"
 skunked: false
 ---

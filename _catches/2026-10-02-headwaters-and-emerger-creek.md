@@ -1,22 +1,24 @@
 ---
 date: 2026-10-02
 day: 87
-area: "Tokachi"
+area: Tokachi
 water:
-  - "headwaters"
-  - "emerger creek"
-guide: "Koudai Araki, Lucky Lodge"
-conditions: "too rough for the brook trout we'd planned on; a fresh bear print on the walk in"
+  - Biribetsu River
+  - Shihoro River
+guide: Koudai Araki, Lucky Lodge
+conditions: too rough for the brook trout we'd planned on; a fresh bear print on the walk in
 fish:
-  - "oshorokoma"
-  - "rainbow"
+  - oshorokoma
+  - rainbow
 biggest: []
 flies:
-  - "dry fly"
-  - "fished as an emerger"
+  - dry fly
+  - fished as an emerger
 lost: []
 photos:
-  - "/assets/images/noncompete-day87-dolly-varden.jpg | headwater dolly varden"
+  - "2026-10-02/img-5076.jpg | headwater dolly varden"
+  - "2026-10-02/img-3626.jpg | dolly varden"
+  - "2026-10-02/img-5102.jpg | with Araki, last day at Lucky Lodge"
 post: "[[2026-10-04-noncompete-logs-8]]"
 skunked: false
 ---

@@ -1,22 +1,22 @@
 ---
 date: 2026-09-26
 day: 81
-area: "Tokachi"
+area: Tokachi
 water:
-  - "Oku's lake"
-  - "Oku's creek"
-guide: "Okumoto"
-conditions: "risers until the wind died"
+  - Biribetsu River
+  - Oketo Lake
+guide: Okumoto
+conditions: risers until the wind died
 fish:
-  - "rainbow ~3"
-  - "oshorokoma ~11"
+  - rainbow ~3
+  - oshorokoma ~11
 biggest: []
 flies:
-  - "wet fly"
+  - wet fly
 lost: []
 photos:
-  - "/assets/images/noncompete-day81-rainbow.jpg | lake rainbow"
-  - "/assets/images/noncompete-day81-dolly-varden.jpg | dolly varden"
+  - "2026-09-26/img-4613.jpg | lake rainbow"
+  - "2026-09-26/img-4637.jpg | dolly varden"
 post: "[[2026-09-27-noncompete-logs-7]]"
 skunked: false
 ---
