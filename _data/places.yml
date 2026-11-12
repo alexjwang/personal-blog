@@ -40,9 +40,6 @@
           at: [43.62, 144.34]
     - name: Abashiri
       at: [44.02, 144.27]
-      waters:
-        - name: marsh rivers
-          kind: creek
 
 - region: Oahu
   map: oahu
