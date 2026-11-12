@@ -1,21 +1,21 @@
 ---
 date: 2026-09-28
 day: 83
-area: "Tokachi"
+area: Tokachi
 water:
-  - "farm-field stream"
-  - "Otofuke River"
-guide: "Koudai Araki, Lucky Lodge"
-conditions: "mosquitoes, then a thunderstorm out of nowhere"
+  - farm-field stream
+  - Otofuke River
+guide: Koudai Araki, Lucky Lodge
+conditions: mosquitoes, then a thunderstorm out of nowhere
 fish:
-  - "brown"
-  - "rainbow"
+  - brown 4
+  - rainbow 3
 biggest: []
 flies: []
 lost: []
 photos:
-  - "2026-09-28/img-3496.jpg | brown trout"
-  - "2026-09-28/img-3486.jpg | in the farm-field stream"
+  - 2026-09-28/img-3496.jpg | brown trout
+  - 2026-09-28/img-3486.jpg | in the farm-field stream
 post: "[[2026-10-04-noncompete-logs-8]]"
 skunked: false
 ---

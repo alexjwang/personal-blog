@@ -1,19 +1,21 @@
 ---
 date: 2026-09-30
 day: 85
-area: "Tokachi"
+area: Tokachi
 water:
-  - "Lake Shikaribetsu"
-guide: "Koudai Araki, Lucky Lodge"
-conditions: "sunny and warm, an awafuki hatch"
+  - Lake Shikaribetsu
+guide: Koudai Araki, Lucky Lodge
+conditions: sunny and warm, an awafuki hatch
 fish:
-  - "rainbow"
-biggest: []
+  - rainbow 6
+  - dace 20
+biggest:
+  - dace 35
 flies: []
 lost:
   - "rainbow: the biggest rainbow I've ever seen, first cast, broke me off instantly"
 photos:
-  - "2026-09-30/img-3556.jpg | Lake Shikaribetsu"
+  - 2026-09-30/img-3556.jpg | Lake Shikaribetsu
 post: "[[2026-10-04-noncompete-logs-8]]"
 skunked: false
 ---
