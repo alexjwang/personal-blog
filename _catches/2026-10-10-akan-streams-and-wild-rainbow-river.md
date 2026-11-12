@@ -1,9 +1,7 @@
 ---
 date: 2026-10-10
 day: 95
-area:
-  - Akan
-  - Teshikaga
+area: Teshikaga
 water:
   - streams near Akan
   - wild rainbow river

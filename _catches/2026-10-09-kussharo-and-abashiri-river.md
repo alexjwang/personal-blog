@@ -1,9 +1,7 @@
 ---
 date: 2026-10-09
 day: 94
-area:
-  - Teshikaga
-  - Abashiri
+area: Teshikaga
 water:
   - Lake Kussharo
   - Abashiri River
