@@ -118,7 +118,7 @@ permalink: /catch-collection/
       {% assign notes = c.content | strip %}
       {% assign np = c.photos | size %}{% if notes != "" or np > 0 %}<div class="cc-main{% if np > 0 %} cc-has-photo{% endif %}">
         <div class="cc-notes">{% if notes != "" %}{{ c.content | markdownify }}{% endif %}</div>
-        {% if np > 0 %}<div class="cc-photos">{% for p in c.photos %}{% assign pp = p | split: " | " %}<figure><img src="{{ pp[0] | strip | prepend: site.baseurl }}" alt="{{ pp[1] | default: ow[0] }}" loading="lazy">{% if pp[1] %}<figcaption>{{ pp[1] }}</figcaption>{% endif %}</figure>{% endfor %}</div>{% endif %}
+        {% if np > 0 %}<div class="cc-photos">{% for p in c.photos %}{% assign pp = p | split: " | " %}{% assign psrc = pp[0] | strip %}{% assign p0 = psrc | slice: 0 %}{% if p0 != "/" %}{% assign psrc = "/assets/catches/photos/" | append: psrc %}{% endif %}<figure><img src="{{ psrc | prepend: site.baseurl }}" alt="{{ pp[1] | default: ow[0] }}" loading="lazy">{% if pp[1] %}<figcaption>{{ pp[1] }}</figcaption>{% endif %}</figure>{% endfor %}</div>{% endif %}
       </div>{% endif %}
       <div class="cc-strip">
         <div><div class="cc-lab">tally</div>{% for e in c.fish %}{% assign bits = e | split: " " %}{% for s in site.data.species %}{% if s.id == bits[0] %}{{ s.name }}{% endif %}{% endfor %}{% if bits.size > 1 %}{% if bits[1] contains "~" or bits[1] contains "+" %} {{ bits[1] }}{% else %} ×{{ bits[1] }}{% endif %}{% endif %}{% for b in c.biggest %}{% assign bb = b | split: " " %}{% if bb[0] == bits[0] %}, {{ bb[1] }} cm{% endif %}{% endfor %}<br>{% endfor %}{% if nf == 0 %}{% if c.skunked %}nothing{% else %}not written up yet{% endif %}{% endif %}</div>
