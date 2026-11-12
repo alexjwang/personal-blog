@@ -85,6 +85,11 @@ html.dark .catches { --cc-land: #161b21; --cc-coast: #2c343c; --cc-bg: #0b0d10; 
 .cc-photos figure { margin: 0 0 12px; }
 .cc-photos img { display: block; width: 100%; border-radius: 2px; }
 .cc-photos figcaption { font-size: 12px; color: var(--cc-sub); margin-top: 4px; }
+.cc-vid a { position: relative; display: block; }
+.cc-vid img { aspect-ratio: 16 / 9; object-fit: cover; }
+.cc-play { position: absolute; left: 50%; top: 50%; width: 44px; height: 44px; margin: -22px 0 0 -22px; border-radius: 50%; background: rgba(0, 0, 0, .6); }
+.cc-play::after { content: ""; position: absolute; left: 17px; top: 13px; border-style: solid; border-width: 9px 0 9px 14px; border-color: transparent transparent transparent #fff; }
+.cc-vid a:hover .cc-play { background: rgba(0, 0, 0, .8); }
 .cc-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 18px; margin-top: 18px; padding-top: 12px; border-top: 1px dashed var(--cc-line); font-size: 14px; line-height: 1.6; }
 .cc-strip .cc-lab { margin-bottom: 2px; }
 .cc-strip img { max-width: 100%; }

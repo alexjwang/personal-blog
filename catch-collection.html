@@ -116,9 +116,11 @@ permalink: /catch-collection/
       <div class="cc-day">{% if c.day %}Day {{ c.day }}{% else %}{{ c.date | date: "%A" }}{% endif %}</div>
       <div class="cc-meta">{% if c.day %}{{ c.date | date: "%A, %B %-d, %Y" }}{% else %}{{ c.date | date: "%B %-d, %Y" }}{% endif %}{% if oa.size > 0 %} · {{ oa | join: ", " }}{% endif %}{% if c.guide and c.guide != "" %} · with {{ c.guide }}{% endif %}{% if c.conditions and c.conditions != "" %} · {{ c.conditions }}{% endif %}</div>
       {% assign notes = c.content | strip %}
-      {% assign np = c.photos | size %}{% if notes != "" or np > 0 %}<div class="cc-main{% if np > 0 %} cc-has-photo{% endif %}">
+      {% assign vid = "" %}{% if c.video and c.video != "" %}{% assign vid = c.video | split: "v=" | last | split: "&" | first %}{% endif %}
+      {% assign np = c.photos | size %}{% if vid != "" %}{% assign side = true %}{% elsif np > 0 %}{% assign side = true %}{% else %}{% assign side = false %}{% endif %}
+      {% if notes != "" or side %}<div class="cc-main{% if side %} cc-has-photo{% endif %}">
         <div class="cc-notes">{% if notes != "" %}{{ c.content | markdownify }}{% endif %}</div>
-        {% if np > 0 %}<div class="cc-photos">{% for p in c.photos %}{% assign pp = p | split: " | " %}{% assign psrc = pp[0] | strip %}{% assign p0 = psrc | slice: 0 %}{% if p0 != "/" %}{% assign psrc = "/assets/catches/photos/" | append: psrc %}{% endif %}<figure><img src="{{ psrc | prepend: site.baseurl }}" alt="{{ pp[1] | default: ow[0] }}" loading="lazy">{% if pp[1] %}<figcaption>{{ pp[1] }}</figcaption>{% endif %}</figure>{% endfor %}</div>{% endif %}
+        {% if side %}<div class="cc-photos">{% if vid != "" %}<figure class="cc-vid"><a href="{{ c.video }}" target="_blank" rel="noopener" aria-label="Watch the video on YouTube"><img src="https://i.ytimg.com/vi/{{ vid }}/hqdefault.jpg" alt="video thumbnail" loading="lazy"><span class="cc-play" aria-hidden="true"></span></a><figcaption>watch the video</figcaption></figure>{% endif %}{% for p in c.photos %}{% assign pp = p | split: " | " %}{% assign psrc = pp[0] | strip %}{% assign p0 = psrc | slice: 0 %}{% if p0 != "/" %}{% assign psrc = "/assets/catches/photos/" | append: psrc %}{% endif %}<figure><img src="{{ psrc | prepend: site.baseurl }}" alt="{{ pp[1] | default: ow[0] }}" loading="lazy">{% if pp[1] %}<figcaption>{{ pp[1] }}</figcaption>{% endif %}</figure>{% endfor %}</div>{% endif %}
       </div>{% endif %}
       <div class="cc-strip">
         <div><div class="cc-lab">tally</div>{% for e in c.fish %}{% assign bits = e | split: " " %}{% for s in site.data.species %}{% if s.id == bits[0] %}{{ s.name }}{% endif %}{% endfor %}{% if bits.size > 1 %}{% if bits[1] contains "~" or bits[1] contains "+" %} {{ bits[1] }}{% else %} ×{{ bits[1] }}{% endif %}{% endif %}{% for b in c.biggest %}{% assign bb = b | split: " " %}{% if bb[0] == bits[0] %}, {{ bb[1] }} cm{% endif %}{% endfor %}<br>{% endfor %}{% if nf == 0 %}{% if c.skunked %}nothing{% else %}not written up yet{% endif %}{% endif %}</div>
@@ -126,8 +128,7 @@ permalink: /catch-collection/
         {% assign nl = c.lost | size %}{% if nl > 0 %}<div><div class="cc-lab">lost</div>{% for l in c.lost %}{% assign lb = l | split: ":" %}{% assign lnote = l | remove_first: lb[0] | remove_first: ":" | strip %}{% assign lname = lb[0] %}{% for s in site.data.species %}{% if s.id == lb[0] %}{% assign lname = s.name %}{% endif %}{% endfor %}{{ lname }}: {{ lnote }}<br>{% endfor %}</div>{% endif %}
         {% if c.sketch and c.sketch != "" %}<div><div class="cc-lab">the spot</div><img src="{{ c.sketch | prepend: site.baseurl }}" alt="sketch of the spot" loading="lazy"></div>{% endif %}
       </div>
-      {% if c.post and c.post != "" %}{% assign pslug = c.post | remove: "[[" | remove: "]]" | strip %}{% for p in site.posts %}{% assign pfile = p.path | split: "/" | last | remove: ".md" | remove: ".markdown" %}{% if pfile == pslug %}<a class="cc-post" href="{{ p.url | prepend: site.baseurl }}">from {{ p.title }} &rarr;</a>{% endif %}{% endfor %}{% endif %}
-    </div>
+      {% if c.post and c.post != "" %}{% assign pslug = c.post | remove: "[[" | remove: "]]" | strip %}{% for p in site.posts %}{% assign pfile = p.path | split: "/" | last | remove: ".md" | remove: ".markdown" %}{% if pfile == pslug %}<a class="cc-post" href="{{ p.url | prepend: site.baseurl }}">from {{ p.title }} &rarr;</a>{% endif %}{% endfor %}{% endif %}    </div>
   </div>
 {% endfor %}
 </div>
