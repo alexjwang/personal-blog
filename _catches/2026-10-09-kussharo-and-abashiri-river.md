@@ -10,15 +10,15 @@ water:
 guide: Shin
 conditions: big smooth rocks under a layer of fall leaves and dirt
 fish:
-  - amemasu
-  - rainbow
   - kokanee 1
+  - amemasu 3
+  - rainbow ~3
 biggest: []
 flies: []
 lost:
   - "amemasu: the biggest one of the day"
 photos:
-  - "2026-10-09/img-5751.jpg | white-spotted char, Abashiri River"
+  - 2026-10-09/img-5751.jpg | white-spotted char, Abashiri River
 post: "[[2026-10-16-noncompete-logs-10]]"
 skunked: false
 ---

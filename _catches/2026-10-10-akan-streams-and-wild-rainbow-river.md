@@ -2,22 +2,22 @@
 date: 2026-10-10
 day: 95
 area:
-  - "Akan"
-  - "Teshikaga"
+  - Akan
+  - Teshikaga
 water:
-  - "streams near Akan"
-  - "wild rainbow river"
-guide: "Shin"
-conditions: "Akan packed for the long weekend and a festival"
+  - streams near Akan
+  - wild rainbow river
+guide: Shin
+conditions: Akan packed for the long weekend and a festival
 fish:
-  - "yamame"
-  - "rainbow"
+  - yamame 4
+  - rainbow 4
 biggest: []
 flies: []
 lost: []
 photos:
-  - "2026-10-10/img-5806.jpg | yamame"
-  - "2026-10-10/img-5823.jpg | wild rainbow"
+  - 2026-10-10/img-5806.jpg | yamame
+  - 2026-10-10/img-5823.jpg | wild rainbow
 post: "[[2026-10-16-noncompete-logs-10]]"
 skunked: false
 ---

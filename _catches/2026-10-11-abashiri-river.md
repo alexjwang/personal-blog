@@ -1,21 +1,21 @@
 ---
 date: 2026-10-11
 day: 96
-area: "Abashiri"
+area: Abashiri
 water:
   - Abashiri River
-guide: "Shin"
-conditions: "heavy cover, the water full of fallen leaves; only a week or two left before it gets too cold"
+guide: Shin
+conditions: heavy cover, the water full of fallen leaves; only a week or two left before it gets too cold
 fish:
-  - "rainbow ~20"
+  - rainbow 20
 biggest: []
 flies:
-  - "large hoppers"
+  - large hoppers
 lost: []
 photos:
-  - "2026-10-11/img-5963.jpg | wild rainbow in the leaves, with the Zinn and Marquis"
-  - "2026-10-11/img-5907.jpg | wild rainbow in the fallen leaves"
-  - "2026-10-11/img-5930.jpg | wild rainbow"
+  - 2026-10-11/img-5963.jpg | wild rainbow in the leaves, with the Zinn and Marquis
+  - 2026-10-11/img-5907.jpg | wild rainbow in the fallen leaves
+  - 2026-10-11/img-5930.jpg | wild rainbow
 post: "[[2026-10-16-noncompete-logs-10]]"
 skunked: false
 ---

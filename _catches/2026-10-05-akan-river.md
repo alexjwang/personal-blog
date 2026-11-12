@@ -1,24 +1,24 @@
 ---
 date: 2026-10-05
 day: 90
-area: "Akan"
+area: Akan
 water:
-  - "Akan River"
-guide: "Sapporo Streams"
-conditions: "steam off the river all morning; fall leaves; one brown bear"
+  - Akan River
+guide: Sapporo Streams
+conditions: steam off the river all morning; fall leaves; one brown bear
 fish:
-  - "rainbow ~4"
+  - rainbow 4
 biggest:
-  - "rainbow 40"
+  - rainbow 40
 flies:
-  - "nymph"
-  - "grasshopper dry-dropper"
+  - nymph
+  - grasshopper dry-dropper
 lost: []
 photos:
-  - "2026-10-05/pxl-20261004-224753170.jpg | steam off the Akan River"
-  - "2026-10-05/img-5316.jpg | first rainbow of the day, nymphing"
-  - "2026-10-05/img-5326.jpg | out of the deep pool"
-  - "2026-10-05/img-5337.jpg | on the grasshopper dry"
+  - 2026-10-05/pxl-20261004-224753170.jpg | steam off the Akan River
+  - 2026-10-05/img-5316.jpg | first rainbow of the day, nymphing
+  - 2026-10-05/img-5326.jpg | out of the deep pool
+  - 2026-10-05/img-5337.jpg | on the grasshopper dry
 post: "[[2026-10-07-noncompete-logs-9]]"
 skunked: false
 ---

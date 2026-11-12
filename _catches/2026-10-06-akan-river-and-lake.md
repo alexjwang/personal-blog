@@ -1,29 +1,30 @@
 ---
 date: 2026-10-06
 day: 91
-area: "Akan"
+area: Akan
 water:
-  - "Akan River"
-  - "Lake Akan"
-guide: "Sapporo Streams"
-conditions: "started at 8:30 after overnight rain; kamemushi and grasshoppers everywhere; big fish rising and jumping all around"
+  - Akan River
+  - Lake Akan
+guide: Sapporo Streams
+conditions: started at 8:30 after overnight rain; kamemushi and grasshoppers everywhere; big fish rising and jumping all around
 fish:
-  - "rainbow 7"
-  - "iwana 1"
-  - "amemasu 1"
+  - rainbow 7
+  - iwana 1
+  - amemasu 1
 biggest:
-  - "rainbow 60"
-  - "iwana 30"
+  - rainbow 60
+  - iwana 30
+  - amemasu 50
 flies:
-  - "nymph"
-  - "sightline only"
-  - "no indicator"
-  - "Alexandra streamer"
-  - "from Oku"
+  - nymph
+  - sightline only
+  - no indicator
+  - Alexandra streamer
+  - from Oku
 lost: []
 photos:
-  - "2026-10-06/img-5405.jpg | Akan river rainbow"
-  - "2026-10-06/pxl-20261006-022106628.jpg | iwana"
+  - 2026-10-06/img-5405.jpg | Akan river rainbow
+  - 2026-10-06/pxl-20261006-022106628.jpg | iwana
 post: "[[2026-10-07-noncompete-logs-9]]"
 skunked: false
 ---

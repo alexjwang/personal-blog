@@ -1,21 +1,21 @@
 ---
 date: 2026-10-14
 day: 99
-area: "Abashiri"
+area: Abashiri
 water:
   - Tohoro River
-guide: "Genya"
-conditions: "tight, sandy marsh rivers under heavy cover; amemasu spawning"
+guide: Genya
+conditions: tight, sandy marsh rivers under heavy cover; amemasu spawning
 fish:
-  - "amemasu"
+  - amemasu 8
 biggest: []
 flies:
-  - "lures"
-  - "a first"
+  - lures
+  - a first
 lost: []
 photos:
-  - "2026-10-14/img-6655.jpg | amemasu on a lure"
-  - "2026-10-14/img-6107.jpg | amemasu"
+  - 2026-10-14/img-6655.jpg | amemasu on a lure
+  - 2026-10-14/img-6107.jpg | amemasu
 post: "[[2026-10-16-noncompete-logs-10]]"
 skunked: false
 ---

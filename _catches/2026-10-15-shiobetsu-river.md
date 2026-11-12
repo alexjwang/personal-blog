@@ -1,21 +1,21 @@
 ---
 date: 2026-10-15
 day: 100
-area: "Abashiri"
+area: Abashiri
 water:
   - Shiobetsu River
-guide: "Genya"
-conditions: "brutal wind, cold water"
+guide: Genya
+conditions: brutal wind, cold water
 fish:
-  - "rainbow"
+  - rainbow 5
 biggest: []
 flies:
-  - "nymph"
-  - "mostly roll casts"
+  - nymph
+  - mostly roll casts
 lost: []
 photos:
-  - "2026-10-15/img-6184.jpg | the giant from the last seam"
-  - "2026-10-15/img-6664.jpg | worth the cold"
+  - 2026-10-15/img-6184.jpg | the giant from the last seam
+  - 2026-10-15/img-6664.jpg | worth the cold
 post: "[[2026-10-16-noncompete-logs-10]]"
 skunked: false
 ---

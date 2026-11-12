@@ -8,17 +8,17 @@ water:
 guide: Koudai Araki, Lucky Lodge
 conditions: too rough for the brook trout we'd planned on; a fresh bear print on the walk in
 fish:
-  - oshorokoma
-  - rainbow
+  - oshorokoma 4
+  - rainbow 6
 biggest: []
 flies:
   - dry fly
   - fished as an emerger
 lost: []
 photos:
-  - "2026-10-02/img-5076.jpg | headwater dolly varden"
-  - "2026-10-02/img-3626.jpg | dolly varden"
-  - "2026-10-02/img-5102.jpg | with Araki, last day at Lucky Lodge"
+  - 2026-10-02/img-5076.jpg | headwater dolly varden
+  - 2026-10-02/img-3626.jpg | dolly varden
+  - 2026-10-02/img-5102.jpg | with Araki, last day at Lucky Lodge
 post: "[[2026-10-04-noncompete-logs-8]]"
 skunked: false
 ---

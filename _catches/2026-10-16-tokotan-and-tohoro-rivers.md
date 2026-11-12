@@ -1,21 +1,22 @@
 ---
 date: 2026-10-16
 day: 101
-area: "Abashiri"
+area: Abashiri
 water:
   - Tokotan River
   - Tohoro River
-guide: "Genya"
-conditions: "sunny, very clear water, fish hiding"
+guide: Genya
+conditions: sunny, very clear water, fish hiding
 fish:
-  - "amemasu"
-biggest: []
+  - amemasu 4
+biggest:
+  - amemasu 40
 flies:
-  - "lures"
+  - lures
 lost: []
 photos:
-  - "2026-10-16/img-6671.jpg | last amemasu in Hokkaido"
-  - "2026-10-16/img-6255.jpg | amemasu"
+  - 2026-10-16/img-6671.jpg | last amemasu in Hokkaido
+  - 2026-10-16/img-6255.jpg | amemasu
 post: "[[2026-10-16-noncompete-logs-10]]"
 skunked: false
 ---
