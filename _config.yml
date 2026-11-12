@@ -9,7 +9,7 @@ baseurl: ""
 url: "http://alexjwang.com"
 github_username: alexjwang
 # Google Apps Script web app URL (.../exec) the sign-up form under posts sends to; leave empty to hide the form
-subscribe_url: ""
+subscribe_url: "https://script.google.com/macros/s/AKfycbzi7hw6N0YQ3LaygDIox0UtPs5_bbFTtiORLbJGYerZceSrJEDlUpxp1Vpa15WTibH6/exec"
 
 # Build settings
 markdown: kramdown
