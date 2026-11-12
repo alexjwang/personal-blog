@@ -21,17 +21,15 @@
       at: [42.92, 143.20]
       label: below
       waters:
-        - name: Otofuke river
+        - name: Otofuke River
           at: [43.10, 143.20]
         - name: Lake Shikaribetsu
           at: [43.28, 143.11]
-        - name: headwaters
-          kind: creek
     - name: Akan
       at: [43.43, 144.09]
       label: left
       waters:
-        - name: Akan river
+        - name: Akan River
           at: [43.25, 144.17]
     - name: Teshikaga
       at: [43.49, 144.46]
