@@ -6,6 +6,9 @@
 #   waters:  optional, only for a water worth a dot on the map, or one whose kind can't be guessed
 #            from its name (names with "lake" draw as a lake; "creek" or "stream" as a creek;
 #            "offshore", "charter" or "sea" as the sea; anything else as a river)
+#            A water listed here belongs to this area on the map even when an outing elsewhere fished it,
+#            so one river fished from two bases still shows up once; unlisted waters belong to the area
+#            of the first outing that fished them.
 
 - region: Hokkaido
   map: hokkaido
@@ -38,6 +41,8 @@
           at: [43.62, 144.34]
     - name: Abashiri
       at: [44.02, 144.27]
+      waters:
+        - name: Shiobetsu River     # also fished from Tokachi with Oku (Sep 25); one river, filed here
 
 - region: Oahu
   map: oahu
