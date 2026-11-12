@@ -34,6 +34,7 @@ html.dark #river-strip { --strip-style: game; }
 .subscribe button:disabled { opacity: .6; cursor: default; }
 .subscribe-note { font-size: 13px; color: #828282; margin: 8px 0 0; }
 .subscribe-done .subscribe-row { display: none; }
+.subscribe-trap { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
 html.dark .subscribe { border-color: #262c33; }
 html.dark .subscribe input[type=email] { background: #14181d; border-color: #2c343c; }
 html.dark .subscribe-note { color: #7d8a8c; }

@@ -8,8 +8,8 @@ baseurl: ""
 # url: "http://alexjwang.github.io" # the base hostname & protocol for your site
 url: "http://alexjwang.com"
 github_username: alexjwang
-# Buttondown username for the sign-up form under posts; leave empty to hide the form
-buttondown: ""
+# Google Apps Script web app URL (.../exec) the sign-up form under posts sends to; leave empty to hide the form
+subscribe_url: ""
 
 # Build settings
 markdown: kramdown
