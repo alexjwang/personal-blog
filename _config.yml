@@ -8,6 +8,8 @@ baseurl: ""
 # url: "http://alexjwang.github.io" # the base hostname & protocol for your site
 url: "http://alexjwang.com"
 github_username: alexjwang
+# Buttondown username for the sign-up form under posts; leave empty to hide the form
+buttondown: ""
 
 # Build settings
 markdown: kramdown

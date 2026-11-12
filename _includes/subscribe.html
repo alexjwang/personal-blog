@@ -1,0 +1,29 @@
+{% comment %}
+  Email sign-up under each post. Signups go to Buttondown (site.buttondown in _config.yml is the username);
+  Alex writes and sends the emails himself from there. Hidden entirely until the username is set.
+{% endcomment %}
+{% if site.buttondown and site.buttondown != "" %}
+<form class="subscribe" action="https://buttondown.com/api/emails/embed-subscribe/{{ site.buttondown }}" method="post" target="_blank">
+  <label class="subscribe-label" for="subscribe-email">get new posts by email</label>
+  <div class="subscribe-row">
+    <input id="subscribe-email" type="email" name="email" placeholder="you@example.com" required autocomplete="email">
+    <input type="hidden" name="embed" value="1">
+    <button type="submit">subscribe</button>
+  </div>
+  <p class="subscribe-note" aria-live="polite">a short note from me when something new goes up. unsubscribe anytime.</p>
+</form>
+<script>
+(function () {
+  var f = document.querySelector('form.subscribe');
+  if (!f || !window.fetch) return;
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var note = f.querySelector('.subscribe-note'), btn = f.querySelector('button');
+    btn.disabled = true;
+    fetch(f.action, { method: 'POST', body: new FormData(f), mode: 'no-cors' })
+      .then(function () { f.classList.add('subscribe-done'); note.textContent = 'thanks! check your inbox to confirm.'; })
+      .catch(function () { btn.disabled = false; note.textContent = 'something went wrong. try again?'; });
+  });
+})();
+</script>
+{% endif %}

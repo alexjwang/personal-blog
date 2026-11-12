@@ -24,3 +24,16 @@ html.dark #river-strip { --strip-style: game; }
 @view-transition { navigation: auto; }
 ::view-transition-old(root), ::view-transition-new(root) { animation-duration: .45s; }
 #river-strip { view-transition-name: river; }
+
+/* email sign-up under posts */
+.subscribe { margin: 40px 0 10px; padding: 18px 20px; border: 1px solid #e3e6e6; border-radius: 3px; }
+.subscribe-label { display: block; font-size: 15px; margin-bottom: 10px; }
+.subscribe-row { display: flex; gap: 8px; }
+.subscribe input[type=email] { flex: 1; min-width: 0; font: inherit; font-size: 15px; padding: 7px 10px; border: 1px solid #cfd5d5; border-radius: 2px; background: #fff; color: inherit; }
+.subscribe button { font: inherit; font-size: 14px; padding: 7px 14px; border: 1px solid #2fa37c; border-radius: 2px; background: #2fa37c; color: #fff; cursor: pointer; }
+.subscribe button:disabled { opacity: .6; cursor: default; }
+.subscribe-note { font-size: 13px; color: #828282; margin: 8px 0 0; }
+.subscribe-done .subscribe-row { display: none; }
+html.dark .subscribe { border-color: #262c33; }
+html.dark .subscribe input[type=email] { background: #14181d; border-color: #2c343c; }
+html.dark .subscribe-note { color: #7d8a8c; }
